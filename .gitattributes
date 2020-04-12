@@ -1,3 +1,4 @@
-branding/* linguist-documentation
+*.svelte linguist-language=JavaScript
+branding/**/*.html linguist-documentation
 course/migrations/* linguist-generated
 apps/web/static/images/*.jpg filter=lfs diff=lfs merge=lfs -text
