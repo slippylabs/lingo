@@ -14,4 +14,4 @@
   export let readmeHTML
 </script>
 
-<MarkDownPage {readmeHTML} />
+<MarkDownPage {readmeHTML} title="About LibreLingo" />
