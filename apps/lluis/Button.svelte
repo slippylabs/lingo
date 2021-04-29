@@ -2,7 +2,6 @@
   import { createEventDispatcher } from "svelte"
 
   const dispatch = createEventDispatcher()
-  export let href: string | null = null
   export let primary = false
   export let light = false
   export let info = false
@@ -13,7 +12,6 @@
   export let textColor = null
   export let customColor = color != null
   export let customTextColor = textColor != null
-  export let target = "_self"
   export let size = "default"
   export let type = "button"
   export let tabindex = 0
@@ -29,48 +27,27 @@
   `
 </script>
 
-{#if href}
-  <a
-    style="{styleTokens}"
-    class="button is-{size}"
-    class:is-primary="{primary}"
-    class:is-light="{light}"
-    class:is-info="{info}"
-    class:is-inverted="{inverted}"
-    class:is-outlined="{outlined}"
-    class:is-hidden="{hidden}"
-    class:is-loading="{loading}"
-    class:customColor
-    class:customTextColor
-    class:key
-    {href}
-    {tabindex}
-    {target}>
-    <slot />
-  </a>
-{:else}
-  <button
-    style="{styleTokens}"
-    class="button is-{size}"
-    class:is-primary="{primary}"
-    class:is-light="{light}"
-    class:is-info="{info}"
-    class:is-inverted="{inverted}"
-    class:is-outlined="{outlined}"
-    class:is-hidden="{hidden}"
-    class:is-loading="{loading}"
-    class:customColor
-    class:customTextColor
-    class:key
-    on:click="{() => dispatch('click')}"
-    {tabindex}
-    {disabled}
-    {type}>
-    <slot />
-  </button>
-  {#if asHref}
-    <a class="is-hidden" href={asHref}>{asHref}</a>
-  {/if}
+<button
+  style="{styleTokens}"
+  class="button is-{size}"
+  class:is-primary="{primary}"
+  class:is-light="{light}"
+  class:is-info="{info}"
+  class:is-inverted="{inverted}"
+  class:is-outlined="{outlined}"
+  class:is-hidden="{hidden}"
+  class:is-loading="{loading}"
+  class:customColor
+  class:customTextColor
+  class:key
+  on:click="{() => dispatch('click')}"
+  {tabindex}
+  {disabled}
+  {type}>
+  <slot />
+</button>
+{#if asHref}
+  <a class="is-hidden" href={asHref}>{asHref}</a>
 {/if}
 
 <style type="text/scss">
