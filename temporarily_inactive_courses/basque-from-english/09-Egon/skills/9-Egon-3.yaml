@@ -1,228 +1,189 @@
 Skill:
-  Id: 193
-  Name: Egon 3
+  Id: 122
+  Name: Bizi 2
   Thumbnails:
 
+
 New words:
-  - Word: mendi
-    Translation: mountain
+  - Word: Ni biziko naiz
+    Translation: I will live
     Images:
-      - mountain1
-      - mountain2
-      - mountain3
 
-  - Word: Irun
-    Translation: Irun
+  - Word: Zu biziko zara
+    Translation: You will live
     Images:
-      - irun
-      - irun
-      - irun
 
-  - Word: Donostia
-    Translation: San Sebastian
+  - Word: Hura biziko da
+    Translation: she will live
+    Alternative translations:
+    - he will live
     Images:
-      - donostia1
-      - donostia2
-      - donostia3
 
-  - Word: Gasteiz
-    Translation: Victoria
+  - Word: Gu biziko gara
+    Translation: We will live
     Images:
-      - gasteiz
-      - gasteiz
-      - gasteiz
 
-  - Word: Bilbo
-    Translation: Bilboa
+  - Word: Zuek biziko zarete
+    Translation: You (plural) will live
     Images:
-      - bilbo1
-      - bilbo2
-      - bilbo3
 
-  - Word: kale
-    Translation: street
+  - Word: Haiek biziko dira
+    Translation: They will live
     Images:
-      - street1
-      - street2
-      - street3
-
-  - Word: Frantzia
-    Translation: France
-    Images:
-      - france1
-      - france2
-      - france3
-
-  - Word: ibai
-    Translation: river
-    Images:
-      - river1
-      - river2
-      - river3
-
-  - Word: Begira!
-    Translation: Look!
-    Also accepted:
-      - Look
-    Images:
-      - there1
-      - there2
-      - there3
 
 Phrases:
-  - Phrase: Hura Frantzia dago.
-    Translation: She is in France.
+  - Phrase: Non biziko naiz?
+    Translation: Where will I live?
+
+  - Phrase: Espainian biziko naiz.
+    Translation: I will live in Spain.
+
+  - Phrase: Basoan biziko naiz.
+    Translation: I will live in the forest.
+
+  - Phrase: Etxean biziko zara?
+    Translation: Will you live in the house?
     Alternative translations:
-    - He is in France.
+    - Will you live in a house?
 
-  - Phrase: Frantzia ere dago Europan?
-    Translation: Is France also in Europe?
+  - Phrase: Zein kalean biziko zara?
+    Translation: Which street will you live on?
 
-  - Phrase: Begira! Frantzia dago.
-    Translation: Look! There is France.
+  - Phrase: Hemen biziko zara.
+    Translation: You will live here.
 
-  - Phrase: Gu Gasteizen gaude.
-    Translation: We are in Victoria.
+  - Phrase: Gure izeba Arrano kalean biziko da.
+    Translation: Our aunt will live on Arrano street.
 
-  - Phrase: Non dago Gasteiz?
-    Translation: Where is Victoria?
+  - Phrase: Gure osaba Gasteizen biziko da.
+    Translation: Our uncle will live in Victoria.
 
-  - Phrase: Gasteiz Euskal Herrian dago.
-    Translation: Victoria is in Basque Country.
-
-  - Phrase: Non dago Donostia?
-    Translation: Where is San Sebastian?
-
-  - Phrase: Donostia Euskal Herrian dago.
-    Translation: San Sebastian is in Basque Country.
-
-  - Phrase: Non dago ibaia?
-    Translation: Where is the river?
-
-  - Phrase: Ibaia Donostia dago.
-    Translation: The river is in San Sebastian.
-
-  - Phrase: Haiek han daude.
-    Translation: They are over there.
-
-  - Phrase: Irunan nago.
-    Translation: I am in Irun.
-
-  - Phrase: Zu Euskal Herrian zaude.
-    Translation: You are in Basque country.
-
-  - Phrase: Non dago eraztuna?
-    Translation: Where is the ring?
+  - Phrase: Non biziko da zure biloba?
+    Translation: Where will your grandson live?
     Alternative translations:
-    - Where is a ring?
+    - Where will your granddaughter live?
 
-  - Phrase: Eraztuna Bilbon dago.
-    Translation: The ring is in Bilboa.
+  - Phrase: Non biziko da bere ahizpa?
+    Translation: Where will her sister live?
+
+  - Phrase: Bere arreba Europan biziko da.
+    Translation: His sister will live in Europe.
+
+  - Phrase: Non biziko gara?
+    Translation: Where will we live?
+
+  - Phrase: Euskal Herrian biziko gara.
+    Translation: We will live in the Basque country.
     Alternative translations:
-    - A ring is in Bilboa.
+    -  We will live in Basque country.
 
-  - Phrase: Zer dago mendian?
-    Translation: What is upon the mountain?
+  - Phrase: Non biziko zarete?
+    Translation: Where will you (plural) live?
+    Alternative translations:
+    - Where will you live?
+    - Where will you all live?
+    - Where will you`ll live?
 
-  - Phrase: Begira! Ardiak mendiaetan daude.
-    Translation: Look! Sheep are on the mountains.
+  - Phrase: Zuek hemen biziko zarete
+    Translation: You (plural) will live here.
+    Alternative translations:
+    - You will live here.
+    - You all will live here.
+    - You`ll will live here.
 
-  - Phrase: Begira! Ahuntzak basoetan daude.
-    Translation: Look! Goats are in the forests.
+  - Phrase: Frantzian biziko zarete.
+    Translation: You (plural) will live in France.
+    Alternative translations:
+    - You will live in France.
+    - You all will live in France.
+    - You`ll will live in France.
 
-  - Phrase: Dortokak lakuetan daude.
-    Translation: Turtles are in the lakes.
+  - Phrase: Bere anaiak han biziko dira.
+    Translation: His brothers will live there.
 
-  - Phrase: Arrainak ibaietan daude.
-    Translation: Fish are in the rivers
+  - Phrase: Bere nebak ere mendian biziko dira?
+    Translation: Will her brothers also live on the mountain?
 
-  - Phrase: Gure txakurra kalean dago.
-    Translation: Our dog is in the street.
+  - Phrase: Ez, ilobak Madrilen biziko dira.
+    Translation: No, The nieces will live in Madrid.
+    Alternative translations:
+    - No, The nephews will live in Madrid.
 
-  - Phrase: Katuak ere kaletan daude.
-    Translation: Cats are also in the streets.
+  - Phrase: Non biziko dira zure seme-alabak?
+    Translation: Where will your children live?
 
-  - Phrase: Begira! Badaude sugeak zuhaitzetan.
-    Translation: Look! There are snakes in the trees.
+  - Phrase: Gure lehengusuak ere baserrian biziko dira.
+    Translation: Our cousins will also live on the farm.
+
 
 Mini-dictionary:
   Basque:
-    - Bilbo: Bilboa (city)
-    - Bilbon: in Bilboa
-    - Donostia: San Sebastian (city)
-    - Espainia: Spain
-    - Espainian: in Spain
-    - Europa: Europe
-    - Euskal: Basque
-    - Herrian: Country
+    - Aitorren: Aitor’s (male name)
+    - Anearenak: Anea’s (female name, plural object)
+    - Mirenen: Miren’s (female name)
+    - Xabieren: Xabier’s (male name)
+    - Mikelenak: Mikel’s (male name)
+    - Miren: Miren’s (female name)
+    - Arrano: Arrano (name of a street)
+    - Gasteizen: in Victoria (city in Basque Country)
     - Europan: in Europe
-    - Francia: France
-    - Frantzia: in France
-    - Gasteiz: Victoria (city)
-    - Gasteizen: in Victoria
-    - Irun: Irun (city)
-    - Irunan: in Irun
-    - Madril: Madrid (city)
-    - Madrilen: in Madrid
-    - Aitorren: Aitor's (male name)
-    - Anitzarenak: Anitza's (female name, plural object)
-    - Lili: Lili (LibreLingo Turtle)
-    - Mikel: Mikel (male name)
-    - Mikelenak: Mikel's (male name)
-    - Miren: Miren's (female name)
-    - Mirenen: Miren's (female name)
-    - Xabieren: Xabier's (male name)
+    - Frantzian: in France
     - ahizpa: sister of a sister
-    - ahizpan: sister's
+    - ahizpak: sisters of a sister
+    - ahizparen: sister’s
     - ahuntzak: goats
-    - aiton-amonak: grandparents
+    - aitona-amonak: grandparents
     - aiton: grandfather
     - aitona: grandfather
-    - aitonaren: grandfather's
+    - aitonaren: grandfather’s
     - aita: father
-    - aitaren: father's
+    - aitaren: father’s
     - alaba: daughter
     - alabak: daughters
-    - alabaren: daughter's
+    - alabaren: daughter’s
     - altua: tall
     - ama: mother
-    - amaren: mother's
+    - amaren: mother’s
     - amon: grandmother
     - amona: grandmother
-    - amonaren: grandmother's
+    - amonaren: grandmother’s
     - anaia: brother of a brother
-    - anaian: brother of a brother's
+    - anaiak: brothers of a brother
+    - anaian: brother of a brother’s
+    - anaiaren: brother’s
     - animalia: animal
     - animaliak: animals
+    - apaiza: priest
     - ardiak: sheep
     - argala: thin
     - arkatza: pencil
     - arkatzak: pencils
-    - arrainak: fish
+    - arraina: fish
     - arreba: sister of a brother
+    - arrebak: sisters of a brother
+    - arrebaren: sister’s
     - aterki: umbrella
     - aterkia: umbrella
     - aterkiak: umbrellas
     - autobus: bus
     - autobusa: bus
     - azkarra: fast
-    - badago: there is
-    - badaude: there are
     - baina: but
     - baloi: ball
     - baloia: ball
     - baloiak: balls
-    - barruan: inside
-    - baso:
-      - forest
-      - woods
-    - basoa:
-      - forest
-      - woods
-    - basoan: in the forest
-    - basoetan: in the forests
     - bat: one
-    - begira!: look!
+    - batean: in a
+    - basoan: in a forest
+    - baserria:
+      - farm
+      - farmhouse
+    - baserri:
+      - farm
+      - farmhouse
+    - baserrian: on a farm
+    - begira: look
+    - behiak: cows
     - beltz: black
     - beltza: black
     - berde: green
@@ -237,55 +198,59 @@ Mini-dictionary:
       - hers
       - its
     - berria: new
+    - Bilbo: Bilbao
+    - Bilbon: in Bilbao
     - biloba:
       - grandson
       - granddaughter
     - bilobak: grandchildren
+    - bizi: live
+    - biziko: will live
     - bizikleta: bicycle
     - bizikletak: bicycles
     - boligrafo: pen
     - boligrafoa: pen
     - boligrafoak: pens
-    - da:
-      - he is (izan)
-      - she is (izan)
-      - it is (izan)
-    - dago:
-      - he is (egon)
-      - she is (egon)
-      - it is (egon)
-    - daude: they are (egon)
-    - dira: are (izan)
+    - camarero: waiter
+    - camareroa: the waiter
+    - camareroak: waiters
+    - da: is
+    - dira: are
+    - Donostian: in San Sebastian
     - dortoka: a turtle
     - dortokak: turtles
-    - eliza: church
-    - elizan: in a church
-    - elizetan: in the churches
     - emakumea: woman
     - emaztea: wife
     - ere: also
+    - erizaina: nurse
     - erloju: watch
     - erlojua: watch
     - erlojuak: watches
     - eskola: school
+    - Espainian: in Spain
     - eta: and
     - etxe: house
     - etxea: house
-    - etxean: in the house
+    - etxean: in a house
+    - etxekoandrea: housewife
+    - euskal: basque
     - ez: not, no
-    - gara: are (izan)
-    - gaude: are (egon)
+    - Francian: in France
+    - gara: are
     - gaztea: young
     - gizon: man
     - gida: guide
+    - gidaria: driver
     - gizen: fat
     - gizena: fat
+    - gizona: man
     - gorri: red
     - gorria: red
     - gris: gray
     - grisa: gray
     - grisak: gray
     - gurasoak: parents
+    - gurasoen: parents’
     - gu: we
     - gure: our
     - gurea: ours
@@ -293,7 +258,7 @@ Mini-dictionary:
     - haiek:
       - those over there, plural of hura
       - they
-    - han: over there
+    - han: there
     - handia: big
     - handiak: big
     - hau: this
@@ -301,30 +266,26 @@ Mini-dictionary:
     - haiena: theirs
     - haien: their
     - hemen: here
+    - herrian: country
     - hontz: owl
     - hontza: owl
     - hontzak: owls
-    - hor: there
     - hori:
-      - that
-      - yellow
+       - that
+       - yellow
     - horia: yellow
     - horiak: yellow
     - horiek: Those, plural of hori
     - hotel: hotel
     - hotelak: hotels
-    - hotelan: in the hotel
     - hura:
       - that over there
       - he
       - she
-      - itr
-    - ibai: river
-    - ibaia: the river
-    - ibaiaren: of the river
-    - ibaietan: of the rivers
+      - it
+    - ibaian: in a river
     - ikasleak: students
-    - ikasleenak: students'
+    - ikasleenak: students’
     - iloba:
       - niece
       - nephew
@@ -336,42 +297,37 @@ Mini-dictionary:
     - irakaslea: teacher
     - itsusia: ugly
     - izeba: aunt
-    - izebare: aunt's
-    - jatora: nice
-    - kale: street
-    - kalea: the street
-    - kalean: in the street
-    - kaletan: in the streets
-    - kanpo: outside
-    - kanpoan: located outside
+    - izebaren: aunt’s
+    - jatorra: nice
+    - kalean: in/on a street
     - katu: cat
     - katua: a cat
     - katuak: cats
     - kotxe: car
     - kotxea: car
     - kotxeak: cars
-    - labura: short
+    - laburra: short
+    - laburrak: short
     - lagun: friend
     - laguna: friend
-    - lagunen: friend's
-    - lagunaren: friend's
-    - laku: lake
-    - lakuan: in the lake
-    - lakuetan: in the lakes
+    - lagunen: friend’s
+    - lagunaren: friend’s
     - laranja: orange
     - laranjak: orange
     - lehengusu: cousin (male)
     - lehengusua: cousin (male)
     - lehengusina: cousin (female)
+    - lehengusuak: cousins (male)
     - liburu: book
     - liburua: a book
     - liburua: books
     - liburuak: books
+    - Lili: Lili (LibreLingo Turtle)
+    - Madrilen: in madrid
     - medikua: doctor
-    - mendi: mountain
-    - mendian: upon the mountain
-    - mendietan: upon the mountain
-    - mendiaetan: upon the mountains
+    - medikuak: doctors
+    - mendian: on the mountain
+    - mendietan: on the mountains
     - motxila: backpack
     - motxilak: backpacks
     - morea: purple
@@ -380,9 +336,9 @@ Mini-dictionary:
     - mutila: boy
     - mutilak: boys
     - mutillaguna: boyfriend
-    - naiz: I am (izan)
-    - nago: I am (egon)
-    - neba: brother of a sister
+    - naiz: am
+    - neba: brothers of a sister
+    - nebak: brother of a sister
     - neska: girl
     - neskak: girls
     - neskalaguna: girlfriend
@@ -400,31 +356,27 @@ Mini-dictionary:
     - oilaskoak: chickens
     - orain : now
     - osaba: uncle
-    - osabaren: uncle's
+    - osabaren: uncle’s
     - polita: pretty
     - poltsa: purse
     - poltsak: purses
-    - poltsan: in the purse
     - polizia: police officer
-    - sagu: mouse
-    - sagua: mouse
+    - saguak: mice
     - seme: son
     - semea: son
     - semeak: sons
-    - semearen: son's
+    - semearen: son’s
     - seme-alba: children
-    - seme-albak:
+    - seme-alabak:
       - children
       - sons and daughters
     - senarra: husband
-    - sugea: snake
     - tour: tour
     - turista: tourist
     - txakur: dog
-    - txakurra: a dog
+    - txakura: a dog
     - txakurrak: dogs
     - txikia: small
-    - txori: bird
     - txoria: bird
     - txoriak: birds
     - ume: child
@@ -439,12 +391,10 @@ Mini-dictionary:
     - zahara: old
     - zaharra: old
     - zaharrak: old
-    - zaldi: horse
-    - zaldia: a horse
-    - zara: you are (izan)
-    - zarete: their
-    - zaude: you are (egon)
-    - zaudete: you (plural) are (egon)
+    - hers: berea
+    - zaldia: horse
+    - zara: are
+    - zarete: are
     - zein: which
     - zen: was
     - zer: what
@@ -454,9 +404,6 @@ Mini-dictionary:
     - zuena: yours (plural)
     - zuenak: yours (plural)
     - zuhaitz: tree
-    - zuhaitza: tree
-    - zuhaitzean: in a tree
-    - zuhaitzetan: in trees
     - zure: your
     - zurea: yours
     - zureak: yours
@@ -465,51 +412,39 @@ Mini-dictionary:
     - zuriak: white
 
   English:
-    - Basque: Euskal
-    - Country: Herrian
-    - Bilboa: Bilbo (city)
+    - Aitor’s: Aitorren (male name)
+    - Anea’s: Anearenak (female name, plural object)
+    - Miren’s: Mirenen (female name)
+    - Xabier’s: Xabieren (male name)
+    - Mikel’s: Mikelenak (male name)
+    - Miren’s: Miren (female name)
+    - Arrano: Arrano (name of a street)
+    - Victoria: Gasteis (city in Basque Country)
     - Europe: Europa
-    - France: Francia
-    - Irun: Irun (city)
-    - Madrid: Madril (city)
-    - San: santua (saint)
-    - Sebastian: Saint Sebastian
-    - Spain: Espainia
-    - Victoria: Gasteiz (city)
-    - Aitor's: Aitorren (male name)
-    - Anitza's: Anitzarenak (female name, plural object)
-    - Lili: Lili (LibreLingo Turtle)
-    - Mikel: Mikel (male name)
-    - Mikel's: Mikelenak (male name)
-    - Miren's: Miren (female name)
-    - Miren's: Mirenen (female name)
-    - Xabier's: Xabieren (male name)
+    - France: Frantzia
     - a: -a
     - also: ere
-    - am:
-      - naiz (izan)
-      - nago (egon)
+    - am: naiz
     - an: -ak
     - and: eta
     - animal: animalia
     - animals: animaliak
     - are:
-      - dira (izan)
-      - zara (izan)
-      - gara (izan)
-      - zaude (egon)
-      - gaude (egon)
-      - zaudete (egon)
-      - daude (egon)
+      - dira
+      - zara
+      - gara
+      - zarete
     - aunt: izeba
-    - aunt's: izebare
+    - aunt’s: izebaren
     - ball: baloi
     - balls: baloiak
     - backpack: motxila
     - backpacks: motxilak
+    - basque: euskal
     - bicycle: bizikleta
     - bicycles: bizikletak
     - big: handi
+    - Bilbao: Bilbo
     - bird: txoria
     - birds: txoriak
     - black: beltz
@@ -522,11 +457,15 @@ Mini-dictionary:
     - brother:
       - neba
       - anaia
-    - brother's:
-      - neban
-      - anaian
+    - brothers:
+      - nebak
+      - anaiak
+    - brother’s:
+      - nebanen
+      - anaianen
     - bus: autobusa
     - but: baina
+    - camareroa: waiter
     - car: kotxea
     - cars: kotxeak
     - cat: katu
@@ -536,33 +475,40 @@ Mini-dictionary:
     - child: ume
     - children:
       - umeak
-      - seme-alba
-    - church: eliza
-    - churches: elizak
+      - seme-alabak
+    - country: herrian
     - cousin:
       - lehengusu
       - lehengusina
+    - cousins:
+      - lehengusuak
+      - lehengusinak
+    - cows: behiak
     - daughter: alaba
     - daughters: alabak
-    - daughter's: alabaren
+    - daughter’s: alabaren
+    - do: not translated
+    - does: not translated
     - doctor: medikua
-    - dog:
-      - txakur
-      - txakurra
+    - doctors: medikuak
+    - dog: txakur
     - dogs: txakurrak
+    - driver: gidaria
     - engineer: ingeniari
     - fast: azkar
+    - farm: baserri
+    - farmhouse: baserri
     - fat: gizena
     - father: aita
     - fathers: aitak
-    - father's: aitaren
+    - father’s: aitaren
     - female: emakumezkoa
-    - fish: arrainak
+    - fish: arraina
     - forest: baso
-    - forests: basoak
+    - France: Francia
     - friend: laguna
-    - friend's: lagunen
-    - friends': lagunaren
+    - friend’s: lagunen
+    - friends’: lagunaren
     - girl: neska
     - girls: neskak
     - girlfriend: neskalaguna
@@ -571,17 +517,15 @@ Mini-dictionary:
     - grandchildren: bilobak
     - granddaughter: biloba
     - grandparents: aiton-amonak
-    - grandfather:
-      - aiton
-      - aitona
-    - grandfather's: aitonaren
+    - grandfather: aiton
+    - grandfather: aitona
+    - grandfather’s: aitonaren
     - grandmother: amon
     - grandmother: amona
-    - grandmother's: amonaren
+    - grandmother’s: amonaren
     - grandson: biloba
     - green: berde
     - guide: gida
-    - hau: hau
     - he: hura
     - his:
       - bere
@@ -589,62 +533,65 @@ Mini-dictionary:
     - her: bere
     - here: hemen
     - hers: berea
-    - hor: there
+    - hers: berea
     - horse: zaldia
+    - house: etxe
+    - housewife: etxekoandrea
     - hotel: hotel
     - hotels: hotelak
     - house: etxea
     - hura: hura
     - husband: senarra
     - I: ni
-    - in: NON case, not a word
-    - inside: barruan
-    - is:
-      - da (izan)
-      - dago (egon)
+    - in: Inessive case
+    - is: da
     - it: hura
     - its: berea
-    - lake: laku
-    - lakes: lakuak
-    - look: begira
+    - Lili: Lili (LibreLingo Turtle)
+    - live: bizi
+    - lives: bizi
+    - look!: begira!
     - male: gizonezkoa
     - man: gizon
+    - Madrid: Madril
     - mine: nirea
+    - on: Inessive case
     - owls: hontzak
+    - man: gizona
+    - mice: saguak
     - mother: ama
-    - mother's: amaren
+    - mother’s: amaren
     - mothers: amak
-    - mountain: mendi
+    - mountain: mendia
     - mountains: mendiak
-    - mouse: sagua
     - my: nire
     - new: berri
     - nephew: iloba
     - nephews: ilobak
-    - nice: jatora
+    - nice: jatorra
     - niece: iloba
     - nieces: ilobak
     - no: ez
     - not: ez
     - now: orain
+    - nurse: erizaina
     - of: de
     - officer: ofiziala
     - old: zahar
-    - upon: NON case, not a word
-    - on: NON case, not a word
     - one: bat
     - orange: laranja
     - our: gure
     - ours: gurea
-    - outside: kanpo
     - over: amaitu
     - owl: hontza
     - parents: gurasoak
+    - parents’: gurasoen
     - pen: boligrafo
     - pencil: arkatza
     - pencils: arkatzak
     - pens: boligrafoak
     - police: polizia
+    - priest: apaiza
     - plural: plurala
     - pretty: polit
     - purple: morea
@@ -652,7 +599,8 @@ Mini-dictionary:
     - purses: poltsak
     - red: gorri
     - river: ibai
-    - rivers: ibaiak
+    - san: san
+    - Sebastian: Sebastian
     - school: eskola
     - she: hura
     - sheep: ardiak
@@ -660,26 +608,28 @@ Mini-dictionary:
     - sister:
       - ahizpa
       - arreba
-    - sister's:
-      - ahizpan
-      - arreban
+    - sisters:
+      - ahizpak
+      - arrebak
+    - sister’s:
+      - ahizparen
+      - arrebaren
     - slow: motel
-    - snake: sugea
     - son: seme
     - sons: semeak
-    - son's: semearen
+    - son’s: semearen
     - small: txiki
+    - Spain: Espainia
     - street: kale
-    - streets: kaleak
     - students: ikasleak
-    - students': ikasleenak
+    - students’: ikasleenak
     - tall: altu
     - teacher: irakaslea
     - that:
       - hori
       - hura
     - the: -a
-    - there: hor
+    - there: han
     - these: hauek
     - their: haien
     - theirs: haiena
@@ -692,14 +642,15 @@ Mini-dictionary:
     - tour: tour
     - tourist: turista
     - tree: zuhaitz
-    - trees: zuhaitzak
     - turtle: dortoka
     - turtles: dortokak
     - ugly: itsusi
     - umbrella: aterki
     - umbrellas: aterkiak
     - uncle: osaba
-    - uncle's: osabaren
+    - uncle’s: osabaren
+    - waiter: camareroa
+    - waiters: camareroak
     - was: zen
     - watch: erloju
     - watches: erlojuak
@@ -710,9 +661,9 @@ Mini-dictionary:
     - white: zuri
     - who: nor
     - whose: noren
+    - will: future tense
     - wife: emaztea
     - woman: emakumea
-    - woods: baso
     - yellow: hori
     - you: zu
     - young: gazte
