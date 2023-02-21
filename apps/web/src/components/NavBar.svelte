@@ -2,12 +2,12 @@
   import { stores } from "@sapper/app"
   import settings from "../settings"
   import authStore from "../auth"
-  import NavBar from "lluis/NavBar/NavBar.svelte"
+  import NavBar from "lluis/DeprecatedNavBar/NavBar.svelte"
   import Icon from "lluis/Icon.svelte"
-  import NavBarButton from "lluis/NavBar/NavBarButton.svelte"
+  import NavBarButton from "lluis/DeprecatedNavBar/NavBarButton.svelte"
   import Logo from "lluis/Logo.svelte"
-  import NavBarItem from "lluis/NavBar/NavBarItem.svelte"
-  import NavBarButtonSet from "lluis/NavBar/NavBarButtonSet.svelte"
+  import NavBarItem from "lluis/DeprecatedNavBar/NavBarItem.svelte"
+  import NavBarButtonSet from "lluis/DeprecatedNavBar/NavBarButtonSet.svelte"
   export let hasAuth = false
   export let repositoryURL = null
 
