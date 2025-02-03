@@ -39,16 +39,15 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## Downloading static assets
 
-To create a production version of your app:
+In order to make the app works correctly, you should have installed git lfs in your computer, to download all the assets needed.
 
-```bash
-npm run build
-```
+Once installed git-lfs, run these commands:
 
-You can preview the production build with `npm run preview`.
+`git lfs install`
 
+`git lfs pull`
 
 ## About
 
