@@ -193,6 +193,8 @@ You could also start the serve command, so that you could edit live docs and see
 
 Then navigate at http://localhost:8000, and you should be able to see docs.
 
+Note: in the docker-compose.yml file, you will find the volumes mounted with the :Z flag. This is for preventing environments with SElinux to cause issues in the containers.
+
 ## Contribution
 ### Become a contributor
 #### are you a developer?
