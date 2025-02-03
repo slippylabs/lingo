@@ -159,7 +159,7 @@ export const get_skill_introduction = async ({
 					return formatSkillIntroduction(skill, {
 						skillName,
 						courseName,
-						rawMarkdown: files[`introduction/${skill.introduction}`]
+						markdown: files[`introduction/${skill.introduction}`]
 					});
 				}
 
