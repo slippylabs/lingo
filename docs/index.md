@@ -233,10 +233,6 @@ One way of doing that is using GitHub gists. You can create a GitHub gist with t
 The first step is to export the course as JSON. Then, you have to create a GitHub gist with the
 course files.
 
-Keep in mind, that you have to prefix all file names with `librelingo___` and therefore
-The first step is to export the course as JSON. Then, you have to create a GitHub gist with the
-course files.
-
 Keep in mind, that you have to prefix all file names with `librelingo___` and replace
 `/` with `___` in your paths, as GitHub gists don't natively support uploading folders.
 
