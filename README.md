@@ -162,6 +162,8 @@ Want to contribute to LibreLingo? Or create your own fork? Perhaps you want to u
 
 To get started with running the development environment on your computer and understanding the software architecture, [head to our development documentation](https://librelingo.app/docs/).
 
+
+
 ## Milestones reached
 
 - [x] 🏁 Demo course content in Spanish for English speakers
@@ -177,6 +179,10 @@ To get started with running the development environment on your computer and und
 
 ## Roadmap
 All the in-progress / future work is updated in the "[Projects](https://github.com/users/giorginogreg/projects/1)" Github section.
+
+### Starting Dev environment
+for starting the frontend container, you should create an empty folder in the root, called node_modules.
+Then you can start running `docker-compose up`
 
 ## Generating docs
 ### Docker
