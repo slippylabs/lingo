@@ -5,8 +5,7 @@
   <br/>
   <em>a community-owned language-learning platform</em>
   <br/><br/>
-  <a href="https://librelingo.app/"><img src="https://img.shields.io/badge/Try_now-librelingo.app-darkcyan" /></a>
-  <a href="https://librelingo.app/dev/"><img src="https://img.shields.io/badge/List_of_courses-librelingo.app/dev-darkcyan" /></a>
+  <a href="https://libre-lingo-2p0ek621e-giorginogregs-projects.vercel.app"><img src="https://img.shields.io/badge/Try_now-librelingo.app-darkcyan" /></a>
   <a href="https://librelingocommunity.github.io/LibreLingo/"><img src="https://img.shields.io/badge/Documentation-librelingocommunity.github.io/LibreLingo-darkcyan" /></a>
   <a href="https://github.com/orgs/LibreLingo/projects/1/views/1"><img src="https://img.shields.io/badge/Roadmap-github.com-darkcyan" /></a>
 </p>
@@ -27,6 +26,16 @@ This project is simply a fork born from [his original idea](https://github.com/k
 We deeply appreciate his work and vision, and this fork aims to ensure the project continues to grow and evolve with the community's involvement.
 
 If there are any broken links in the docs or in the repo, please open an issue so we could work to fix it!
+
+# Why LibreLingo Community?
+LibreLingo is the original project of Dániel Kántor.  
+ Unfortunately, LibreLingo's software stopped working because of Svelte problems that haven't been fixed for two years. In the meantime Dániel also decided to use another framework.  
+ 
+  So the project was paused until 2025, when @giorginogreg forked it, fixed the Svelte Issues (and other bugs), and revived it for the community. 
+  
+  The LibreLingo Community was born. This also means that this course only works with LibreLingo Community at the moment, as LibreLingo is still broken.
+
+  (Thanks to @kate for having helped writing this!)
 
 ## Developing
 
