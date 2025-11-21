@@ -9,7 +9,7 @@ const getDirectories = async (source: string) => {
 };
 
 export async function load() {
-    const testFolder = './../courses';
+    const testFolder = 'src/courses';
     let verifiedFolderList: Array<{ path: string; language: string }> = [];
     
     if (fs.existsSync(testFolder)) {
