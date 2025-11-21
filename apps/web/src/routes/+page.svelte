@@ -54,20 +54,6 @@
 					 {/if}
 				</Stack>
 
-				<Stack spacing="m" direction="column" >
-					<!-- For each courses in gists available.. -->
-					{#if coursesGists}
-						<h3 style="text-align:center">Courses available from gists</h3>
-						{#each coursesGists as course }
-							<Stack justify="center">
-								<Button style="primary" size="large" href="course/{course.path}?gistId={course.gistId}">
-									<Translate key="index.start_{course.language}_course">Start learning {course.language}</Translate>
-								</Button>
-							</Stack>
-						{/each}
-					{/if}
-					
-				</Stack>
 			</Stack>
 
 			<Hidden>
