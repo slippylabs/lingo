@@ -1,89 +1,75 @@
 <script lang="ts">
-	import { _ } from 'svelte-i18n';
-	import Button from 'components/Button.svelte';
-	import Hidden from 'components/Hidden.svelte';
-	import Translate from 'components/Translate.svelte';
-	import Stack from 'components/Stack.svelte';
-	import Hero from 'components/Hero/Hero.svelte';
-	import Page from 'components/Page.svelte';
-	import Footer from 'components/Footer.svelte';
-	import Mascot from 'components/NewMascot.svelte';
-	import Heading from 'components/Heading.svelte';
+	import { locale } from 'svelte-i18n';
+	import SkillCard from 'components/SkillCard/SkillCard.svelte';
+	import NavBar from 'components/NavBar.svelte';
 
-	import {page} from '$app/state';
+	import Column from 'components/Column.svelte';
+	import Columns from 'components/Columns.svelte';
+	import Content from 'components/Content.svelte';
+	import Footer from 'components/DeprecatedFooter.svelte';
+	import type { ModulesType } from 'types/ModulesType';
+	import { page } from '$app/state';
 
-	let coursesFs = page.data.coursesFs
-	let coursesGists = page.data.coursesGists
-
+	export const courseName = page.data.course.courseName;
+	export let modules: ModulesType = page.data.course.modules;
+	export let languageName = page.data.course.languageName;
+	export const repositoryURL = page.data.course.repositoryURL;
+	export let uiLanguage = 'es';
+	const gistId = page.url.searchParams.get('gistId');
+	locale.set(uiLanguage);
 </script>
 
 <svelte:head>
-	<title>{$_('meta.title')}</title>
-	<meta name="description" content={$_('index.meta.description')} />
+	<title>LibreLingo - learn {languageName} for free</title>
 </svelte:head>
 
-<main class="main-content">
-	<Page>
-		<Hero>
-			<Stack direction="column" spacing="m" fullHeight justify="center">
+<NavBar hasAuth {repositoryURL} />
 
-				<Stack spacing="m" direction="column" directionDesktop="row">
-					<Stack shrink={4}>
-						<Mascot shadow={false} glow={true} />
-					</Stack>
-					<Stack direction="column" justify="center" shrink={2}>
-						<Heading level={1}>
-							<Translate key="index.subtitle">
-								A community-driven language-learning platform
-							</Translate>
-						</Heading>
-					</Stack>
-				</Stack>
+{#each modules as { title, skills }}
+	<section class="section">
+		<div class="container">
+			<h2 class="is-size-2">{title}</h2>
+			<Columns multiline>
+				{#each skills as skill}
+					<Column sizeDesktop="1/3" sizeTablet="1/2">
+						<SkillCard
+							{...{ ...skill }}
+							practiceHref={`/course/${courseName}/skill/${skill.practiceHref}`}
+							gistId={gistId}
+						/>
+					</Column>
+				{/each}
+			</Columns>
+		</div>
+	</section>
+{/each}
 
-				<Stack spacing="m" direction="column">
-					<!-- For each courses available locally.. -->
-					 {#if coursesFs}
-						<h3 style="text-align:center">Courses available locally</h3>
-						{#each coursesFs as course }
-							<Stack justify="center">
-								<Button style="primary" size="large" href="course/{course.path}">
-									<Translate key="index.start_{course.language}_course">Start learning {course.language}</Translate>
-								</Button>
-							</Stack>
-						{/each}
-					 {/if}
-				</Stack>
+<Footer>
+	<Content>
+		<Columns>
+			<Column>
+				<strong>LibreLingo</strong>
+				by
+				<a href="https://github.com/kantord">Dániel Kántor</a>
+				and
+				<a href="https://github.com/LibreLingo/LibreLingo#contributors"> various contributors </a>
+				.
+			</Column>
+			<Column>
+				The source code is licensed
+				<a href="https://opensource.org/licenses/AGPL-3.0">AGPL-3.0.</a>
+				<br />
+				<a href="https://github.com/LibreLingo/LibreLingo"> Source code available on GitHub. </a>
+			</Column>
+			<Column />
+		</Columns>
+		<p></p>
+	</Content>
+</Footer>
 
-			</Stack>
-
-			<Hidden>
-				<Button style="primary" href="course/german-from-english">Start learning German</Button>
-
-				<Button style="primary" href="course/bangla-from-english">Start learning Bangla</Button>
-
-				<Button style="primary" href="course/parsig-from-english"
-					>Start learning Middle Persian</Button
-				>
-
-				<Button style="primary" href="course/basque-from-english">Start learning Basque</Button>
-
-				<Button style="primary" href="course/ladino-from-english">
-					Start learning Ladino (for English speakers)
-				</Button>
-
-				<Button style="primary" href="course/ladino-from-hebrew">
-					Start learning Ladino (for Hebrew speakers)
-				</Button>
-
-				<Button style="primary" href="course/ladino-from-spanish">
-					Start learning Ladino (for Spanish speakers)
-				</Button>
-
-				<Button style="primary" href="course/houma-from-english">
-					Start learning Houma (for English speakers)
-				</Button>
-			</Hidden>
-		</Hero>
-		<Footer />
-	</Page>
-</main>
+<style type="text/scss">
+	.container {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+</style>
