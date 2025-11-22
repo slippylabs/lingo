@@ -35,18 +35,6 @@
 			{#if repositoryURL}
 				<NavBarButton href={repositoryURL} target="_blank">Feedback</NavBarButton>
 			{/if}
-			{#if hasAuth && settings.features.authEnabled}
-				{#if $authStore.user}
-					<NavBarItem>
-						<Icon size="small" icon="user" />
-						<!-- <span>{$authStore.user.name}</span> -->
-					</NavBarItem>
-					<NavBarButton on:click={() => _Logout()}>Log out</NavBarButton>
-				{:else}
-					<NavBarButton href="/sign-up">Sign up</NavBarButton>
-					<NavBarButton href="/login">Log in</NavBarButton>
-				{/if}
-			{/if}
 		</NavBarButtonSet>
 	</div>
 </NavBar>
