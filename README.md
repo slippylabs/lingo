@@ -12,9 +12,24 @@ LibreLingo is/was an open-source language learning platform originally created b
 
 ..coming soon
     
-## Developing
+## Development
 
-.. coming soon
+```
+(Starting from the root of the repo)
+
+cd src
+uv sync
+
+mkdir -p ../apps/web/src/courses/
+uv run python3 -m librelingo_json_export.cli $PATH_TO_COURSE_YAML_SOURCE_DIR ../apps/web/src/courses/$CONVERTED_COURSE_NAME
+
+# E.g. like this:
+uv run python3 -m librelingo_json_export.cli ~/dev/librelingo/courses/LibreLingo-ES-from-EN ../apps/web/src/courses/converted_ES-from-en
+
+cd ../apps/web
+npm ci
+npm run dev
+```
 
 ## Contribution
 
