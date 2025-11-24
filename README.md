@@ -33,7 +33,11 @@ npm run dev
 
 ## Contribution
 
-.. coming soon
+You can contribute by:
+
+* Help us coding (this repo | read ``Contribute.md``) 
+* Help us writing the [Documentation](https://codeberg.org/LibreLingoRelive/LibreLingoRelive_Docs)
+* Create your own language course and set it up [Read the Documentation](https://codeberg.org/LibreLingoRelive/LibreLingoRelive_Docs)
 
 ## License
 
