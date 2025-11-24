@@ -10,8 +10,8 @@ LibreLingo is/was an open-source language learning platform originally created b
 
 # Documentation
 
-..coming soon
-    
+Please read: [LiberLingoRelive Docs](https://codeberg.org/LibreLingoRelive/LibreLingoRelive_Docs)    
+
 ## Development
 
 ```
