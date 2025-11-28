@@ -1,7 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Bugs in the docs?
-    url: "https://codeberg.org/LibreLingoRelive/LibreLingoRelive_Docs"
     about: Find our docs here. 
   - name: Feature Requests?
     about: We do not handle feature requests. We are a small fork.
