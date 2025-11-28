@@ -12,7 +12,7 @@ body:
       options:
         - label: Your question is related to the main code and not courses or documentations.
           required: true
-        - label: I have searched the [issues]https://codeberg.org/LibreLingoRelive/LibreLingoRelive), and I didn't find a solution to my problem / an answer to my question.
+        - label: I have searched the [issues]https://codeberg.org/LibreLingoRelive/LibreLingoRelive), and I didn't find an answer to my question.
           required: true
         - label: I have read and understood the [Codeberg Terms of Use](https://codeberg.org/Codeberg/org/src/branch/main/TermsOfUse.md) for images or other type of content that I included here.
           required: true
