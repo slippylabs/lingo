@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bugs in the docs?
+    url: https://codeberg.org/LibreLingoRelive/LibreLingoRelive_Docs
+    about: Find our docs here. 
+  - name: Feature Requests?
+    about: We do not handle feature requests. We are a small fork. We do it in our spare time and the focus is on
+    fixing LibreLingoRelive. 
+  - name: Can you create a course? I have a questions regarding a course!
+    about: We do not do courses. At all. Courses changes can be requested by the creators but this is the main code, which
+    has nothing to do with course requests. 
