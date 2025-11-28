@@ -20,8 +20,7 @@ body:
     id: version
     attributes:
       label: What is your LibreLingoRelive version?
-      description: |
-      include tag / commit SHA. 
+      description: include tag / commit SHA.
       placeholder: e.g. commit 1adce91411 
     validations:
       required: true
