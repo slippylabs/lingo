@@ -12,7 +12,7 @@
       <a href="about">
         <Translate key="index.about_librelingo">About LibreLingo</Translate>
       </a>
-      <a href="https://librelingo.app/docs/">
+      <a href="https://codeberg.org/LibreLingoRelive/LibreLingoRelive_Docs">
         <Translate key="index.development_docs_english_only">
           Development docs (English)
         </Translate>
@@ -24,13 +24,11 @@
       </Hidden>
     </div>
     <div>
-      <strong>LibreLingo</strong>
-      was created by
-      <a href="https://github.com/kantord">Dániel Kántor</a>
-      and
-      <a href="https://github.com/LibreLingo/LibreLingo#contributors"
-        >various contributors</a
-      >. The <a href="https://github.com/LibreLingo/LibreLingo">source code</a>
+    <strong>LibreLingoRelive</strong> is a fork from LibreLingoCommunity, which is a fork from
+      <strong>LibreLingo</strong> was created by <a href="https://github.com/kantord">Dániel Kántor</a>
+      and <a href="https://github.com/LibreLingo/LibreLingo#contributors">various contributors</a>.
+      <p></p>
+       The <a href="https://codeberg.org/LibreLingoRelive">source code</a>
       is licensed
       <a href="https://opensource.org/licenses/AGPL-3.0">AGPL-3.0.</a>
     </div>
