@@ -22,11 +22,13 @@ Thank you for your interest in contributing to LibreLingoRelive!
 - Create a new branch for your work:
   ```bash
   git checkout -b feature/your-feature-name
+```
 
   or
 
   ```bash
   git checkout -b fix/your-bug-fix
+```
 
   Make Your Changes
 
