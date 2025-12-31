@@ -26,7 +26,7 @@ Thank you for your interest in contributing to LibreLingoRelive!
 
   or
 
-  ```bash
+```bash
   git checkout -b fix/your-bug-fix
 ```
 
