@@ -20,17 +20,18 @@ Thank you for your interest in contributing to LibreLingoRelive!
 ### **3. Create a Branch**
 - **Never push directly to `main`.**
 - Create a new branch for your work:
-  ```bash
+
+```bash
   git checkout -b feature/your-feature-name
 ```
 
-  or
+or
 
 ```bash
   git checkout -b fix/your-bug-fix
 ```
 
-  Make Your Changes
+Make Your Changes
 
 **Remember:**
 * Write clear, concise code.
