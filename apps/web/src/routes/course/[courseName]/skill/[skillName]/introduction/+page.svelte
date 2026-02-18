@@ -19,7 +19,7 @@
 		homepageLink += `?gistId=${gistId}`;
 	}
 
-	// Fetch data only if preview is not null
+	// Fetching preview data
 	if (preview !== null) {
 		let gistParams = preview.gistId;
 		if (isBrowser()) {
@@ -47,37 +47,11 @@
 			</Button>
 		</div>
 	</MarkDownPage>
-
-	<footer>
-		<Content>
-			<Columns>
-				<Column>
-					<strong>LibreLingoRelive</strong> is a fork from LibreLingoCommunity, which is a fork from
-					<strong>LibreLingo</strong> by
-					<a href="https://github.com/kantord">Dániel Kántor</a>
-					and
-					<a href="https://github.com/LibreLingo/LibreLingo#contributors"> various contributors.</a>
-				</Column>
-				<Column>
-					The source code is licensed
-					<a href="https://opensource.org/licenses/AGPL-3.0">AGPL-3.0.</a>
-					<br />
-					<a href="https://codeberg.org/LibreLingoRelive"> Source code available on Codeberg.</a>
-				</Column>
-			</Columns>
-		</Content>
-	</footer>
 {/if}
 
 <style>
 	div {
 		margin-bottom: var(--spacing-large);
 	}
-
-	footer {
-		margin-top: var(--spacing-large);
-		padding: var(--spacing-medium);
-		background-color: var(--footer-background-color);  /* Ensure defined in your styles */
-		text-align: center;  /* Optional for better footer alignment */
-	}
 </style>
+
