@@ -41,7 +41,7 @@
 {#if !loading}
 	<MarkDownPage {readmeHTML} {title} description={$_('about.meta.description')}>
 		<div>
-			<Button style="secondary" href={homepageLink}>Go back to the course</Button>
+			<Button style="secondary" href={homepageLink}>Go back to course</Button>
 			<Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
 				Practice {title}
 			</Button>
