@@ -68,7 +68,9 @@
 
 <style type="text/scss">
 	.container {
-		padding-right: 30px;
-		padding-left: 30px;
+		padding-right: 20px;
+		padding-left: 20px;
+        max-width: 1400px !important; 
+        margin: 0 auto; 
 	}
 </style>
