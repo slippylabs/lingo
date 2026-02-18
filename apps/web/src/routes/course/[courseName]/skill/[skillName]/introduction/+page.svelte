@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n';
 	import { get_skill_introduction } from 'course-client';
-
 	import Button from 'components/DeprecatedButton.svelte';
 	import MarkDownPage from 'components/MarkDownPage.svelte';
 	import isBrowser from 'utils/isBrowser';
@@ -15,9 +14,12 @@
 	export let courseName: string = page.data.courseName;
 	export let gistId: string = page.data.gistId;
 
+	let homepageLink = `/course/${courseName}/`;
+	if (gistId) {
+		homepageLink += `?gistId=${gistId}`;
+	}
 
 	// Fetching preview data
-	
 	if (preview !== null) {
 		let gistParams = preview.gistId;
 		if (isBrowser()) {
@@ -26,7 +28,7 @@
 		}
 
 		const { skillName, gistId } = gistParams;
-		
+
 		get_skill_introduction({ courseName: 'preview', skillName, gistId }).then((skillData) => {
 			title = skillData.title;
 			readmeHTML = skillData.readmeHTML;
@@ -34,19 +36,15 @@
 			loading = false;
 		});
 	}
-	const homepageLink = page?.params?.courseName 
-	 // if gistId is present, it will be added to the URL 
-	 ? `course/${courseName}${gistId ? `?gistId=${gistId}` : ''}`
-	 : "/"
 </script>
 
 {#if !loading}
 	<MarkDownPage {readmeHTML} {title} description={$_('about.meta.description')}>
 		<div>
 			<Button style="secondary" href={homepageLink}>Go back to the course</Button>
-			<Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}
-				>Practice {title}</Button
-			>
+			<Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
+				Practice {title}
+			</Button>
 		</div>
 	</MarkDownPage>
 {/if}
