@@ -39,19 +39,44 @@
 </script>
 
 {#if !loading}
-	<MarkDownPage {readmeHTML} {title} description={$_('about.meta.description')}>
-		<div>
-			<Button style="secondary" href={homepageLink}>Go back to course</Button>
-			<Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
-				Practice {title}
-			</Button>
-		</div>
-	</MarkDownPage>
+  <div class="page-container">
+    <MarkDownPage
+      {readmeHTML}
+      {title}
+      description={$_('about.meta.description')}
+      class="markdown-content"
+    >
+      <div class="button-container">
+        <Button style="secondary" href={homepageLink}>Go back to course</Button>
+        <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
+          Practice {title}
+        </Button>
+      </div>
+    </MarkDownPage>
+  </div>
 {/if}
 
 <style>
-	div {
-		margin-bottom: var(--spacing-large);
-	}
-</style>
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh; /* Mindesthöhe der Seite */
+    background-color: var(--color-primary-light); /* Durchgehender blauer Hintergrund */
+  }
 
+  .markdown-content {
+    flex: 1; /* Füllt den verfügbaren Platz */
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .button-container {
+    margin-top: auto; /* Buttons nach unten schieben */
+    padding: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+</style>
