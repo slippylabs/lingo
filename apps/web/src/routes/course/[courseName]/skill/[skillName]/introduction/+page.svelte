@@ -56,11 +56,11 @@
 </style>
 
 
-<Footer>
+<footer>
 	<Content>
 		<Columns>
 			<Column>
-			<strong>LibreLingoRelive</strong> is a fork from LibreLingoCommunity, which is a fork from
+				<strong>LibreLingoRelive</strong> is a fork from LibreLingoCommunity, which is a fork from
 				<strong>LibreLingo</strong> by
 				<a href="https://github.com/kantord">Dániel Kántor</a>
 				and
@@ -76,4 +76,4 @@
 		</Columns>
 		<p></p>
 	</Content>
-</Footer>
+</footer>
