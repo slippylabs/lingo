@@ -55,25 +55,3 @@
 	}
 </style>
 
-
-<footer>
-	<Content>
-		<Columns>
-			<Column>
-				<strong>LibreLingoRelive</strong> is a fork from LibreLingoCommunity, which is a fork from
-				<strong>LibreLingo</strong> by
-				<a href="https://github.com/kantord">Dániel Kántor</a>
-				and
-				<a href="https://github.com/LibreLingo/LibreLingo#contributors"> various contributors. </a>
-			</Column>
-			<Column>
-				The source code is licensed
-				<a href="https://opensource.org/licenses/AGPL-3.0">AGPL-3.0.</a>
-				<br />
-				<a href="https://codeberg.org/LibreLingoRelive"> Source code available on Codeberg. </a>
-			</Column>
-			<Column />
-		</Columns>
-		<p></p>
-	</Content>
-</footer>
