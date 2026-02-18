@@ -40,19 +40,26 @@
 
 {#if !loading}
   <div class="page-container">
-    <MarkDownPage
-      {readmeHTML}
-      {title}
-      description={$_('about.meta.description')}
-      class="markdown-content"
-    >
-      <div class="button-container">
-        <Button style="secondary" href={homepageLink}>Go back to course</Button>
-        <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
-          Practice {title}
-        </Button>
-      </div>
-    </MarkDownPage>
+<MarkDownPage
+  {readmeHTML}
+  {title}
+  description={$_('about.meta.description')}
+  style="
+    min-height: 70vh;
+    background-color: var(--color-primary-light);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+  "
+>
+  <div class="button-container">
+    <Button style="secondary" href={homepageLink}>Go back to course</Button>
+    <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
+      Practice {title}
+    </Button>
+  </div>
+</MarkDownPage>
+
   </div>
 {/if}
 
