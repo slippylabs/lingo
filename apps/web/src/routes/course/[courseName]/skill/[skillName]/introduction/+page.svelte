@@ -52,7 +52,7 @@
         flex: 1; /* fills the left space */
       "
     >
-      <div style="flex: 1;">{@html readmeHTML}</div>
+      <div style="flex: 1;"></div>
       <div style="margin-top: auto; padding: 1rem 0; text-align: center;">
         <Button style="secondary" href={homepageLink}>Go back to course</Button>
         <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
