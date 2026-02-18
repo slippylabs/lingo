@@ -68,7 +68,7 @@
 
 <style type="text/scss">
 	.container {
-		padding-right: 20px;
-		padding-left: 20px;
+		padding-right: 30px;
+		padding-left: 30px;
 	}
 </style>
