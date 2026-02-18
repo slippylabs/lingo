@@ -39,51 +39,26 @@
 </script>
 
 {#if !loading}
-  <div class="page-container">
-<MarkDownPage
-  {readmeHTML}
-  {title}
-  description={$_('about.meta.description')}
-  style="
-    min-height: 70vh;
-    background-color: var(--color-primary-light);
+  <div style="
     display: flex;
     flex-direction: column;
-    padding: 1rem;
-  "
->
-  <div class="button-container">
-    <Button style="secondary" href={homepageLink}>Go back to course</Button>
-    <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
-      Practice {title}
-    </Button>
-  </div>
-</MarkDownPage>
-
+    min-height: 100vh; /* full viewport height */
+  ">
+    <MarkDownPage
+      {readmeHTML}
+      {title}
+      description={$_('about.meta.description')}
+      style="
+        flex: 1; /* fills the left space */
+      "
+    >
+      <div style="flex: 1;">{@html readmeHTML}</div>
+      <div style="margin-top: auto; padding: 1rem 0; text-align: center;">
+        <Button style="secondary" href={homepageLink}>Go back to course</Button>
+        <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
+          Practice {title}
+        </Button>
+      </div>
+    </MarkDownPage>
   </div>
 {/if}
-
-<style>
-  .page-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 70vh; /* Mindesthöhe der Seite */
-    background-color: var(--color-primary-light); /* Durchgehender blauer Hintergrund */
-  }
-
-  .markdown-content {
-    flex: 1; /* Füllt den verfügbaren Platz */
-    display: flex;
-    flex-direction: column;
-    padding: 1rem;
-    gap: 1rem;
-  }
-
-  .button-container {
-    margin-top: auto; /* Buttons nach unten schieben */
-    padding: 1rem 0;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-  }
-</style>
