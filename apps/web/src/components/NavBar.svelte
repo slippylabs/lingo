@@ -28,7 +28,7 @@
   <div slot="right">
     <NavBarButtonSet>
       {#if repositoryURL}
-        <NavBarButton href={repositoryURL} target="_blank">Feedback</NavBarButton>
+        <NavBarButton href={repositoryURL} target="_blank">Course Feedback</NavBarButton>
       {/if}
       <!-- Korrigierte Links zu den Routen /imprint und /privacy -->
       <NavBarButton href="/imprint">Imprint</NavBarButton>
