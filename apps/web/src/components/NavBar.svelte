@@ -31,13 +31,15 @@
 		<Logo src="/images/logo.svg" alt="LibreLingo" link={homepageLink} />
 	</div>
 
-	<div slot="right">
-		<NavBarButtonSet>
-			{#if repositoryURL}
-				<NavBarButton href={repositoryURL} target="_blank">Feedback</NavBarButton>
-			{/if}
-		</NavBarButtonSet>
-	</div>
+  <div slot="right">
+    <NavBarButtonSet>
+      {#if repositoryURL}
+        <NavBarButton href={repositoryURL} target="_blank">Feedback</NavBarButton>
+      {/if}
+      <!-- Neue Links für Imprint und Privacy -->
+      <NavBarButton href={settings.legalLinks.imprint}>Imprint</NavBarButton>
+    </NavBarButtonSet>
+  </div>
 </NavBar>
 
 <style>
