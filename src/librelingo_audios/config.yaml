@@ -1,0 +1,5 @@
+tts:
+  provider: piper  # or "gtts", "polly"
+  voice: DE_thorsten_low  # Voice for Piper
+  language: de      # Language for gTTS
+  aws_region: eu-central-1  # AWS-Region for Polly
