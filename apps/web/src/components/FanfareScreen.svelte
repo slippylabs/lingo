@@ -7,7 +7,6 @@
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
 	import Mascot from './NewMascot.svelte';
-	import TwitterButton from './TwitterButton.svelte';
 	import Button from 'components/DeprecatedButton.svelte';
 	import Column from 'components/Column.svelte';
 	import Columns from 'components/Columns.svelte';
