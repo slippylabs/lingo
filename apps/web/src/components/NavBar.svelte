@@ -30,7 +30,6 @@
       {#if repositoryURL}
         <NavBarButton href={repositoryURL} target="_blank">Course Feedback</NavBarButton>
       {/if}
-      <!-- Korrigierte Links zu den Routen /imprint und /privacy -->
       <NavBarButton href="/imprint">Imprint</NavBarButton>
       <NavBarButton href="/privacy">Privacy</NavBarButton>
     </NavBarButtonSet>

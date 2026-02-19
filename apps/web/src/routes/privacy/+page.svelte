@@ -11,8 +11,8 @@
       }
       content = await response.text();
     } catch (error) {
-      console.error("Error: Could not load privacy site:", error);
-      content = "Error: Could not load privacy site";
+      console.error("Error couldn't load privacy site:", error);
+      content = "Error: Privacy site was not loaded.";
     }
   });
 </script>
