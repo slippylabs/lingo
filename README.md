@@ -20,15 +20,6 @@ Please read: [LibreLingoRelive Docs](https://codeberg.org/LibreLingoRelive/Libre
 ```
 (Starting from the root of the repo)
 
-# first we need to get the images
-cd apps/web/static/images
-git lfs install
-git lfs pull
-
-# then back to root 
-cd ~
-
-# start exporting
 cd src
 uv sync
 
