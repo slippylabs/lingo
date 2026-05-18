@@ -39,45 +39,10 @@ This project exists to create a beginner-friendly, community-oriented,
 free software licensed language learning application. If you want to learn more
 about LibreLingo's background, [I recommend reading this article](https://dev.to/kantord/why-i-built-librelingo-280o).
 
-## Setting up the development environment
+## Developer guide
 
-### Prerequisites
+The current code development workflow is documented in [Development Guide](development.md).
 
-In order to install the dependencies of this project, you will need to have some basic
-development tools installed.
-
-Otherwise, if you have Docker installed in your machine, you could simplify the process by just downloading the latest docker image or building your own thanks to the Dockerfile provided
-
-#### Docker
-
-From the root folder, just run
-
-```bash
-mkdir node_modules #needed for having node dependencies while developing
-docker compose down -v && docker compose up -d
-```
-
-After the image has been downloaded / built, you should run the following command for letting the deps installs correctly:
-
-```bash
-docker compose exec -it app pdm install
-```
-
-This is due for the paths mounted in the docker-compose.yaml file
-
-#### Ubuntu
-
-If you are on Ubuntu, and you wish to install python environment and all the necessary deps on your machine, run this command in order to make sure you have all the basic dependencies:
-
-```bash
-apt-get install curl git python3-venv libpython3-dev wget unzip gcc libyaml-dev npm
-```
-
-On Ubuntu, it is also recommended to use Python 3.x as your default Python version:
-
-```bash
-apt-get install python-is-python3
-```
 
 ### Web app
 
@@ -209,49 +174,6 @@ You can export a single course using the following command (change the name of t
 ```bash
 yarn run exportCourse spanish-from-english
 ```
-
-###### Docker
-
-```bash
-docker compose exec -it app python3 /LibreLingo/app/librelingo_json_export/cli.py /LibreLingo/courses/<course_name> /LibreLingo/librelingo-web/src/courses/<course_name>
-```
-
-or
-
-N.B. be sure that the course name has the correct name (e.g. `fr-from-en`), and that the folder contains directly all the course files and the course.yaml at the root (check [course template](https://github.com/LibreLingoCommunity/course-template))
-
-```bash
-docker compose exec -it app bash /LibreLingo/scripts/exportYamlCourse.sh <course_name>
-```
-
-## Setting up Semaphore CI in a clone
-
-In order for Semaphore CI to correctly operate, you will need to set up certain secrets.
-
-This might not be necessary for you in all cases, but it cannot be avoided if you want to fully fork the repo, or work on CI configuration related tasks.
-
-[Consult this page to read about setting up secrets in Semaphore CI.](https://docs.semaphoreci.com/essentials/using-secrets/)
-
-Here's a list of the tokens you need to set up. Each of them is a link to a page explaining how to obtain the token:
-
-- [GH_TOKEN](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
-- [KNAPSACK_PRO_TEST_SUITE_TOKEN_CYPRESS](https://www.npmjs.com/package/@knapsack-pro/cypress#configuration-steps)
-- [PERCY_TOKEN](https://docs.percy.io/docs/environment-variables)
-
-## Testing courses using GitHub gists
-
-It's possible to test courses without them as HTML and deploying them.
-
-One way of doing that is using GitHub gists. You can create a GitHub gist with the course JSON files.
-
-The first step is to export the course as JSON. Then, you have to create a GitHub gist with the
-course files.
-
-Keep in mind, that you have to prefix all file names with `librelingo___` and replace
-`/` with `___` in your paths, as GitHub gists don't natively support uploading folders.
-
-So, for example `challenges/animals.json` should be uploaded as the GitHub gist file
-`librelingo___challenges___animals.json`.
 
 ## Mocks
 

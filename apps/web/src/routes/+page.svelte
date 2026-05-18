@@ -13,7 +13,6 @@
 	import {page} from '$app/state';
 
 	let coursesFs = page.data.coursesFs
-	let coursesGists = page.data.coursesGists
 
 </script>
 
@@ -22,7 +21,7 @@
 	<meta name="description" content={$_('index.meta.description')} />
 </svelte:head>
 
-<main class="main-content">
+<main class="main-content app-page">
 	<Page>
 		<Hero>
 			<Stack direction="column" spacing="m" fullHeight justify="center">

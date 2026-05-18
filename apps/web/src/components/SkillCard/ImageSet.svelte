@@ -4,11 +4,13 @@
 	export let stale;
 </script>
 
-<figure class="image image-set is-96x96" class:completed class:stale>
-	<img src={`/images/${imageSet[0]}_tinier.jpg`} alt="" />
-	<img src={`/images/${imageSet[1]}_tinier.jpg`} alt="" />
-	<img src={`/images/${imageSet[2]}_tiny.jpg`} alt="" />
-</figure>
+{#if imageSet && imageSet.length === 3}
+	<figure class="image image-set is-96x96" class:completed class:stale>
+		<img src={`/images/${imageSet[0]}_tinier.jpg`} alt="" />
+		<img src={`/images/${imageSet[1]}_tinier.jpg`} alt="" />
+		<img src={`/images/${imageSet[2]}_tiny.jpg`} alt="" />
+	</figure>
+{/if}
 
 <style type="text/scss">
 

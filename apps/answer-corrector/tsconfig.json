@@ -3,7 +3,13 @@
   "exclude": ["node_modules/*"],
   "compilerOptions": {
       "outDir": "dist",
+      "rootDir": "src",
+      "moduleResolution": "node",
       "esModuleInterop": true,
-      "types": ["jest", "node"]
-  },
+      "types": ["jest", "node"],
+      "typeRoots": [
+        "./node_modules/@types",
+        "../node_modules/@types"
+      ]
+  }
 }

@@ -52,22 +52,6 @@
           </li>
         {/each}
         <li>
-          <a
-            target="_blank"
-            href="/course/preview/skill/gist?skillName=helloworld&gistId=2428349a05d81f96b2311c2749ea5c6d"
-          >
-            Test skill: <b>GitHub Gist preview of a skill</b>
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="/course/preview/skill/gist/introduction?gistId=2428349a05d81f96b2311c2749ea5c6d"
-          >
-            Test skill: <b>GitHub Gist preview of a skill introduction</b>
-          </a>
-        </li>
-        <li>
           <a target="_blank" href="/dev-typography">
             <b>Typography</b>
           </a>

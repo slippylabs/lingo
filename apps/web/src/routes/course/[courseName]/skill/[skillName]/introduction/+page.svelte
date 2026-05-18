@@ -12,27 +12,22 @@
 	export let title: string = page.data.title;
 	export let practiceHref: string = page.data.practiceHref;
 	export let courseName: string = page.data.courseName;
-	export let gistId: string = page.data.gistId;
-
 	let homepageLink = `/course/${courseName}/`;
-	if (gistId) {
-		homepageLink += `?gistId=${gistId}`;
-	}
 
 	// Fetching preview data
 	if (preview !== null) {
-		let gistParams = preview.gistId;
+		let previewParams = preview;
 		if (isBrowser()) {
 			const urlSearchParams = new URLSearchParams(window.location.search);
-			gistParams = Object.fromEntries(urlSearchParams.entries());
+			previewParams = Object.fromEntries(urlSearchParams.entries());
 		}
 
-		const { skillName, gistId } = gistParams;
+		const { skillName } = previewParams;
 
-		get_skill_introduction({ courseName: 'preview', skillName, gistId }).then((skillData) => {
+		get_skill_introduction({ courseName: 'preview', skillName }).then((skillData) => {
 			title = skillData.title;
 			readmeHTML = skillData.readmeHTML;
-			practiceHref = skillData.practiceHref + (gistId ? `?gistId=${gistId}` : '');
+			practiceHref = skillData.practiceHref;
 			loading = false;
 		});
 	}
@@ -40,33 +35,18 @@
 
 
 {#if !loading}
-  <div style="
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-  ">
-    <MarkDownPage
-      {readmeHTML}
-      {title}
-      description={$_('about.meta.description')}
-      style="
-        flex: 1; /* Füllt den verfügbaren Platz */
-        background-color: white;
-        border-radius: 8px;
-        margin: 1rem;
-        padding: 1rem;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        display: flex;
-        flex-direction: column;
-      "
-    >
-      <div style="margin-top: auto; padding: 1rem 0; text-align: center;">
-        <Button style="secondary" href={homepageLink}>Go back to course</Button>
-        <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}${gistId ? `?gistId=${gistId}` : ''}`}>
-          Practice {title}
-        </Button>
-      </div>
-    </MarkDownPage>
-  </div>
+  <MarkDownPage
+    className="intro-page"
+    {readmeHTML}
+    {title}
+    description={$_('about.meta.description')}
+  >
+    <div class="intro-actions">
+      <Button style="secondary" href={homepageLink}>Go back to course</Button>
+      <Button style="primary" href={`/course/${courseName}/skill/${practiceHref}`}>
+        Practice {title}
+      </Button>
+    </div>
+  </MarkDownPage>
 {/if}
 

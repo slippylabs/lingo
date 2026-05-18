@@ -1,5 +1,6 @@
 tts:
-  provider: piper  # or "gtts", "polly"
+  provider: gtts  # or "piper", "polly"
   voice: DE_thorsten_low  # Voice for Piper
+  piper_voices_dir: /home/user/piper-voices  # Local directory for Piper voice models
   language: de      # Language for gTTS
-  aws_region: eu-central-1  # AWS-Region for Polly
+  aws_region: eu-central-1  # AWS-Region for Polly (legacy support)

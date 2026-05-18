@@ -1,7 +1,6 @@
 import fs from "node:fs"; import { readdir } from 'fs/promises';
 import path from 'path';
 import { readFile } from 'fs/promises';
-import courses from "./../../config/courses.json"
 
 const getDirectories = async (source: string) => {
     const files = await readdir(source, { withFileTypes: true });
@@ -50,17 +49,7 @@ export async function load() {
     }
 
 
-    let coursesGists: Array<{ path: string; language: string, gistId: string }> = [];
-
-    coursesGists = courses
-        .filter(
-            course => course.inProduction == true &&
-                course.gistId != null &&
-                course.gistId !== undefined
-        )
-        .map(course => ({ path: course.paths.jsonFolder, language: course.target.toLowerCase(), gistId: course.gistId }))
-
-    return { coursesFs: verifiedFolderList, coursesGists: coursesGists };
+    return { coursesFs: verifiedFolderList };
 }
 
 async function fileExists(filePath: string): Promise<boolean> {

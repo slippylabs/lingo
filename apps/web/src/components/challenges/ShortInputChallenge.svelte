@@ -80,7 +80,12 @@
 			<div class="card">
 				<div class="card-image">
 					<figure class="image is-1by1">
-						<img src="/images/{picture}" alt="" data-test="short text input illustrations" />
+						{#if picture}
+							<img src={`/images/${picture}`} alt="" data-test="short text input illustrations" />
+						{:else}
+							<!-- placeholder when no picture available -->
+							<div style="width:100%;height:100%;background:#f6f6f8"></div>
+						{/if}
 					</figure>
 				</div>
 			</div>

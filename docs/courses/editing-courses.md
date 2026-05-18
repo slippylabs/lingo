@@ -146,20 +146,37 @@ The `-f` switch is to force push so that the existing commit gets updated. **NOT
 
 If you've added or changed any words or phrases in the course, and the course you're editing has text-to-speech (TTS) audio, new audio will need to be generated to match your changes.
 
-Right now, the only TTS provider supported by LibreLingo is Amazon Polly. You'll need to install and configure the [AWS CLI](https://aws.amazon.com/cli/) so you can use Polly to generate audio. Then, in the root directory of the LibreLingo repository, run:
+LibreLingo now supports local audio generation via the `src/librelingo_audios/cli.py` tool. The tool reads the course YAML and creates MP3 files in the course audio output directory using the provider configured in `src/librelingo_audios/config.yaml` or in `Settings.Audio.TTS` inside the course.
+
+By default, the repository ships with `gtts` support for open-source text-to-speech. A locally installed `piper` backend is also available.
+
+From the repository root, run:
 
 ```sh
-./scripts/updateAudioForYamlCourse.sh <name of edited course, e.g. spanish-from-english>
+PYTHONPATH=src python3 src/librelingo_audios/cli.py courses/<course-name> apps/web/static/voice <course-name>
 ```
 
-The aws command that will be generated will be like:
+Or use the helper script:
+
 ```sh
-aws polly synthesize-speech --output-format mp3 --voice-id Lucia --engine standard --text Nosotras vamos al parque ../librelingo-web/static/voice/0b9ae829fcebaa67fb0b9a4f048296f2cf7156f468764f8f5cafde9e706125d0.mp3
+./scripts/updateAudioForYamlCourse.sh <name of edited course>
 ```
 
-Be careful! If you do not have any output from the command, just look in the folder where the audio should be generated, if there is a json file with the name course, just delete it.
+The tool writes MP3 files into `apps/web/static/voice` using the audio ID hash used by the frontend.
 
-If you'd like to simply _see_ the audio changes that need to be made without actually performing them, add the `--dry-run` flag. In rare circumstances, you may want to completely regenerate the audio for a course, overwriting everything that's already there. This can be done with the `--destructive` flag -- but use it with care!
+A local course YAML audio configuration can look like this:
+
+```yaml
+Settings:
+  Audio:
+    Enabled: True
+    TTS:
+      - Provider: gtts
+        Voice: default
+        Engine: standard
+```
+
+If a course still has `Provider: Polly` configured, the CLI will print a message asking you to switch the course to `gtts` or `piper`.
 
 <a id="translating"></a>
 

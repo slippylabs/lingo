@@ -1,14 +1,13 @@
-import fetch from 'isomorphic-fetch';
 import parseMarkdown from '../utils/parseMarkdown';
-import { baseURL } from './../../config/gists.json';
 
 export type SkillDataType = {
 	id: string;
 	practiceHref: string;
 	title: string;
 	levels: number;
-	introduction: string;
+	introduction?: string;
 	summary: string[];
+	imageSet?: string[];
 };
 
 export type ModuleDataType = {
@@ -40,83 +39,103 @@ const formatCourseData = (rawCourseData, { courseName }) => {
 	};
 };
 
-type RawGistFileType = {
-	content: string;
-	truncated: boolean;
-	raw_url: string;
+const normalizeCoursePath = (courseName: string, relativePath: string) => {
+	let normalized = relativePath.replace(/^\.\.\//, '').replace(/^\.\//, '').replace(/^\//, '');
+
+	// Handle paths that already include an aliased or absolute course path.
+	// Examples:
+	// - courses/fr-from-en/introduction/legumes-3.md
+	// - introduction/courses/fr-from-en/introduction/legumes-3.md
+	// We want to normalize both back to introduction/legumes-3.md.
+	normalized = normalized.replace(/^introduction\/courses\/[^/]+\//, 'introduction/');
+	normalized = normalized.replace(/^courses\/[^/]+\//, '');
+	normalized = normalized.replace(new RegExp(`^${courseName}/`), '');
+
+	return normalized;
 };
 
-const fetchGistFiles = async (gistId: string) => {
-	// get the data from a Github gist served through a CORS proxy
-	const headers = {
-		'Accept': 'application/vnd.github+json',
-		'Authorization': 'token ' + PUBLIC_GITHUB_PAT,
-		'X-GitHub-Api-Version': '2022-11-28'
-	};
+const getCoursePath = async (courseName: string, relativePath: string) => {
+	const normalizedPath = normalizeCoursePath(courseName, relativePath);
+	// @ts-ignore
+	const { readFile } = await import('fs/promises');
+	// @ts-ignore
+	const { fileURLToPath } = await import('url');
+	// @ts-ignore
+	const { dirname, join } = await import('path');
+	const __dirname = dirname(fileURLToPath(import.meta.url));
 
-	try {
-		const rawResponse = await fetch(`${baseURL}/${gistId}`, { method: 'GET', headers: headers });
-		const response = await rawResponse.json();
-		let toFetchSeparatelyText = []
-		let toFetchSeparatelyJson = []
-		const gistFiles = {}  // Create a map of the files
-		Object
-			.entries(response.files)
-			.forEach(async ([filename, value]: [string, RawGistFileType]) => {
-				const filenameProcessed = filename.replace('librelingo___', '').replace('___', '/');
-				if (value.truncated) { // We should do a call to the file directly because it is too huge so truncated.	
-					if (filename.endsWith('.json')) {
-						toFetchSeparatelyJson.push([filenameProcessed, fetch(value.raw_url).then(response => response.json())]);
-					} else {
-						toFetchSeparatelyText.push([filenameProcessed, fetch(value.raw_url).then(response => response.text())]);
-					}
-				} else {
-					gistFiles[filenameProcessed] = filename.endsWith('.json') ? JSON.parse(value?.content) : value?.content;
-				}
-			})
-			
-			await Promise.all(
-				toFetchSeparatelyText.map((value) => value[1]),
-			).then((values) => {
-				values.forEach((value, index) => {
-					gistFiles[toFetchSeparatelyText[index][0]] = value;
-				})
-			})
-			await Promise.all(
-				toFetchSeparatelyJson.map((value) => value[1])
-			).then((values) => {
-				values.forEach((value, index) => {
-					gistFiles[toFetchSeparatelyJson[index][0]] = value;
-				})
-			})
+	const candidateBases = [
+		join(__dirname, '../courses', courseName),
+		join(process.cwd(), 'src', 'courses', courseName),
+		join(process.cwd(), 'apps', 'web', 'src', 'courses', courseName)
+	];
 
-			return gistFiles;
-	} catch (error) {
-		throw new Error(`Could not load gist with Id "${gistId}". ${error}`);
+	let lastError;
+	const attemptedPaths: string[] = [];
+	for (const base of candidateBases) {
+		const candidatePath = join(base, normalizedPath);
+		attemptedPaths.push(candidatePath);
+		try {
+			return await readFile(candidatePath, 'utf-8');
+		} catch (err) {
+			lastError = err;
+		}
 	}
+
+	throw new Error(
+		`Could not read ${normalizedPath} for course ${courseName}. Tried paths:\n${attemptedPaths.join('\n')}\nLast error: ${lastError}`
+	);
+};
+
+const importMaybeDefault = async (path: string) => {
+	const module = await import(path);
+	const result = (module as any).default ?? module;
+	console.log('importMaybeDefault result for', path);
+	console.log('module keys:', Object.keys(module));
+	console.log('module:', module);
+	console.log('result:', result);
+	return result;
 };
 
 export const get_course = async ({
-	courseName,
-	gistId = null
+	courseName
 }: {
 	courseName: string;
-	gistId?: string | null;
 }): Promise<CourseDataType> => {
-	if (gistId !== null) {
-		let files = await fetchGistFiles(gistId);
-		return formatCourseData(files[`courseData.json`], { courseName });
+	const errorMessage = `Could not load course "${courseName}". Make sure the course has been exported into apps/web/src/courses and run "npm run prepareCourses" before starting the web app.`;
+
+	if (typeof window === 'undefined') {
+		let fileError: unknown;
+		try {
+			const raw = await getCoursePath(courseName, 'courseData.json');
+			const rawCourseData = JSON.parse(raw);
+			return formatCourseData(rawCourseData, { courseName });
+		} catch (err) {
+			fileError = err;
+		}
+
+		try {
+			const rawCourseData = await importMaybeDefault(`../courses/${courseName}/courseData.json`);
+			return formatCourseData(rawCourseData, { courseName });
+		} catch (importError) {
+			const fileMessage = fileError instanceof Error ? fileError.message : String(fileError);
+			const importMessage = importError instanceof Error ? importError.message : String(importError);
+			throw new Error(`${errorMessage}\nFile load error: ${fileMessage}\nImport error: ${importMessage}`);
+		}
 	}
 
-	// eslint-disable-next-line @typescript-eslint/no-var-requires
-	const rawCourseData = await import(/* @vite-ignore */ `../courses/${courseName}/courseData.json`); // eslint-disable-line @typescript-eslint/no-var-requires
-	return formatCourseData(rawCourseData, { courseName });
+	try {
+		const rawCourseData = await importMaybeDefault(`../courses/${courseName}/courseData.json`);
+		return formatCourseData(rawCourseData, { courseName });
+	} catch (err) {
+		const importMessage = err instanceof Error ? err.message : String(err);
+		throw new Error(`${errorMessage}\nImport error: ${importMessage}`);
+	}
 };
 
-const formatSkilldata = async (skillData, { courseName, skillName, gistId }) => {
+const formatSkilldata = async (skillData, { courseName, skillName }) => {
 	const { languageName, languageCode, specialCharacters, repositoryURL } = await get_course({
-		courseName,
-		gistId
+		courseName
 	});
 	const rawChallenges = skillData.challenges;
 	const challengesPerLevel = skillData.challenges.length / skillData.levels;
@@ -138,28 +157,25 @@ const formatSkilldata = async (skillData, { courseName, skillName, gistId }) => 
 
 export const get_skill_data = async ({
 	courseName,
-	skillName,
-	gistId = null
+	skillName
 }: {
 	courseName: string;
 	skillName: string;
-	gistId?: string | null;
 }) => {
-	if (gistId !== null) {
-		const files = await fetchGistFiles(gistId);
-		return await formatSkilldata(files[`challenges/${skillName}.json`], {
-			courseName,
-			skillName,
-			gistId
-		});
+	if (typeof window === 'undefined') {
+		try {
+			const raw = await getCoursePath(courseName, `challenges/${skillName}.json`);
+			const skillData = JSON.parse(raw);
+			return await formatSkilldata(skillData, { courseName, skillName });
+		} catch (err) {
+			const skillData = await importMaybeDefault(`../courses/${courseName}/challenges/${skillName}.json`);
+			return await formatSkilldata(skillData, { courseName, skillName });
+		}
 	}
 
-	// eslint-disable-next-line @typescript-eslint/no-var-requires
-	const skillData = await import(
-		/* @vite-ignore */ `../courses/${courseName}/challenges/${skillName}.json`
-	);
+	const skillData = await importMaybeDefault(`../courses/${courseName}/challenges/${skillName}.json`);
 
-	return await formatSkilldata(skillData, { courseName, skillName, gistId });
+	return await formatSkilldata(skillData, { courseName, skillName });
 };
 
 const formatSkillIntroduction = async (skill, { skillName, courseName, markdown }) => {
@@ -174,36 +190,33 @@ const formatSkillIntroduction = async (skill, { skillName, courseName, markdown 
 
 export const get_skill_introduction = async ({
 	courseName,
-	skillName,
-	gistId
+	skillName
 }: {
 	courseName: string;
 	skillName: string;
-	gistId?: string;
 }) => {
-	const { modules } = await get_course({ courseName, gistId });
+	const { modules } = await get_course({ courseName });
 
 	for (const module of modules) {
 		for (const skill of module.skills) {
 			if (skill.practiceHref === skillName) {
-				if (gistId) {
-					const files = await fetchGistFiles(gistId);
+				const introductionPath = normalizeCoursePath(courseName, `introduction/${skill.introduction}`);
 
-					return formatSkillIntroduction(skill, {
-						skillName,
-						courseName,
-						markdown: files[`introduction/${skill.introduction}`]
-					});
+				if (typeof window === 'undefined') {
+					try {
+						const markdown = await getCoursePath(courseName, introductionPath);
+						return formatSkillIntroduction(skill, { skillName, courseName, markdown });
+					} catch (err) {
+						const markdownFromModule = await importMaybeDefault(`../courses/${courseName}/${introductionPath}`);
+						return formatSkillIntroduction(skill, { skillName, courseName, markdown: markdownFromModule });
+					}
 				}
 
-				const { markdown } = await import(
-					/* @vite-ignore */ `../courses/${courseName}/introduction/${skill.introduction}`
-				);
-
+				const markdownFromModule = await importMaybeDefault(`../courses/${courseName}/${introductionPath}`);
 				return formatSkillIntroduction(skill, {
 					skillName,
 					courseName,
-					markdown
+					markdown: markdownFromModule
 				});
 			}
 		}

@@ -2,7 +2,9 @@
 
 set -euo pipefail
 
-for d in ./courses/*/ ; do
-		d=$(echo "$d" | sed 's/[^/]*\/[^/]*\///' | sed 's/\///')
-		./scripts/updateAudioForYamlCourse.sh "$d" "$@"
+rootdir="$(cd "$(dirname "$0")/.." && pwd)"
+
+for d in "$rootdir"/courses/*/ ; do
+    course_dir="$(basename "$d")"
+    "$rootdir/scripts/updateAudioForYamlCourse.sh" "$course_dir" "$@"
 done

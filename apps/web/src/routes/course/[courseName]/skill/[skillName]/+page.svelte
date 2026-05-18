@@ -22,16 +22,15 @@
 
 	// Fetching preview data
 	if (preview !== null) {
-		let gistParams = preview.gistId;
+		let previewParams = preview;
 		if (isBrowser()) {
 			const urlSearchParams = new URLSearchParams(window.location.search);
-			gistParams = Object.fromEntries(urlSearchParams.entries());
+			previewParams = Object.fromEntries(urlSearchParams.entries());
 		}
 
-		const { skillName, gistId } = gistParams;
+		const { skillName } = previewParams;
 
 		get_skill_data({
-			gistId,
 			skillName,
 			courseName: 'preview'
 		}).then((skillData) => {

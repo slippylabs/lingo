@@ -6,6 +6,8 @@ class TTS(ABC):
         pass
 
 def get_tts(provider: str, config: dict) -> TTS:
+    provider = provider.lower()
+
     if provider == "piper":
         from .piper import PiperTTS
         return PiperTTS(config)

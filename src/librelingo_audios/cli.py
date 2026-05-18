@@ -2,45 +2,101 @@
 import os
 import sys
 import yaml
-from tts import get_tts
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parents[1]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
+
+from librelingo_audios.tts import get_tts
+
+try:
+    from librelingo_yaml_loader import load_course
+    from librelingo_utils import (
+        audio_id,
+        iterate_phrases,
+        iterate_words,
+        remove_control_characters_for_display,
+    )
+except Exception:
+    load_course = None
+
 
 def load_config():
+    # Try relative to package first
+    candidate = Path(__file__).parent / "config.yaml"
+    if candidate.exists():
+        with open(candidate, "r") as file:
+            return yaml.safe_load(file)
+
+    # Fallback to old path
     with open("librelingo_audios/config.yaml", "r") as file:
         return yaml.safe_load(file)
 
-def load_course_yaml(course_path):
-    yaml_path = os.path.join(course_path, "course.yaml")
-    with open(yaml_path, "r") as file:
-        return yaml.safe_load(file)
 
 def generate_course_audio(course_path, output_dir, course_name):
     # Load config
     config = load_config()
-    course_config = load_course_yaml(course_path)
+
+    # Load course object if available
+    course = None
+    if load_course:
+        course = load_course(course_path)
+    else:
+        print("Warning: `librelingo_yaml_loader` not available; aborting")
+        return
 
     # Check, if audio has been activated
-    if not course_config.get("Settings", {}).get("Audio", {}).get("Enabled", False):
+    if not course.settings.audio_settings.enabled:
         print("Audio generation is disabled in course.yaml")
         return
 
-    # TTS-Provider from config
-    tts_config = {**config["tts"], **course_config.get("Settings", {}).get("TTS", [{}])[0]}
+    # Merge TTS config: global config <- course settings (if present)
+    tts_config = {**config.get("tts", {})}
+    tts_settings = course.settings.audio_settings.text_to_speech_settings_list
+    if tts_settings:
+        # tts_settings is a list of TextToSpeechSettings, pick first
+        first = tts_settings[0]
+        # convert namedtuple-like to dict-ish
+        tts_config.update({
+            "provider": first.provider,
+            "voice": first.voice,
+            "engine": getattr(first, "engine", None),
+        })
+
+    if "provider" not in tts_config:
+        raise ValueError("No TTS provider configured")
+
+    tts_config["provider"] = tts_config["provider"].lower()
     tts = get_tts(tts_config["provider"], tts_config)
+
+    # If using gTTS, always use the course target language for audio.
+    # This is necessary because different courses may use different languages
+    # and the repository default config.yaml may contain a fixed language like 'de'.
+    if tts_config.get("provider") == "gtts" and course is not None:
+        tts_config["language"] = course.target_language.code
+        tts = get_tts(tts_config["provider"], tts_config)
 
     # Create output folder
     os.makedirs(output_dir, exist_ok=True)
 
-    # Beispiel: Lade alle Sätze aus dem Kurs
-    sentences = [
-        "Hallo, wie geht es dir?",
-        "Ich lerne eine neue Sprache.",
-        "Das Wetter ist heute schön."
-    ]
+    # Collect unique texts from phrases and words
+    texts = set()
+    for phrase in iterate_phrases(course):
+        texts.add(remove_control_characters_for_display(phrase.in_target_language[0]))
+    for word in iterate_words(course):
+        texts.add(remove_control_characters_for_display(word.in_target_language[0]))
 
-    for i, sentence in enumerate(sentences):
-        output_file = os.path.join(output_dir, f"{course_name}_{i}.mp3")
-        print(f"Generating audio for: {sentence}")
-        tts.generate(sentence, output_file)
+    for text in sorted(texts):
+        if not text:
+            continue
+        aid = audio_id(course.target_language, text)
+        output_file = os.path.join(output_dir, f"{aid}.mp3")
+        if os.path.exists(output_file):
+            continue
+        print(f"Generating audio for: {text}")
+        tts.generate(text, output_file)
+
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:

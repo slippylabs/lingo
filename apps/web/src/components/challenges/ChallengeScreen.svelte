@@ -87,9 +87,7 @@
 	};
 
 	challenges &&
-		challenges
-			.filter(({ type }) => type === 'cards')
-			.map(({ pictures }: CardChallengeType) => pictures && pictures.map(preloadImage));
+		challenges.map((c: any) => c.pictures && c.pictures.map(preloadImage));
 
 	$: alternativeChallenges =
 		currentChallenge && rawChallenges.filter(({ id }) => id !== currentChallenge.id);
@@ -121,9 +119,7 @@
 
 	$: skipAllChallenges = async () => {
 		if (solvedChallenges.length == 0) {
-			let gistIdParam = new URL(window.location.href).searchParams.get('gistId');
-			
-			window.location.replace(courseURL + (gistIdParam ? `?gistId=${gistIdParam}` : ''));
+			window.location.replace(courseURL);
 			return;
 		}
 		stats.skipped++;

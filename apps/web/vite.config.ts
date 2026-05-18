@@ -2,8 +2,17 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 import { plugin as mdPlugin, Mode } from 'vite-plugin-markdown';
+import path from 'path';
 
 export default defineConfig({
+    resolve: {
+        alias: {
+            // Ensure imports to the local answer-corrector package resolve to its source
+            '@librelingo/answer-corrector': path.resolve(__dirname, '../answer-corrector'),
+            // Alias to the web app's JSON course folder
+            'courses': path.resolve(__dirname, './src/courses')
+        }
+    },
     css: {
         preprocessorOptions: {
             sass: {
@@ -18,13 +27,13 @@ export default defineConfig({
             }
         }
     },
-    plugins: [sveltekit(), mdPlugin({ mode: [Mode.MARKDOWN] })],
+    plugins: [sveltekit(), mdPlugin({ mode: [Mode.MARKDOWN, Mode.HTML] })],
     server: {
         fs: {
             allow: [
-                // search up for workspace root
-                //searchForWorkspaceRoot('.'),
-                // your custom rules
+                // Allow access to sibling workspace packages like answer-corrector
+                '../answer-corrector',
+                '../../courses',
                 'config'
             ]
         },

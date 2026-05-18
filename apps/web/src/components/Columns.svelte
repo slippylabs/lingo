@@ -3,7 +3,7 @@
 	export let reversed = false;
 </script>
 
-<div class="columns" class:is-multiline={multiline} class:is-reversed={reversed}>
+<div class="columns" class:is-multiline={multiline} class:is-reversed={reversed} {...$$restProps}>
 	<slot />
 </div>
 
