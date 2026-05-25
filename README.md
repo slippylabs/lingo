@@ -20,6 +20,20 @@ Please read: [LibreLingoRelive Docs](https://codeberg.org/LibreLingoRelive/Libre
 ```
 (Starting from the root of the repo)
 
+# Install and load LFS (it's necessary for showing images)
+git lfs install
+git lfs pull 
+
+then add a course or use the test-2 course and copy or clone it to courses.
+
+# back to your root directory and add audio for your course
+# if you have once generated the audio it's better to copy paste the folder instead of generating it all the time
+
+PYTHONPATH=src python3.10 src/librelingo_audios/cli.py courses/language-from-language apps/web/static/voice language-from-language
+
+# E.g. like this
+ PYTHONPATH=src python3.10 src/librelingo_audios/cli.py courses/fr-from-en apps/web/static/voice fr-from-en
+
 cd src
 uv sync
 
@@ -32,6 +46,34 @@ uv run python3 -m librelingo_json_export.cli ~/dev/librelingo/courses/LibreLingo
 cd ../apps/web
 npm ci
 npm run dev
+```
+
+## Docker Setup
+
+```
+(Starting from the root of the repo)
+
+# Install and load LFS (it's necessary for showing images)
+git lfs install
+git lfs pull 
+
+then add a course or use the test-2 course and copy or clone it to courses.
+
+# back to your root directory and add audio for your course
+# if you have once generated the audio it's better to copy paste the folder instead of generating it all the time
+
+PYTHONPATH=src python3.10 src/librelingo_audios/cli.py courses/language-from-language apps/web/static/voice language-from-language
+
+# E.g. like this
+ PYTHONPATH=src python3.10 src/librelingo_audios/cli.py courses/fr-from-en apps/web/static/voice fr-from-en
+
+# Docker build
+docker-compose build
+
+# Setup
+docker-compose up -d 
+
+The service should be available under http://localhost:5173
 ```
 
 ## Contribution
