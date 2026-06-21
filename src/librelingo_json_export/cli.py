@@ -21,9 +21,8 @@ def main(input_path: str, output_path: str, dry_run):
     """
     Convert a YAML course into JSON files to be consumed by the web app.
     """
-    settings = Settings(
-        dry_run=dry_run,
-    )
+    # Start from DEFAULT_SETTINGS and override fields we want to change.
+    settings = DEFAULT_SETTINGS._replace(dry_run=dry_run)
     course = load_course(input_path)
     ensure_output_directory(output_path, settings)
     export_course(output_path, course, settings)
