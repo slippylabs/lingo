@@ -1,14 +1,3 @@
-<script lang="ts" context="module">
-  export async function preload() {
-      const repo = await fetch("https://api.github.com/repos/LibreLingo/LibreLingo")
-
-      const { stargazers_count } = await repo.json()
-      return {
-          stargazers_count,
-      }
-  }
-</script>
-
 <script lang="ts">
   import { onMount } from "svelte"
   import isBrowser from "../utils/isBrowser"
@@ -22,7 +11,7 @@
     star_count: number
   }
 
-  export let stars =
+  let stars: string | number =
     (isBrowser() === true
         ? (window as unknown as WindowWithStars).stars
         : null) || "   "

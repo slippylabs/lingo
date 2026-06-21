@@ -31,10 +31,7 @@
 			"**/svelte/**",
 			"svelte/**",
 			"svelte",
-			"**/svelte",
-			"sapper/**",
-			"sapper",
-			"**/sapper"
+			"**/svelte"
 		]
 	},
 	"devDependencies": {
@@ -57,7 +54,6 @@
 		"prettier": "2.8.8",
 		"prettier-plugin-svelte": "2.10.1",
 		"remark": "15.0.1",
-		"sapper": "0.29.3",
 		"semantic-release": "19.0.5",
 		"semantic-release-monorepo": "7.0.8",
 		"source-map-loader": "4.0.2",
