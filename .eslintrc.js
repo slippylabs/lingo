@@ -13,7 +13,6 @@ module.exports = {
     es6: true,
     node: true,
     "jest/globals": true,
-    "cypress/globals": true,
   },
   extends: [
     "eslint:recommended",
@@ -30,7 +29,7 @@ module.exports = {
     sourceType: "module",
     extraFileExtensions: [".svelte"],
   },
-  plugins: ["svelte3", "jest", "cypress", "@typescript-eslint", "prettier"],
+  plugins: ["svelte3", "jest", "@typescript-eslint", "prettier"],
   overrides: [
     {
       files: ["**/*.svelte"],

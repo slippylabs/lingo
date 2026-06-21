@@ -38,13 +38,8 @@ staticfiles/
 apps/web/static/files/noto-*
 
 
-# Cypress files
 .nyc_output/
-cypress-coverage/
 jest-coverage/
-**/cypress/videos
-apps/web/cypress/screenshots/
-apps/web/cypress/screenshots/**/__tkey-*.png
 **/coverage/
 
 

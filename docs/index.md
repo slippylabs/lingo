@@ -177,5 +177,4 @@ yarn run exportCourse spanish-from-english
 
 ## Mocks
 
-For mocks in the frontend, LibreLingo uses [MSW](https://mswjs.io/). For Cypress tests, `cy.intercept()` is
-used. All of these mocks are defined in apps/web/src/mocks/handlers.js.
+For mocks in the frontend, LibreLingo uses [MSW](https://mswjs.io/). All of these mocks are defined in apps/web/src/mocks/handlers.js.

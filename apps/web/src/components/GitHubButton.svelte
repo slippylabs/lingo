@@ -14,7 +14,6 @@
   import isBrowser from "../utils/isBrowser"
   import Icon from "lluis/Icon.svelte"
   import Button from "lluis/DeprecatedButton.svelte"
-  import isCypress from "../utils/isCypress"
   // eslint-disable-next-line @typescript-eslint/no-var-requires
   const pMemoize = require("p-memoize")
 
@@ -30,11 +29,6 @@
   export let size: "small" | "normal" = "small"
 
   onMount(async () => {
-      if (isBrowser() === true && isCypress()) {
-          stars = 999
-          return
-      }
-
       pMemoize(fetch, { maxAge: 5 * 60 * 1000 })(
           "https://api.github.com/repos/LibreLingo/LibreLingo"
       )
