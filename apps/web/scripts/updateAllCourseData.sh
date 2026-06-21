@@ -10,9 +10,9 @@ else
 fi
 
 # fetch things
-yarn exportCourse 1
-yarn fetchAudios
-yarn fetchPhotos
+npm run exportCourse -- 1
+npm run fetchAudios
+npm run fetchPhotos
 
 
 # commit changes

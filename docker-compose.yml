@@ -24,4 +24,4 @@ services:
       - ./:/app
     ports:
       - "5173:5173"
-    command: ["sh", "-c", "npm run prepareCourses && npm install --prefer-offline --no-audit --no-fund && npm run dev -- --host 0.0.0.0"]
+    command: ["sh", "-c", "npm run prepareCourses && npm install --prefer-offline --no-audit --no-fund --no-workspaces && npm run dev -- --host 0.0.0.0"]

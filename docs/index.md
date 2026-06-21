@@ -69,21 +69,13 @@ nvm use 16
 
 #### Install dependencies:
 
-For this project it's recommended to use npm.  
-Although, you could try to use yarn and open issue if there are some problems, so it could be tried to letting the two package managers cohesists.
+For this project it's recommended to use npm exclusively.  
+Do not use Yarn; this repository standardizes on npm only.
 
-Yarn is a package manager for JavaScript that helps manage project dependencies, ensuring consistent and efficient installations. For more information about Yarn, [please refer to the official documentation](https://yarnpkg.com/). [The steps required to install yarn itself are documented here](https://classic.yarnpkg.com/lang/en/docs/install/#debian-stable).
-
-Once you're in the root folder of the web app, just run
+Once you're in the root folder of the web app, run:
 
 ```sh
 npm install
-```
-
-or
-
-```sh
-yarn install
 ```
 
 #### Starting the development server
@@ -92,12 +84,6 @@ Start the development server:
 
 ```sh
 npm run web-serve
-```
-
-or
-
-```sh
-yarn run web dev
 ```
 
 Now you should be able to see your app on <http://localhost:5173/>
@@ -132,7 +118,7 @@ This command ensures your local dependencies match the project's **pyproject.tom
 
 When you update your local repository by pulling remote changes, your local dependencies might become outdated. To ensure your local dependencies are in sync with the project requirements, follow these brief steps:
 
-###### Updating JavaScript Dependencies with Yarn
+###### Updating JavaScript Dependencies
 
 Update your local dependencies:
 
@@ -140,7 +126,7 @@ Update your local dependencies:
 npm install
 ```
 
-This command ensures your local dependencies match the project's **package.json** file. For more information, [refer to the Yarn documentation](https://yarnpkg.com/getting-started/usage).
+This command ensures your local dependencies match the project's **package.json** file.
 
 ### Locally test LibreLingo with real courses
 
@@ -154,7 +140,7 @@ in production. _Keep in mind that in order to use them in the frontend, the cour
 also need to be exported!_
 
 ```bash
-yarn web run installAllExternalCourses
+npm run -w apps/web installAllExternalCourses
 ```
 
 #### Export courses
@@ -166,13 +152,13 @@ changes to this course and you want the changes to be visible in the frontend.
 Use the following command:
 
 ```bash
-yarn exportAllCourses
+npm run exportAllCourses
 ```
 
 You can export a single course using the following command (change the name of the course for the one that you need to export):
 
 ```bash
-yarn run exportCourse spanish-from-english
+npm run exportCourse spanish-from-english
 ```
 
 ## Mocks

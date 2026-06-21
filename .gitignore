@@ -23,9 +23,6 @@
 
 
 # Development
-yarn-error.log
-.yarn
-.yarnrc
 *.pyc
 /apps/librelingo_json_export/profile.png
 profile.dat

@@ -8,16 +8,11 @@
 <div class="main-footer">
 	<Stack align="center" direction="column" spacing="s">
 		<slot />
-		<div class="buttonset">
-			<a href="https://codeberg.org/LibreLingoRelive/LibreLingoRelive_Docs">
-				<Translate key="index.development_docs_english_only">Development docs (English)</Translate>
-			</a>
-			<Hidden>
-				<br />
-				<a href="/devtools"> Development tools </a>
-				<a href="/dev"> Development tools </a>
-			</Hidden>
-		</div>
+			<div class="buttonset">
+				<a href="https://codeberg.org/LibreLingoRelive/LibreLingoRelive_Docs">
+					<Translate key="index.development_docs_english_only">Development docs (English)</Translate>
+				</a>
+			</div>
 		<div>
 		<strong>LibreLingoRelive</strong> is a fork from LibreLingoCommunity, which is a fork from
 			<strong>LibreLingo</strong>

@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-yarn exportCourse test-1
+npm run exportCourse -- test-1
 
 if git diff --exit-code --name-only; then
 	echo "🎉 Amazing, test course JSON files are up to date"
@@ -15,6 +15,6 @@ else
 	git diff
 	echo "Run the following script to automatically update the JSON files:"
 	echo
-	echo "yarn exportAllCourses"
+	echo "npm run exportAllCourses"
 	exit 1
 fi

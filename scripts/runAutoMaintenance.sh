@@ -2,5 +2,5 @@
 
 set -euo pipefail
 
-yarn exportAllCourses
+npm run exportAllCourses
 ./scripts/updatePypiReadmeFiles.sh
