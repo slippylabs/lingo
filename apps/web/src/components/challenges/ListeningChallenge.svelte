@@ -6,7 +6,7 @@
 	import Icon from 'components/Icon.svelte';
 	import InputFieldWithVirtualKeyboard from './InputFieldWithVirtualKeyboard/InputFieldWithVirtualKeyboard.svelte';
 	import { playAudio } from '$lib/sounds';
-	import Button from 'components/DeprecatedButton.svelte';
+	import Button from 'components/Button.svelte';
 	import Column from 'components/Column.svelte';
 	import Columns from 'components/Columns.svelte';
 

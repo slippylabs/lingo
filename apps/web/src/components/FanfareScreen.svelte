@@ -6,8 +6,8 @@
 	import hotkeys from 'hotkeys-js';
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
-	import Mascot from './NewMascot.svelte';
-	import Button from 'components/DeprecatedButton.svelte';
+	import Mascot from './Mascot.svelte';
+	import Button from 'components/Button.svelte';
 	import Column from 'components/Column.svelte';
 	import Columns from 'components/Columns.svelte';
 	import Title from 'components/Title.svelte';

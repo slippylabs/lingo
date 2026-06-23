@@ -7,7 +7,7 @@
 	import Hero from 'components/Hero/Hero.svelte';
 	import Page from 'components/Page.svelte';
 	import Footer from 'components/Footer.svelte';
-	import Mascot from 'components/NewMascot.svelte';
+	import Mascot from 'components/Mascot.svelte';
 	import Heading from 'components/Heading.svelte';
 
 	import {page} from '$app/state';

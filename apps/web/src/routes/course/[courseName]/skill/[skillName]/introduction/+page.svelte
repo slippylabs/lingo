@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { _ } from 'svelte-i18n';
 	import { get_skill_introduction } from 'course-client';
-	import Button from 'components/DeprecatedButton.svelte';
+	import Button from 'components/Button.svelte';
 	import MarkDownPage from 'components/MarkDownPage.svelte';
 	import isBrowser from 'utils/isBrowser';
 	import { page } from '$app/state';

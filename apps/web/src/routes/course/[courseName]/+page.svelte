@@ -6,7 +6,7 @@
 	import Column from 'components/Column.svelte';
 	import Columns from 'components/Columns.svelte';
 	import Content from 'components/Content.svelte';
-	import Footer from 'components/DeprecatedFooter.svelte';
+	import Footer from 'components/Footer.svelte';
 	import type { ModulesType } from 'types/ModulesType';
 	import { page } from '$app/state';
 

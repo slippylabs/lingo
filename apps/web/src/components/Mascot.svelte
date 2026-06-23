@@ -1,16 +1,22 @@
 <script lang="ts">
-  export let shadow = true
-  export let glow = false
-  let imageURL =
-    shadow === true
-        ? "/images/mascot-jetpack.svg"
-        : "/images/mascot-jetpack-noshadow.svg"
+	export let shadow = true;
+	export let glow = false;
+
+	let imageURL =
+		shadow === true ? '/images/mascot-jetpack.svg' : '/images/mascot-jetpack-noshadow.svg';
 </script>
 
-<img data-test="mascot-jetpack" src="{imageURL}" alt="" class:glow />
+<img
+	data-test="mascot-jetpack"
+	src={imageURL}
+	alt="LibreLingo Mascot"
+	class="mascot"
+	class:mascot--glow={glow}
+/>
 
-<style type="text/scss">
-  .glow {
-    filter: drop-shadow(0 0 2em #ffffff1c);
-  }
+<style>
+	img {
+		min-width: 200px;
+		object-fit: contain;
+	}
 </style>

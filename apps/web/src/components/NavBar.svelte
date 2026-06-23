@@ -1,36 +1,57 @@
 <script lang="ts">
   import { page } from '$app/state';
-  import NavBar from 'components/DeprecatedNavBar/NavBar.svelte';
-  import NavBarButton from 'components/DeprecatedNavBar/NavBarButton.svelte';
-  import NavBarButtonSet from 'components/DeprecatedNavBar/NavBarButtonSet.svelte';
   import Logo from 'components/Logo.svelte';
+  import LinkOrButton from 'components/primitives/LinkOrButton.svelte';
 
   export let hasAuth = false;
-  export let repositoryURL = null;
+  export let repositoryURL: string | null = null;
 
-  let courseName = page.params?.courseName || '';
+  const courseName = page.params?.courseName || '';
   const homepageLink = `/course/${courseName}`;
 </script>
 
-<NavBar>
-  <div slot="left">
+<nav class="navbar" aria-label="main navigation">
+  <div class="navbar__left">
     <Logo src="/images/logo.svg" alt="LibreLingo" link={homepageLink} />
   </div>
 
-  <div slot="right">
-    <NavBarButtonSet>
-      {#if repositoryURL}
-        <NavBarButton href={repositoryURL} target="_blank">Course Feedback</NavBarButton>
-      {/if}
-      <!-- Links zu Imprint und Privacy (ohne .md) -->
-      <NavBarButton href="/imprint">Imprint</NavBarButton>
-      <NavBarButton href="/privacy">Privacy</NavBarButton>
-    </NavBarButtonSet>
+  <div class="navbar__middle" />
+
+  <div class="navbar__right">
+    {#if repositoryURL}
+      <LinkOrButton href={repositoryURL} target="_blank">Course Feedback</LinkOrButton>
+    {/if}
+    <LinkOrButton href="/imprint">Imprint</LinkOrButton>
+    <LinkOrButton href="/privacy">Privacy</LinkOrButton>
   </div>
-</NavBar>
+</nav>
 
 <style>
-  div {
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: var(--deprecated-navbar-height);
+    padding: var(--deprecated-navbar-padding-vertical) var(--deprecated-navbar-padding-horizontal);
+    background: var(--deprecated-navbar-background);
+    color: var(--deprecated-navbar-text-color);
+  }
+
+  .navbar__middle {
+    flex: 1;
+  }
+
+  .navbar__right {
+    display: flex;
+    gap: var(--spacing-medium);
+    align-items: center;
+  }
+
+  .navbar__left,
+  .navbar__right {
+    display: flex;
+    align-items: center;
     height: 100%;
   }
 </style>

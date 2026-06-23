@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Button from 'components/DeprecatedButton.svelte';
+	import Button from 'components/Button.svelte';
 	import Translate from 'components/Translate.svelte';
 
 	export let practiceHref;
