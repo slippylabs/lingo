@@ -98,7 +98,9 @@
 		property="og:description"
 		content="Duolingo-style lessons in 24 languages: Spanish, French, German, Dutch, Portuguese, Polish, Russian, Ukrainian and more. No account; progress stays in your browser."
 	/>
-	<meta property="og:image" content="https://lingo.slippylabs.com/og.png" />
+	<meta property="og:image" content="https://lingo.slippylabs.com/og.png?v=1" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="630" />
 	<meta property="og:url" content="https://lingo.slippylabs.com/" />
 	<meta property="og:type" content="website" />
 	<meta name="twitter:card" content="summary_large_image" />

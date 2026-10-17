@@ -89,13 +89,14 @@ class MissingPhonemes(logging.Handler):
 def speakable(text, voice_config):
     """The text to synthesise (the audio id still uses the course's own text).
 
-    Course answers list alternatives as "він/вона" and notes in brackets; read
-    "/" as a pause and drop the brackets. Text-input voices (phoneme_type
+    Course answers list alternatives as "він/вона" and notes in brackets such
+    as "dva (m/s)"; read "/" as a pause and leave the bracketed notes unspoken. Text-input voices (phoneme_type
     "text", e.g. uk_UA-ukrainian_tts) map raw letters, lower-case only, so a
     capital was silently dropped ("Вода" spoken as "ода"): lower-case them and
     blank anything else the map lacks.
     """
-    t = re.sub(r"\s*/\s*", ", ", text).replace("(", "").replace(")", "")
+    t = re.sub(r"\s*\([^)]*\)", "", text)  # "(m/s)", "(formal)": notes, not speech
+    t = re.sub(r"\s*/\s*", ", ", t).replace("(", "").replace(")", "")
     if voice_config.get("phoneme_type") == "text":
         known = voice_config["phoneme_id_map"]
         t = t.lower().replace("\u2019", "'").replace("\u02bc", "'")
