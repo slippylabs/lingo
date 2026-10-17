@@ -39,6 +39,13 @@
 		color: var(--deprecated-navbar-text-color);
 	}
 
+	/* slippylabs: 44px touch targets (they were 35px tall on phones) */
+	.navbar__right :global(a) {
+		display: inline-flex;
+		align-items: center;
+		min-height: 44px;
+	}
+
 	.navbar__middle {
 		flex: 1;
 	}
