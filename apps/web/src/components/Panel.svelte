@@ -21,6 +21,9 @@
 <style>
 	.panel {
 		position: fixed;
+		/* slippylabs: above the sitewide .sl-legal privacy bar (z-index 3),
+		   which otherwise sat over Skip/Continue on short lesson screens */
+		z-index: 10;
 		display: block;
 		left: 0;
 		bottom: 0;
