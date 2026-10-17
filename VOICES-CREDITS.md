@@ -13,7 +13,7 @@ All lesson audio on lingo.slippylabs.com is generated locally with [Piper](https
 | `nl_NL-ronnie-medium` | dutch | https://github.com/OHF-Voice/voice-datasets | CC0 |
 | `pl_PL-gosia-medium` | polish | https://github.com/OHF-Voice/voice-datasets | CC0 |
 | `ru_RU-dmitri-medium` | russian | https://github.com/OHF-Voice/voice-datasets | CC0 |
-| `uk_UA-tetiana-high` | ukrainian | https://github.com/egorsmkv/ukrainian-tts-datasets | Apache 2.0 |
+| `uk_UA-ukrainian_tts-medium` (speaker tetiana) | ukrainian | https://github.com/OHF-Voice/voice-datasets | CC0 |
 | `cs_CZ-jirka-medium` | czech | https://github.com/OHF-Voice/voice-datasets | CC0 |
 | `sk_SK-lili-medium` | slovak | https://github.com/OHF-Voice/voice-datasets | CC0 |
 | `sl_SI-artur-medium` | slovenian | https://huggingface.co/datasets/ppisljar/artur_studio_tts/ | https://creativecommons.org/licenses/by/4.0/ |

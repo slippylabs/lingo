@@ -8,7 +8,7 @@
   "dutch-from-english": {"voice": "nl_NL-ronnie-medium"},
   "polish-from-english": {"voice": "pl_PL-gosia-medium"},
   "russian-from-english": {"voice": "ru_RU-dmitri-medium"},
-  "ukrainian-from-english": {"voice": "uk_UA-tetiana-high"},
+  "ukrainian-from-english": {"voice": "uk_UA-ukrainian_tts-medium", "speaker": 2},
   "czech-from-english": {"voice": "cs_CZ-jirka-medium"},
   "slovak-from-english": {"voice": "sk_SK-lili-medium"},
   "slovenian-from-english": {"voice": "sl_SI-artur-medium"},
