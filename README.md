@@ -1,3 +1,43 @@
+# LibreLingo on Slippy Labs
+
+**Live:** https://lingo.slippylabs.com/ · listed on [projects.slippylabs.com](https://projects.slippylabs.com/#tab=apps)
+
+Our fork of [LibreLingoRelive](https://codeberg.org/LibreLingoRelive/LibreLingoRelive), the community
+continuation of [LibreLingo](https://github.com/kantord/LibreLingo): Duolingo-style lessons from
+community-written courses. AGPL-3.0, like upstream. Upstream is the `upstream` remote.
+
+What this fork changes:
+
+- **Static build.** `@sveltejs/adapter-static` with every page prerendered; nginx serves files, no server process.
+- **Progress is saved.** Upstream's PouchDB layer is disabled (every call commented out), so nothing was ever
+  saved. `apps/web/src/db/localDb.js` gives the existing `getSkillStats`/`savePractice` a PouchDB-shaped
+  localStorage store, keyed per course because skill ids repeat across courses.
+- **Lesson audio is generated locally** with [Piper](https://github.com/rhasspy/piper)
+  (`scripts/slip/make_audio.py`). The cloud gTTS/Polly providers were removed. Courses with no native Piper
+  voice have audio off. Credits: [VOICES-CREDITS.md](VOICES-CREDITS.md).
+- **Bug fixes:** lessons render client-side only (a prerendered shuffle made every picture card show the wrong
+  picture after hydration); picture cards for courses without images render as text cards instead of crashing;
+  course JSON is loaded through `import.meta.glob` (the template-string `import()` 404'd in a build); the
+  leftover `svelte-i18n` import that broke the build is gone.
+- No analytics, no account, nothing leaves the browser.
+
+## Building
+
+```sh
+git lfs install --local && git lfs pull            # course pictures
+python3 -m venv .venv && .venv/bin/pip install -e src piper-tts
+.venv/bin/python scripts/slip/fetch_courses.py     # every deploy:true course in apps/web/config/courses.json
+.venv/bin/python scripts/slip/make_audio.py        # Piper audio into apps/web/static/voice (skips existing)
+npm ci && (cd apps/web && PYTHON_BIN=$PWD/../../.venv/bin/python npm run build)
+deploy/deploy.sh [rev]                             # build from a commit and swap into /var/www/lingo.slippylabs.com
+```
+
+`scripts/slip/voices.json` maps each course to its Piper voice (or `null`), and `fetch_courses.py` patches
+each course's Audio settings from it. Courses and audio are not committed: they are third-party content and
+regenerable.
+
+---
+
 # LibreLingoRelive
 *a community-owned language-learning platform*
 

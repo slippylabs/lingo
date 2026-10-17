@@ -20,8 +20,10 @@
 		{#if repositoryURL}
 			<LinkOrButton href={repositoryURL} target="_blank">Course Feedback</LinkOrButton>
 		{/if}
-		<LinkOrButton href="/imprint">Imprint</LinkOrButton>
+		<LinkOrButton href="/imprint">About</LinkOrButton>
 		<LinkOrButton href="/privacy">Privacy</LinkOrButton>
+		<!-- slippylabs: back to the hub this app is listed on -->
+		<LinkOrButton href="https://projects.slippylabs.com/#tab=apps">← Projects</LinkOrButton>
 	</div>
 </nav>
 

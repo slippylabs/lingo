@@ -61,7 +61,7 @@ def generate_audio_file(
         # Get TTS config
         config = get_config()
         tts_config = config.get("tts", {})
-        tts = get_tts(tts_config.get("provider", "gtts"), tts_config)
+        tts = get_tts(tts_config.get("provider", "piper"), tts_config)
         
         # Generate filename
         filename = get_audio_filename(text)

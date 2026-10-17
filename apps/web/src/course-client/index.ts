@@ -133,8 +133,16 @@ const getCoursePath = async (courseName: string, relativePath: string) => {
 	);
 };
 
+// slippylabs: a template-string import() is opaque to Vite, so in the static
+// build the browser fetched /_app/immutable/courses/... and got a 404. These
+// globs give Vite the full list: one lazy chunk per course file.
+const courseModules: Record<string, () => Promise<unknown>> = {
+	...import.meta.glob('../courses/*/courseData.json'),
+	...import.meta.glob('../courses/*/challenges/*.json')
+};
+
 const importMaybeDefault = async (path: string) => {
-	const module = await import(path);
+	const module = courseModules[path] ? await courseModules[path]() : await import(/* @vite-ignore */ path);
 	const result = (module as any).default ?? module;
 	return result;
 };

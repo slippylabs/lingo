@@ -60,7 +60,7 @@
 				{correct}
 				active={selectedOption === i}
 				inactive={selectedOption !== null && selectedOption !== i}
-				picture={shuffle(pictures)[0]}
+				picture={pictures?.length ? shuffle(pictures)[0] : null}
 				number={i + 1 - (keymap[i] - i) + 1}
 				{formInTargetLanguage}
 			/>

@@ -33,7 +33,7 @@
 	let submitted = $state(false);
 	let correct: boolean | null = $state(null);
 	let spellingSuggestion = $state('');
-	let picture = $derived(shuffle(challenge.pictures)[0]);
+	let picture = $derived(challenge.pictures?.length ? shuffle(challenge.pictures)[0] : null);
 
 	const submitChallenge = (e?: Event) => {
 		e?.preventDefault();

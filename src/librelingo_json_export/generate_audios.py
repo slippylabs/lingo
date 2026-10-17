@@ -30,10 +30,10 @@ def get_tts_provider(config: dict):
     """Get TTS provider based on config."""
     try:
         from librelingo_audios.tts import get_tts
-        provider_name = config.get("provider", "gtts")
+        provider_name = config.get("provider", "piper")
         return get_tts(provider_name, config)
     except ImportError:
-        logger.error("librelingo_audios not installed. Install with: pip install gTTS")
+        logger.error("librelingo_audios not installed. Install piper-tts (local TTS)")
         return None
 
 

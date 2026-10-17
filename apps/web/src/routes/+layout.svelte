@@ -93,13 +93,15 @@
 </script>
 
 <svelte:head>
-	<meta property="og:title" content="LibreLingo" />
+	<meta property="og:title" content="LibreLingo — learn a language for free" />
 	<meta
 		property="og:description"
-		content="an experiment to create a community-driven language-learning
-    platform"
+		content="Duolingo-style lessons in 24 languages: Spanish, French, German, Dutch, Portuguese, Polish, Russian, Ukrainian and more. No account; progress stays in your browser."
 	/>
-	<meta property="og:image" content="https://librelingo.app/images/social_cover_1.png" />
+	<meta property="og:image" content="https://lingo.slippylabs.com/og.png" />
+	<meta property="og:url" content="https://lingo.slippylabs.com/" />
+	<meta property="og:type" content="website" />
+	<meta name="twitter:card" content="summary_large_image" />
 </svelte:head>
 
 <main style={theme}>

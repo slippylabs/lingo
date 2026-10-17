@@ -1,17 +1,16 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 
-	/* import live from '../../db/live'; */
-	/* 	import getSkillStats from '../../db/skill/getSkillStats';
-	 */
+	import { live, skillKey } from '../../db/localDb';
+	import getSkillStats from '../../db/skill/getSkillStats';
 	import Icon from '../Icon.svelte';
 	import Card from '../Card.svelte';
 	import Buttons from './Buttons.svelte';
 	import ContentLeft from './ContentLeft.svelte';
 	import ContentCenter from './ContentCenter.svelte';
 
-	// TODO: Add an id prop when we have the db
 	let {
+		id,
 		title,
 		levels,
 		practiceHref,
@@ -19,6 +18,7 @@
 		imageSet,
 		summary
 	}: {
+		id: string;
 		title: string;
 		levels: number;
 		practiceHref: string;
@@ -43,10 +43,12 @@
 	);
 	let foregroundColor = $derived(completed || stale ? 'white' : 'black');
 
-	onMount(() => {
-		// TODO: Uncomment when we have the db
-		/* live((db) =>
-			getSkillStats(db, { id })
+	// practiceHref is /course/<courseName>/skill/<skillName>
+	const courseName = practiceHref.split('/')[2];
+
+	onMount(() =>
+		live((db) =>
+			getSkillStats(db, { id: skillKey(courseName, id) })
 				.then((stats) => {
 					completed = stats.progress >= levels;
 					progress = stats.progress;
@@ -55,8 +57,8 @@
 				})
 				// eslint-disable-next-line @typescript-eslint/no-empty-function
 				.catch(() => {})
-		); */
-	});
+		)
+	);
 </script>
 
 <Card

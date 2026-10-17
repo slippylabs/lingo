@@ -14,34 +14,46 @@
 		inactive: boolean;
 		correct: boolean;
 		number: number;
-		picture: string;
+		picture: string | null;
 		formInTargetLanguage: string;
 	} = $props();
 </script>
+
+<!-- slippylabs: courses without images export cards with pictures: null; show
+     those as text-only cards instead of a broken /images/null. -->
+{#snippet pictureMedia()}
+	<div>
+		<img src={`/images/${picture}`} alt="" data-test={`card-img-${number}`} />
+	</div>
+{/snippet}
+
+{#snippet wordFooter()}
+	<div class:text-only={!picture}>
+		<Stack justify="center">
+			<div data-test={`card-text-${number}`}>
+				{formInTargetLanguage}
+			</div>
+		</Stack>
+	</div>
+{/snippet}
 
 <li class:active class:inactive>
 	<Card
 		data-test={active ? 'active' : inactive ? 'inactive' : 'neutral'}
 		data-test-correct={correct}
-	>
-		{#snippet media()}
-			<div>
-				<img src={`/images/${picture}`} alt="" data-test={`card-img-${number}`} />
-			</div>
-		{/snippet}
-		{#snippet footer()}
-			<div>
-				<Stack justify="center">
-					<div data-test={`card-text-${number}`}>
-						{formInTargetLanguage}
-					</div>
-				</Stack>
-			</div>
-		{/snippet}
-	</Card>
+		media={picture ? pictureMedia : undefined}
+		footer={wordFooter}
+	/>
 </li>
 
 <style type="text/scss">
+	.text-only {
+		padding: 2em 0.5em;
+		font-size: 1.4em;
+		font-weight: 600;
+		text-align: center;
+	}
+
 	li {
 		border: 3px solid transparent;
 		display: flex;

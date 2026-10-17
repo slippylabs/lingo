@@ -26,7 +26,7 @@
 <section class="page-section">
 	<div class="page-container">
 		<div class="page-heading">
-			<h1>Imprint</h1>
+			<h1>About</h1>
 		</div>
 		<div class="page-content">
 			<pre>{content}</pre>

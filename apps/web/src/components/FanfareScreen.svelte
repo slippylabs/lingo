@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { scale } from 'svelte/transition';
-	//import db from "../db/db"
-	//import savePractice from '../db/skill/savePractice';
+	import db, { skillKey } from '../db/localDb';
+	import savePractice from '../db/skill/savePractice';
 	import sound from '$lib/sounds';
 	import hotkeys from 'hotkeys-js';
 	import { onMount } from 'svelte';
@@ -19,7 +19,8 @@
 	});
 
 	onMount(async () => {
-		//await savePractice(db, { id: skillId, ...stats });
+		// courseURL is /course/<courseName>
+		await savePractice(db, { id: skillKey(courseURL.split('/')[2], skillId), ...stats });
 	});
 
 	onMount(() => {
