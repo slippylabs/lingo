@@ -1,5 +1,4 @@
 import adapter from '@sveltejs/adapter-static';
-import { plugin as mdPlugin, Mode } from 'vite-plugin-markdown';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
@@ -18,15 +17,9 @@ export default defineConfig({
 			// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 			// slippylabs: static build, served by nginx (lingo.slippylabs.com)
 			adapter: adapter({ fallback: '404.html' }),
-			prerender: { handleHttpError: 'warn', handleMissingId: 'warn' },
-			alias: {
-				components: 'src/components',
-				types: 'src/types',
-				utils: 'src/utils',
-				sounds: './static/sounds',
-				'course-client': 'src/course-client'
-			}
-		}),
-		mdPlugin({ mode: [Mode.MARKDOWN, Mode.HTML] })
+			// crawl off: links like learn?mode=… would otherwise each become a file;
+			// the per-course pages come from their routes' entries() instead.
+			prerender: { crawl: false, entries: ['*'], handleHttpError: 'warn', handleMissingId: 'warn' }
+		})
 	]
 });

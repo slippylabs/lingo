@@ -1,8 +1,6 @@
-import { get_course } from '../../../course-client';
+import { courseEntries } from '$lib/entries';
 
-export async function load({ params }) {
-	const { courseName } = params;
-	const course = await get_course({ courseName });
-
-	return { course };
-}
+// The dashboard is all about the learner's own progress, which lives in the browser.
+export const ssr = false;
+export const entries = courseEntries;
+export const load = ({ params }) => ({ course: params.courseName });

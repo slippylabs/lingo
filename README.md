@@ -6,20 +6,34 @@ Our fork of [LibreLingoRelive](https://codeberg.org/LibreLingoRelive/LibreLingoR
 continuation of [LibreLingo](https://github.com/kantord/LibreLingo): Duolingo-style lessons from
 community-written courses. AGPL-3.0, like upstream. Upstream is the `upstream` remote.
 
-What this fork changes:
+What this fork changes (v2, `slip-v2.0.0`, rebuilt the learning side; upstream's exercise types and
+course format are kept):
 
-- **Static build.** `@sveltejs/adapter-static` with every page prerendered; nginx serves files, no server process.
-- **Progress is saved.** Upstream's PouchDB layer is disabled (every call commented out), so nothing was ever
-  saved. `apps/web/src/db/localDb.js` gives the existing `getSkillStats`/`savePractice` a PouchDB-shaped
-  localStorage store, keyed per course because skill ids repeat across courses.
+- **Teach first.** A lesson introduces 3-5 new words or phrases on teach cards (picture, sound, meaning, an
+  example sentence from the same lesson) before any exercise asks for them, then goes from recognising to
+  reading to typing and hearing. Lessons with notes show them first.
+- **Per-word spaced repetition** (`apps/web/src/learn/srs.ts`): Leitner boxes with 0/1/3/7/16/35/90-day
+  intervals. Right moves a word up a box, wrong drops it two; a hint keeps it where it is. A *Review* session
+  brings back what's due, harder each time; *Weak spots* drills the words and exercise kinds you miss most.
+- **A personal plan** (`learn/plan.ts`): a goal (travel, conversation, reading, general) sets the exercise mix,
+  daily minutes set new words per day, and a week view projects reviews and lessons with a finish date. New
+  words pause when reviews pile past three days' worth.
+- **Placement check** (`learn/placement.ts`): two questions per lesson, unit by unit; 80% marks a unit known.
+- **Feedback that teaches:** the right answer with your wrong words marked, the meaning, a word-by-word
+  breakdown, accent-only and one-letter slips told apart from mistakes; tap any word for its meaning.
+- **Grammar notes** written for the Spanish, Brazilian Portuguese and German lessons that had none, plus the
+  gaps in French and Dutch (`apps/web/src/notes/`, checked by `npm run check:notes` against the course words).
+- **New UI:** plain CSS tokens with dark mode, mobile-first, 44px targets; Bulma, Font Awesome and the
+  uncompiled `<style type="text/scss">` components are gone.
+- **Static build.** adapter-static; course pages render in the browser where the progress lives
+  (`localStorage`, `lingo:v2/<course>/…`; export/import as a file on the Plan page). `scripts/buildIndex.js`
+  writes a compact per-course item index at build time.
 - **Lesson audio is generated locally** with [Piper](https://github.com/rhasspy/piper)
   (`scripts/slip/make_audio.py`). The cloud gTTS/Polly providers were removed. Courses with no native Piper
   voice have audio off. Credits: [VOICES-CREDITS.md](VOICES-CREDITS.md).
-- **Bug fixes:** lessons render client-side only (a prerendered shuffle made every picture card show the wrong
-  picture after hydration); picture cards for courses without images render as text cards instead of crashing;
-  course JSON is loaded through `import.meta.glob` (the template-string `import()` 404'd in a build); the
-  leftover `svelte-i18n` import that broke the build is gone.
 - No analytics, no account, nothing leaves the browser.
+
+Tests: `cd apps/web && npm test` (vitest: scheduler, plan, session builder, placement, answer checking).
 
 ## Building
 

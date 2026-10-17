@@ -1,64 +1,19 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
-	import NavBar from 'components/NavBar.svelte';
-	import Footer from 'components/Footer.svelte';
-
-	// TODO make privacy.md a static import and render it properly
-
-	let content = '';
-
-	onMount(async () => {
-		try {
-			const response = await fetch('/imprint.md');
-			if (!response.ok) {
-				throw new Error(`HTTP error! status: ${response.status}`);
-			}
-			content = await response.text();
-		} catch (error) {
-			console.error("Error couldn't load imprint:", error);
-			content = 'Error: Imprint was not loaded.';
-		}
-	});
+	import TopBar from '$lib/ui/TopBar.svelte';
+	let { data } = $props();
 </script>
 
-<NavBar />
+<svelte:head><title>About · LibreLingo</title></svelte:head>
 
-<section class="page-section">
-	<div class="page-container">
-		<div class="page-heading">
-			<h1>About</h1>
-		</div>
-		<div class="page-content">
-			<pre>{content}</pre>
-		</div>
-	</div>
-</section>
+<TopBar />
+<main class="wrap page">
+	<article class="card prose">{@html data.html}</article>
+</main>
 
-<Footer />
-
-<style type="text/scss">
-	.page-section {
-		padding: 2.5rem 0;
-		border-radius: 20px;
-		border: 1px solid rgba(134, 77, 203, 0.06);
-		background: rgba(255, 255, 255, 0.9);
-		max-width: 1100px;
-		margin: 2rem auto;
-		box-shadow: 0 20px 45px rgba(75, 40, 120, 0.06);
-	}
-
-	.page-container {
-		padding: 1.25rem 1.5rem;
-	}
-
-	.page-heading h1 {
-		margin: 0 0 0.75rem 0;
-		color: #3a1f71;
-	}
-
-	.page-content pre {
-		white-space: pre-wrap;
-		word-break: break-word;
-		color: #4b3a5d;
+<style>
+	.page {
+		padding-top: 20px;
+		padding-bottom: 40px;
+		max-width: 820px;
 	}
 </style>

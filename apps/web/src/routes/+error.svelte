@@ -1,30 +1,19 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import TopBar from '$lib/ui/TopBar.svelte';
 </script>
 
-<svelte:head>
-	<title>{page.status}</title>
-</svelte:head>
+<svelte:head><title>{page.status} · LibreLingo</title></svelte:head>
 
-<main>
-	<h1>{page.status}</h1>
-
-	<p>{page.error?.message ?? 'An unexpected error occurred.'}</p>
+<TopBar />
+<main class="wrap err">
+	<h1>{page.status === 404 ? 'Page not found' : 'Something went wrong'}</h1>
+	<p class="muted">{page.error?.message ?? ''}</p>
+	<a class="btn primary" href="/">All courses</a>
 </main>
 
 <style>
-	h1 {
-		font-size: 2.8em;
-		font-weight: 700;
-	}
-
-	main {
-		text-align: center;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
+	.err {
+		padding-top: 40px;
 	}
 </style>
