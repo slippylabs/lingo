@@ -78,6 +78,36 @@
   ],
   "dutch-from-english": [
     {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "vrouwen is plural",
+      "old": "  - Phrase: zeven mannen en acht vrouwen.\n    Translation: seven men and eight woman.\n",
+      "new": "  - Phrase: Zeven mannen en acht vrouwen.\n    Translation: Seven men and eight women.\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "vrouwen is plural",
+      "old": "    - vrouwen: woman\n",
+      "new": "    - vrouwen: women\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "vrouwen is plural",
+      "old": "    - woman: vrouwen\n",
+      "new": "    - women: vrouwen\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "typo",
+      "old": "    - aeieren: eggs\n",
+      "new": ""
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "typo",
+      "old": "    - phone: telefon\n",
+      "new": "    - phone: telefoon\n"
+    },
+    {
       "file": "7_Work/skills/7_Work_5.yaml",
       "why": "'Ik haal je er doorheen' means 'I'll get you through it'; switchboard Dutch is 'Ik verbind u door'",
       "old": "  - Phrase: Ik haal je er doorheen.\n",
