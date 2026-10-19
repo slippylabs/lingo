@@ -1,21 +1,26 @@
-## Verbs change with the person
+In this lesson: **I, you, he, she**, and how verbs change for each of them.
 
-English says *I eat, you eat, he eats*. Spanish changes the ending for every person, so the ending tells you who is doing it.
+## The ending tells you who
 
-| | comer (eat) | beber (drink) | ser (be) |
+In English only "he eats" gets an extra letter. Spanish gives a different ending for each person:
+
+| | eat | drink | be |
 |---|---|---|---|
-| I — **yo** | **como** | **bebo** | **soy** |
-| you — **tú** | **comes** | **bebes** | **eres** |
-| he — **él**, she — **ella** | **come** | **bebe** | **es** |
+| I (**yo**) | **como** | **bebo** | **soy** |
+| you (**tú**) | **comes** | **bebes** | **eres** |
+| he (**él**) / she (**ella**) | **come** | **bebe** | **es** |
 
-- **Yo como pan** — I eat bread · **Tú comes pasta** — You eat pasta
-- **Yo bebo cerveza** — I drink beer · **Tú bebes leche** — You drink milk
-- **Yo soy un gato** — I am a cat · **Tú eres grande** — You are big
+So the pattern is **‑o** for I, **‑es** for you, and **‑e** for he or she.
 
-## You can drop the pronoun
+- **Yo como pan** — I eat bread
+- **Tú bebes leche** — You drink milk
+- **Ella come pizza** — She eats pizza
+- **Yo soy un gato** — I am a cat
+- **Tú eres grande** — You are big
 
-Because the ending already says who it is, Spanish speakers often leave out **yo**, **tú**: *Como pan* = I eat bread. This course writes them so you can see the pattern.
+## Small marks matter
 
-**Accents matter:** **él** (he) has an accent; **el** (the) doesn't. **tú** (you) has one; *tu* without it means "your".
+- **él** = he, **el** = the
+- **tú** = you, *tu* = your
 
-**Common mistake:** *ser* is irregular — it's **soy, eres, es**, nothing like the regular pattern.
+> **Watch out:** the verb for "be" doesn't follow the pattern. It's **soy, eres, es**. Just memorise it.

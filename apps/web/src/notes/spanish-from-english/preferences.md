@@ -1,15 +1,15 @@
-## Saying what you like: gustar
+In this lesson: saying what you **like** and **don't like**.
 
-Spanish says "it pleases me" instead of "I like it":
+## "I like" = me gusta
 
-- **Me gusta la pasta** — I like pasta (literally "pasta pleases me")
+- **Me gusta la pasta** — I like pasta
 - **¿Te gusta el café?** — Do you like coffee?
 
-**me** = to me, **te** = to you. The thing you like keeps its article: **Me gusta la cerveza**, not *Me gusta cerveza*.
+**me** = me, **te** = you. Keep the **el / la** before the food or drink: **Me gusta la cerveza**.
 
 ## Saying no
 
-Put **no** in front of everything else:
+Put **no** at the very start:
 
 - **No me gusta el vino** — I don't like wine
 - **¿No te gusta el pan?** — Don't you like bread?
@@ -18,6 +18,5 @@ Put **no** in front of everything else:
 ## Ordering
 
 - **¡Una cerveza, por favor!** — A beer, please!
-- **un café** — a coffee
 
-**Common mistake:** *Yo gusto el vino* means nothing in Spanish — always **me gusta**.
+> **Watch out:** "I like" is always **me gusta**. *Yo gusto* is wrong. (Literally, Spanish says "it pleases me".)

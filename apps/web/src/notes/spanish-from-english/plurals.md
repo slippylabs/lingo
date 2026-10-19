@@ -1,21 +1,27 @@
-## Making plurals
+In this lesson: talking about **more than one** thing.
 
-- A noun ending in a vowel adds **-s**: **gato → gatos**, **playa → playas**, **fresas**, **gafas**
-- A noun ending in a consonant adds **-es** (you'll see this with **ratón → ratones** later)
+## Add -s
 
-The article goes plural too: **el → los**, **la → las**:
+To make a word plural, add **‑s**:
 
-- **los gatos** — the cats · **las playas** — the beaches
-- **los médicos** — the doctors · **las fresas** — the strawberries
+- **gato** → **gatos** (cats)
+- **playa** → **playas** (beaches)
 
-## Adjectives agree
+"The" becomes plural too: **el** → **los**, **la** → **las**:
 
-Describing words match the noun's gender and number, and usually come **after** it:
+- **los gatos** — the cats
+- **las playas** — the beaches
+- **los médicos** — the doctors
 
-- **Gatos verdes** — green cats
-- **Playas bonitas** — beautiful beaches
+## Describing words
+
+Describing words go **after** the noun, and they add **‑s** as well:
+
+- **Gatos verdes** — Green cats
+- **Playas bonitas** — Beautiful beaches
+
+"Are" is **son**:
+
 - **Las camisas son rojas** — The shirts are red
 
-"Are" is **son**: **Los gatos son estudiantes** — The cats are students.
-
-**Common mistake:** **gafas** (glasses) is always plural in Spanish, so it's **Las gafas son grandes**, with **son**.
+> **Watch out:** **gafas** (glasses) is always plural, so it's **Las gafas son grandes**, with **son**.

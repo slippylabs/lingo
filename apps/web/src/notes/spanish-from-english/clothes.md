@@ -1,28 +1,34 @@
-## Plural articles: los, las
+In this lesson: **clothes**, the words for **"the"** with more than one thing, and **shopping phrases**.
 
-"The" has four forms in Spanish — it agrees with the noun in gender *and* number:
+## "The" with more than one thing
 
-| | singular | plural |
+You already know **el** and **la**. When there's more than one thing, they become **los** and **las**:
+
+| | one | more than one |
 |---|---|---|
 | masculine | **el** | **los** |
 | feminine | **la** | **las** |
 
-- **el vestido** — the dress · **los zapatos** — the shoes · **los calcetines** — the socks
-- **la camiseta** — the t-shirt · **la falda** — the skirt
+- **el vestido** — the dress
+- **los zapatos** — the shoes
+- **la falda** — the skirt
 
-"A" is **un** (masculine) or **una** (feminine): **un gorro** — a hat, **una camisa** — a shirt.
+"A" works the same way. It's **un** for masculine words and **una** for feminine ones:
 
-## Is / are
+- **un gorro** — a hat
+- **una camisa** — a shirt
+
+## "Is" and "are"
 
 - **es** — is: **El vestido es bonito** — The dress is beautiful
 - **son** — are: **Los zapatos son grandes** — The shoes are big
 
-A describing word matches the noun it describes: **La falda es pequeña** (feminine), **El vestido es bonito** (masculine).
+The describing word changes to match: **La falda es pequeña** (feminine, so it ends in **‑a**).
 
-## In a shop
+## Shopping
 
 - **¿Cuánto cuesta?** — How much is it?
 - **¡Me gusta!** — I like it!
 - **Gracias** — Thank you
 
-Spanish questions and exclamations open with an upside-down mark: *¿…?* and *¡…!*.
+> **Watch out:** Spanish puts an upside-down mark at the **start** of a question or exclamation, as in **¿Cuánto cuesta?** and **¡Me gusta!**

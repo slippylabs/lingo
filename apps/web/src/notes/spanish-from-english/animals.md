@@ -1,23 +1,30 @@
-## Every noun has a gender
+In this lesson: **animal names**, and how to say **"it's a …"**.
 
-In Spanish every noun is either **masculine** or **feminine**, and the word for "the" or "a" changes with it. All the animals in this lesson are masculine:
+## "The" and "a"
 
-| | the | a |
-|---|---|---|
-| masculine | **el** | **un** |
+Every animal in this lesson uses the same two little words:
 
-- **el perro** — the dog · **un perro** — a dog
-- **el gato** — the cat · **un león** — a lion
+- **el** = the
+- **un** = a
 
-Learn each noun *with* its article (**el gato**, not just *gato*): it's the easiest way to remember its gender.
+Examples:
 
-## "Is" = es
+- **el perro** — the dog
+- **un perro** — a dog
+- **el gato** — the cat
+- **un león** — a lion
 
-**es** means "is" (and "it is"). Spanish usually drops "it":
+Tip: learn each animal together with **el**, as in **el gato** rather than just *gato*. You'll see why in the next lesson.
+
+## "It's a …"
+
+**es** means "is". Spanish leaves out the word "it", so **es** alone can mean "it's":
 
 - **Es un caballo** — It's a horse
 - **Max es un perro** — Max is a dog
 
-**y** means "and": **Un pato y un caballo** — a duck and a horse.
+**y** means "and":
 
-**Common mistake:** writing *el* in a sentence that needs "a": "It's a horse" is **Es un caballo**, not *Es el caballo*.
+- **Un pato y un caballo** — A duck and a horse
+
+> **Watch out:** "It's **a** horse" uses **un**: **Es un caballo**. *Es el caballo* would mean "It's **the** horse".

@@ -1,22 +1,20 @@
-## More nouns, more genders
+In this lesson: **nature words** and **"let's go to …"**.
 
-Keep learning each noun with **el / la** or **un / una**:
+## Keep learning el / la
 
-- masculine: **el cielo**, **el sol**, **el mar**, **un río**, **un lago**
-- feminine: **la montaña**, **la playa**
+Remember each word together with its **el** or **la**:
 
-## a + el = al
+- **el cielo** — the sky
+- **el sol** — the sun
+- **el mar** — the sea
+- **la montaña** — the mountain
+- **la playa** — the beach
 
-When **a** ("to") meets **el**, they merge into **al**. With **la** nothing changes:
+## Let's go!
 
-- **¡Vamos a la playa!** — Let's go to the beach!
-- **Nosotras vamos al parque** — We're going to the park (you'll meet this later)
-
-**¡Vamos!** on its own means "Let's go!".
-
-## Useful phrases
-
+- **¡Vamos!** — Let's go!
+- **¡Vamos a la playa!** — Let's go to the beach! (**a** means "to")
 - **¡Buen viaje!** — Have a good trip!
 - **¿Mar o montaña?** — Sea or mountain? (**o** means "or")
 
-**Common mistake:** *a el* is never written — it's always **al**.
+> **Watch out:** when **a** ("to") comes right before **el**, the two words join into **al**. You never write *a el*.

@@ -282,6 +282,29 @@ input[type='search']:focus {
 	font-size: 1rem;
 	margin-top: 1em;
 }
+.prose th {
+	background: var(--surface-2);
+}
+.prose li {
+	margin: 4px 0;
+}
+/* A note may open with a one-line "In this lesson" summary. */
+.prose > p:first-child {
+	font-size: 1.05rem;
+	padding-bottom: 10px;
+	border-bottom: 1px solid var(--line);
+}
+/* "Watch out" tips are blockquotes. */
+.prose blockquote {
+	margin: 1.2em 0 0;
+	padding: 10px 14px;
+	background: var(--warn-soft);
+	border-left: 4px solid var(--warn);
+	border-radius: var(--radius-s);
+}
+.prose blockquote p {
+	margin: 0;
+}
 .prose code {
 	background: var(--surface-2);
 	padding: 0 4px;

@@ -1,29 +1,31 @@
-## Two verbs for "to be"
+In this lesson: Spanish has **two verbs for "to be"**.
 
-Spanish has two verbs for "be", and choosing the right one changes the meaning.
+## ser: what someone or something **is**
 
-**ser** — what something *is*: identity, job, character
+Use **ser** for who someone is, their job, or what they're like:
 
 - **Yo soy un estudiante** — I am a student
 - **Ella es enfermera** — She is a nurse
 
-**estar** — where something is, or how it is *right now*
+## estar: **where** it is, or **how** it is right now
 
 - **Yo estoy en la escuela** — I am at school
-- **Ella está enferma** — She's ill
+- **Ella está enferma** — She is ill
 - **El gato está limpio** — The cat is clean
+
+## The forms
 
 | | ser | estar |
 |---|---|---|
 | I | **soy** | **estoy** |
-| he/she | **es** | **está** |
+| he / she | **es** | **está** |
 | we | **somos** | **estamos** |
 | you all | **sois** | **estáis** |
 | they | **son** | **están** |
 
-## Same word, different meaning
+## The same word can mean two things
 
-- **Ellos son listos** — They are smart (character → *ser*)
-- **Ellos están listos** — They are ready (state right now → *estar*)
+- **Ellos son listos** — They are smart (what they're like)
+- **Ellos están listos** — They are ready (right now)
 
-A quick test: if it's *where* or *how someone feels right now*, use **estar**.
+> **Quick test:** is it about **where** something is, or how it is **right now**? Use **estar**. Otherwise use **ser**.

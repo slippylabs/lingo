@@ -1,24 +1,24 @@
-## "I am doing": estar + -ando / -iendo
+In this lesson: saying what's happening **right now**, as in "I am eating".
 
-To say what is happening right now, use **estar** plus the "-ing" form:
+## estar + the "-ing" word
 
-- **-ar** verbs → **-ando**: cocinar → **cocinando**, jugar → **jugando**, nadar → **nadando**
-- **-er / -ir** verbs → **-iendo**: comer → **comiendo**, hacer → **haciendo**, escribir → **escribiendo**
+"I am eating" is **estar** plus a verb with a new ending. That ending works like English "-ing":
 
-| | estar | |
+- verbs ending in **‑ar** take **‑ando**: **cocinar** → **cocinando** (cooking)
+- verbs ending in **‑er** or **‑ir** take **‑iendo**: **comer** → **comiendo** (eating), **escribir** → **escribiendo** (writing)
+
+| | estar | example |
 |---|---|---|
-| I | **estoy** | **Yo estoy cantando una canción** — I am singing a song |
+| I | **estoy** | **Yo estoy cantando** — I am singing |
 | you | **estás** | **¿Estás escuchando?** — Are you listening? |
-| he/she | **está** | **Él está comiendo chocolate** — He is eating chocolate |
-| we | **estamos** | **Nosotros estamos cocinando la cena** — We are cooking dinner |
+| he / she | **está** | **Él está comiendo** — He is eating |
+| we | **estamos** | **Estamos cocinando** — We are cooking |
 | they | **están** | **Ellos están jugando** — They are playing |
 
-## Going somewhere: ir
+## "Going" is different
 
-"Going to a place" uses *ir*, not estar: **Nosotras vamos al parque** — We are going to the park.
+For "going somewhere", use **vamos** (from **ir**, "to go"):
 
-## a before a person or animal
+- **Nosotras vamos al parque** — We are going to the park
 
-**El pato está abrazando al gato** — The duck is hugging the cat. When the thing being hugged, seen, etc. is a person or a pet, Spanish puts **a** before it (and *a + el = al*).
-
-**Common mistake:** using *ser* here — it's always **estar**: **estoy cantando**, never *soy cantando*.
+> **Watch out:** always use **estar** here: **estoy cantando**, never *soy cantando*.

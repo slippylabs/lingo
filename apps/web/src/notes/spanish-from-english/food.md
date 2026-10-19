@@ -1,28 +1,32 @@
-## Feminine nouns: la
+In this lesson: **food and drink**, **eating and drinking**, and **please**.
 
-Last lesson's animals were masculine (**el perro**). Many nouns are **feminine** and take **la** ("the") or **una** ("a"):
+## Spanish has two words for "the"
 
-- **la leche** — the milk · **la pasta** — the pasta · **la pareja** — the couple
-- but **el pan** — the bread (masculine)
+In Spanish every noun (a word for a thing) is either **masculine** or **feminine**. These are just labels, like two teams. They decide which word for "the" you use:
 
-A noun ending in **-a** is *usually* feminine; one ending in *-o* is usually masculine. Words ending in **-e** (**leche**) can be either, so learn them with their article.
+- masculine nouns use **el**: **el pan** — the bread
+- feminine nouns use **la**: **la leche** — the milk, **la pasta** — the pasta
+
+A rough guide: words ending in **‑o** are usually masculine and words ending in **‑a** are usually feminine. Other words, such as **leche** and **pan**, could be either, so learn them with their **el** or **la**.
 
 ## Eating and drinking
 
-The verb changes with who is doing it:
+The verb's ending changes depending on who is doing it:
 
-| | to eat | to drink |
-|---|---|---|
-| I | **como** | — |
-| he / she / José | **come** | **bebe** |
+- **como** — I eat
+- **come** — he / she eats
+- **bebe** — he / she drinks
+
+Examples:
 
 - **Yo como pasta** — I eat pasta
 - **José come pan** — José eats bread
 - **Cecilia bebe agua** — Cecilia drinks water
 
-## Polite phrases
+## Please
 
-- **por favor** — please: **Pan, por favor** — Bread, please
+- **por favor** — please
+- **Pan, por favor** — Bread, please
 - **Buen provecho** — Enjoy your meal (said before eating)
 
-**Common mistake:** "the couple" is **la pareja** — feminine, even when the couple is two men.
+> **Watch out:** "the couple" is **la pareja**. It always uses **la**, even when the couple are two men, because the *word* is feminine.

@@ -1,22 +1,22 @@
-## Greetings by time of day
+In this lesson: **hello, goodbye**, and **introducing yourself**.
 
-- **¡Buenos días!** — Good morning (until lunch)
-- **¡Buenas tardes!** — Good afternoon (until it gets dark)
-- **¡Buenas noches!** — Good evening / good night
+## Saying hello
 
-**días** is masculine (*buenos*); **tardes** and **noches** are feminine (*buenas*).
+- **¡Buenos días!** — Good morning
+- **¡Buenas tardes!** — Good afternoon
+- **¡Buenas noches!** — Good evening / Good night
 
 ## Introducing yourself
 
-- **Yo me llamo José** — My name is José (literally "I call myself José")
-- **¿Cómo te llamas?** — What's your name?
+- **Yo me llamo José** — My name is José
 - **Buenos días, yo soy Cecilia.** — Good morning, I'm Cecilia.
+- **¿Cómo te llamas?** — What's your name?
 - **Mucho gusto** — Nice to meet you
 
-## How's it going?
+## Chatting
 
 - **¿Qué tal?** — How are you?
 - **¿Qué pasa?** — What's up? (casual)
 - **¡Hasta luego!** — See you later!
 
-**Common mistake:** *Buenos noches* — it's **buenas noches**, because *noche* is feminine.
+> **Watch out:** it's **buenos** días but **buenas** tardes and **buenas** noches. *días* is masculine; *tardes* and *noches* are feminine.

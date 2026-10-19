@@ -9,9 +9,9 @@
 
 <main class="wrap notes">
 	<p class="muted small"><a href={`/course/${data.course}`}>Course</a> › Notes</p>
-	<article class="card prose" lang="en">
+	<article class="card" lang="en">
 		<p class="pill brand">Notes: {data.skill.title}</p>
-		{@html data.html}
+		<div class="prose">{@html data.html}</div>
 	</article>
 	<div class="row">
 		<a class="btn primary big" href={`/course/${data.course}/learn?mode=lesson&skill=${data.skill.slug}`}>Practise {data.skill.title}</a>

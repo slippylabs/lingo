@@ -1,27 +1,27 @@
-## Adjectives match the noun
+In this lesson: **describing words** such as big, small, tall and old.
 
-A describing word changes its ending to match who or what it describes:
+## Describing words change their ending
 
-| | masculine | feminine |
+A describing word changes to match the person or thing it describes:
+
+| | one | more than one |
 |---|---|---|
-| one | **alto**, **viejo**, **pequeño** | **alta**, **vieja** |
-| several | **pequeños** | — |
+| a man / masculine word | **pequeño** | **pequeños** |
+| a woman / feminine word | **pequeña** | **pequeñas** |
 
-- **Max es alto** — Max is tall · **Cecilia es alta** — Cecilia is tall
-- **Él es viejo** — He is old · **Ella es vieja** — She is old
-- **Ellos son pequeños** — They're small
+- **Max es alto** — Max is tall
+- **Cecilia es alta** — Cecilia is tall
+- **Los gatos son pequeños** — The cats are small
 
-Adjectives ending in **-e** are the same for both genders; they only add **-s** in the plural:
+Words ending in **‑e** don't change for a man or a woman. They only add **‑s** for more than one:
 
-- **Yo soy grande** — I am big · **Ella es grande** — She's big
-- **Nosotros somos grandes** — We're big
+- **Ella es grande** — She is big
+- **Nosotros somos grandes** — We are big
 
-## Not
+## Saying "not"
 
-Put **no** straight before the verb: **Max no es bajo** — Max is not short.
+Put **no** right before the verb:
 
-## Adjectives as nouns
+- **Max no es bajo** — Max is not short
 
-**Los viejos comen carne** — The old ones eat meat. Spanish can drop the noun and keep the adjective.
-
-**Common mistake:** **ratón** loses its accent in the plural: **ratones**.
+> **Watch out:** **ratón** (mouse) loses its accent in the plural: **ratones**.
