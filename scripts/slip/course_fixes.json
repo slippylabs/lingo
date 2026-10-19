@@ -2392,6 +2392,30 @@
       "why": "wanneer = when; no 'want'",
       "old": "  - Phrase: Wanneer ga je?\n    Translation: Where do you want to go?\n",
       "new": "  - Phrase: Wanneer ga je?\n    Translation: When are you going?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "Dutch and English capitalise language names",
+      "old": "  - Phrase: frans\n    Translation: french\n\n  - Phrase: duits\n    Translation: german\n\n  - Phrase: engels\n    Translation: english\n",
+      "new": "  - Phrase: Frans\n    Translation: French\n\n  - Phrase: Duits\n    Translation: German\n\n  - Phrase: Engels\n    Translation: English\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "capitalised language names",
+      "old": "    - Frans: french\n",
+      "new": "    - Frans: French\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "capitalised language names",
+      "old": "    - duits: german\n    - engels:  english\n",
+      "new": "    - Duits: German\n    - Engels: English\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "capitalised language names",
+      "old": "    - french:  frans\n",
+      "new": "    - French: Frans\n"
     }
   ]
 }
