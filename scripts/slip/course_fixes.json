@@ -74,6 +74,1050 @@
       "why": "nuageux is cloudy",
       "old": "    - snowy: nuageux\n",
       "new": "    - cloudy: nuageux\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello.yaml",
+      "why": "Bonjour is the everyday 'hello'; learners will type it",
+      "old": "  - Phrase: Bonjour\n    Translation: Good Morning\n",
+      "new": "  - Phrase: Bonjour\n    Translation: Good Morning\n    Alternative translations:\n      - Hello\n      - Good day\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "Bonjour is the everyday 'hello'; learners will type it",
+      "old": "  - Phrase: Bonjour\n    Translation: Good Morning\n",
+      "new": "  - Phrase: Bonjour\n    Translation: Good Morning\n    Alternative translations:\n      - Hello\n      - Good day\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_4.yaml",
+      "why": "Bonjour is the everyday 'hello'; learners will type it",
+      "old": "  - Phrase: Bonjour\n    Translation: Good Morning\n",
+      "new": "  - Phrase: Bonjour\n    Translation: Good Morning\n    Alternative translations:\n      - Hello\n      - Good day\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_2.yaml",
+      "why": "typo in hint",
+      "old": "    - Cecille: Ceclille (nom)\n",
+      "new": "    - Cecille: Cecille (nom)\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "venir = to come",
+      "old": "    - viens: live\n",
+      "new": "    - viens: come\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "de = from here (Je viens de Paris)",
+      "old": "    - de: in\n",
+      "new": "    - de: from\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "aller = to go; ça va = how are you",
+      "old": "    - va: runs\n",
+      "new": "    - va: goes\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "vous = you (your = votre)",
+      "old": "    - vous: your/yours\n",
+      "new": "    - vous: you\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "s'il vous plaît = literally 'if it pleases you'",
+      "old": "    - s'il: please\n",
+      "new": "    - s'il: if it\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "see s'il",
+      "old": "    - plaît: please\n",
+      "new": "    - plaît: pleases\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "viens means 'come'; 'live' (habite) is defined in Salut 1",
+      "old": "    - live: viens\n",
+      "new": ""
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "de is not 'in'; 'in' (à) is defined in Salut 1",
+      "old": "    - in: de\n",
+      "new": ""
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "aller = to go",
+      "old": "    - runs: va\n",
+      "new": "    - goes: va\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "how = comment (comme = like/as)",
+      "old": "    - how: comme\n",
+      "new": "    - how: comment\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "est is 'is'; 'How are you?' is « Ça va ? »",
+      "old": "    - are: est\n",
+      "new": "    - are: va (as in « Ça va ? »)\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_4.yaml",
+      "why": "regarder = to watch; see = voir",
+      "old": "    - see: regarder\n",
+      "new": "    - see: voir (À demain = see you tomorrow)\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "phrase and translation were swapped and misspelled",
+      "old": "  - Phrase: daugther\n    Translation: fille\n",
+      "new": "  - Phrase: fille\n    Translation: daughter\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "the natural English",
+      "old": "  - Phrase: Jaques est le frère de Cecille.\n    Translation: Jaques is the brother of Cecille.\n",
+      "new": "  - Phrase: Jaques est le frère de Cecille.\n    Translation: Jaques is the brother of Cecille.\n    Alternative translations:\n      - Jaques is Cecille's brother.\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "US spelling",
+      "old": "  - Phrase: Maman\n    Translation: Mum\n",
+      "new": "  - Phrase: Maman\n    Translation: Mum\n    Alternative translations:\n      - Mom\n      - Mummy\n      - Mommy\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "typo; fille is both",
+      "old": "    - fille: daugther\n",
+      "new": "    - fille: daughter / girl\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "typo",
+      "old": "    - daugther: fille\n",
+      "new": "    - daughter: fille\n"
+    },
+    {
+      "file": "2_Family/skills/Family_2.yaml",
+      "why": "before un/une/mon + noun French uses c'est, not il est",
+      "old": "  - Phrase: Il est un enfant.\n    Translation: He is a child.\n",
+      "new": "  - Phrase: C'est un enfant.\n    Translation: He is a child.\n    Alternative translations:\n      - It's a child.\n      - He's a child.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_2.yaml",
+      "why": "c'est + possessive + noun, not il est",
+      "old": "  - Phrase: Il est mon père.\n    Translation: He is my father.\n",
+      "new": "  - Phrase: C'est mon père.\n    Translation: He is my father.\n    Alternative translations:\n      - He's my father.\n      - That's my father.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_2.yaml",
+      "why": "c'est + possessive + noun, not il est",
+      "old": "  - Phrase:  Il est mon mari.\n    Translation: He is my husband.\n",
+      "new": "  - Phrase:  C'est mon mari.\n    Translation: He is my husband.\n    Alternative translations:\n      - He's my husband.\n      - That's my husband.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_2.yaml",
+      "why": "the article is in the French",
+      "old": "  - Phrase: Le mari\n    Translation: husband\n",
+      "new": "  - Phrase: Le mari\n    Translation: husband\n    Alternative translations:\n      - the husband\n"
+    },
+    {
+      "file": "2_Family/skills/Family_2.yaml",
+      "why": "French 'a' is 'has' (avoir); 'a/an' is un/une",
+      "old": "    - a: a/an \n",
+      "new": "    - a: has\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "learners can't type '(e)'; accept both genders",
+      "old": "  - Phrase: cousin(e)\n    Translation: cousin\n",
+      "new": "  - Phrase: cousin\n    Alternative versions:\n      - cousine\n    Translation: cousin\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "spelling: grands-parents",
+      "old": "  - Phrase: les grand-parents\n",
+      "new": "  - Phrase: les grands-parents\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "typos in both languages",
+      "old": "  - Phrase: la patite-fille\n    Translation: granddaugther\n",
+      "new": "  - Phrase: la petite-fille\n    Translation: granddaughter\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "'only child' is the English",
+      "old": "  - Phrase: Je suis fille unique.\n    Translation: I am a single child.\n",
+      "new": "  - Phrase: Je suis fille unique.\n    Translation: I am an only child.\n    Alternative translations:\n      - I'm an only child.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "c'est + possessive + noun",
+      "old": "  - Phrase: Il est mon petit-fils.\n    Translation: He is my grandson.\n",
+      "new": "  - Phrase: C'est mon petit-fils.\n    Translation: He is my grandson.\n    Alternative translations:\n      - He's my grandson.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "fille unique = only child",
+      "old": "    - unique: single\n",
+      "new": "    - unique: only\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "spelling",
+      "old": "    - grand-parents: grandparents\n",
+      "new": "    - grands-parents: grandparents\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "only child",
+      "old": "    - single: unique\n",
+      "new": "    - only: unique\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "spelling",
+      "old": "    - grandparents: grand-parents\n",
+      "new": "    - grandparents: grands-parents\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "'Also accepted' only works on Words; phrases need 'Alternative translations', so these were silently ignored",
+      "old": "    Also accepted:\n     - stepmother\n",
+      "new": "    Alternative translations:\n      - stepmother\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "same: silently ignored",
+      "old": "    Also accepted:\n     - stepbrother     \n",
+      "new": "    Alternative translations:\n      - stepbrother\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "same: silently ignored",
+      "old": "    Also accepted:\n     - stepsister\n",
+      "new": "    Alternative translations:\n      - stepsister\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "same: silently ignored",
+      "old": "    Also accepted:\n     - son-in-law\n",
+      "new": "    Alternative translations:\n      - son-in-law\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "typos + silently ignored alternative",
+      "old": "    Translation: stepdaugther\n    Also accepted:\n     - daugther-in-law\n",
+      "new": "    Translation: stepdaughter\n    Alternative translations:\n      - daughter-in-law\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "c'est + possessive + noun",
+      "old": "  - Phrase: Il est mon beau-frère\n",
+      "new": "  - Phrase: C'est mon beau-frère\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "typo",
+      "old": "    - belle-fille: stepdaugther\n",
+      "new": "    - belle-fille: stepdaughter / daughter-in-law\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "typo",
+      "old": "    - stepdaugther: belle-fille\n",
+      "new": "    - stepdaughter: belle-fille\n"
+    },
+    {
+      "file": "2_Family/skills/Family_5.yaml",
+      "why": "French 'a' is 'has'",
+      "old": "    - a: a/an \n",
+      "new": "    - a: has\n"
+    },
+    {
+      "file": "2_Family/skills/Family_5.yaml",
+      "why": "typo",
+      "old": "    - marraine: godmother\n    - filleule: goddaugther\n",
+      "new": "    - marraine: godmother\n    - filleule: goddaughter\n"
+    },
+    {
+      "file": "2_Family/skills/Family_5.yaml",
+      "why": "'is' is est (es = you are)",
+      "old": "    - is: es\n",
+      "new": "    - is: est\n"
+    },
+    {
+      "file": "2_Family/skills/Family_5.yaml",
+      "why": "feminine is benjamine",
+      "old": "    - youngest: le benjamin (masculin) / la benjamin (feminin)\n",
+      "new": "    - youngest: le benjamin (masculin) / la benjamine (feminin)\n"
+    },
+    {
+      "file": "2_Family/skills/Family_5.yaml",
+      "why": "English section had the French word as key, misspelled",
+      "old": "    - godmother: marraine\n    - filleule: goddaugther\n",
+      "new": "    - godmother: marraine\n    - goddaughter: filleule\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "English is 'banana'",
+      "old": "  - Word: Banane\n    Translation: Banane\n",
+      "new": "  - Word: Banane\n    Translation: Banana\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "French is 'fruit du dragon'",
+      "old": "  - Word: Fruit du dragone\n",
+      "new": "  - Word: Fruit du dragon\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "typo",
+      "old": "    - dragon: dragone\n",
+      "new": "    - dragon: dragon\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "typo",
+      "old": "    - Fruit: fruite\n",
+      "new": "    - Fruit: fruit\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "'don't' is the ne … pas around the verb",
+      "old": "    - don't: n'aime\n",
+      "new": "    - don't: ne … pas\n"
+    },
+    {
+      "file": "3_Food/skills/2_Fruits.yaml",
+      "why": "French is 'carambole'",
+      "old": "  - Word: Carambola\n",
+      "new": "  - Word: Carambole\n"
+    },
+    {
+      "file": "3_Food/skills/2_Fruits.yaml",
+      "why": "des is 'some', not 'the'",
+      "old": "    - des: the \n",
+      "new": "    - des: some (plural of un/une)\n"
+    },
+    {
+      "file": "3_Food/skills/2_Fruits.yaml",
+      "why": "accent",
+      "old": "    - watermelon: pasteque\n",
+      "new": "    - watermelon: pastèque\n"
+    },
+    {
+      "file": "3_Food/skills/2_Fruits.yaml",
+      "why": "des is not 'the'; 'the: les' stays",
+      "old": "    - the: des\n",
+      "new": ""
+    },
+    {
+      "file": "3_Food/skills/3_Legumes.yaml",
+      "why": "French section had the English word as key",
+      "old": "    - J'ai: I have\n    - cucumber: concombre\n",
+      "new": "    - J'ai: I have\n    - concombre: cucumber\n"
+    },
+    {
+      "file": "3_Food/skills/3_Legumes.yaml",
+      "why": "English section had the French word as key",
+      "old": "    - concombre: cucumber\n    - carrot: carotte\n",
+      "new": "    - cucumber: concombre\n    - carrot: carotte\n"
+    },
+    {
+      "file": "3_Food/skills/3_Legumes.yaml",
+      "why": "British English",
+      "old": "  - Word: courgette\n    Translation: zucchini    \n",
+      "new": "  - Word: courgette\n    Translation: zucchini\n    Also accepted:\n      - courgette\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "word and translation were swapped",
+      "old": "  - Word: Syrup\n    Translation: Sirop\n",
+      "new": "  - Word: Sirop\n    Translation: Syrup\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "word and translation were swapped",
+      "old": "  - Word: Coffee\n    Translation: Café\n",
+      "new": "  - Word: Café\n    Translation: Coffee\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "des is 'some'",
+      "old": "    - des: the \n",
+      "new": "    - des: some (plural of un/une)\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "des is not 'the'",
+      "old": "    - the: des\n",
+      "new": ""
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "accent",
+      "old": "    - watermelon: pasteque\n",
+      "new": "    - watermelon: pastèque\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_1.yaml",
+      "why": "un is also 'a'",
+      "old": "  - Phrase: Cecille a un frère\n    Translation: Cecille has one brother\n",
+      "new": "  - Phrase: Cecille a un frère\n    Translation: Cecille has one brother\n    Alternative translations:\n      - Cecille has a brother\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_1.yaml",
+      "why": "natural English",
+      "old": "  - Phrase: La mère de Cecille a quatre frères.\n    Translation: The mother of Cecille has four brothers.\n",
+      "new": "  - Phrase: La mère de Cecille a quatre frères.\n    Translation: The mother of Cecille has four brothers.\n    Alternative translations:\n      - Cecille's mother has four brothers.\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_1.yaml",
+      "why": "je m'appelle = my name is",
+      "old": "  - Phrase:  Je m'appelle Cecille et je suis une fille\n    Translation: I am Cecille and I am a girl\n",
+      "new": "  - Phrase:  Je m'appelle Cecille et je suis une fille\n    Translation: My name is Cecille and I am a girl\n    Alternative translations:\n      - I am Cecille and I am a girl\n      - I'm called Cecille and I am a girl\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_1.yaml",
+      "why": "French 'a' is 'has'",
+      "old": "    - a: a/an \n",
+      "new": "    - a: has\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_1.yaml",
+      "why": "'is' is est",
+      "old": "    - is: es\n",
+      "new": "    - is: est\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_1.yaml",
+      "why": "typo; and 'years old' is 'ans'",
+      "old": "    - old: viex\n",
+      "new": "    - old: vieux (but « avoir … ans » = to be … years old)\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "French 'a' is 'has'",
+      "old": "    - a: a/an \n",
+      "new": "    - a: has\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_1.yaml",
+      "why": "phrase and translation were swapped",
+      "old": "  - Phrase: weather\n    Translation: temps\n",
+      "new": "  - Phrase: temps\n    Translation: weather\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_1.yaml",
+      "why": "natural English",
+      "old": "  - Phrase: Quel temps fait-il aujourd'hui ?\n    Translation: How is the weather today?\n",
+      "new": "  - Phrase: Quel temps fait-il aujourd'hui ?\n    Translation: How is the weather today?\n    Alternative translations:\n      - What is the weather like today?\n      - What's the weather like today?\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "phrase and translation were swapped",
+      "old": "  - Phrase: weather\n    Translation: temps\n",
+      "new": "  - Phrase: temps\n    Translation: weather\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "'in the sky'",
+      "old": "    Translation: There are a few clouds at the sky.\n",
+      "new": "    Translation: There are a few clouds in the sky.\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "dans = in",
+      "old": "    - dans: at\n",
+      "new": "    - dans: in\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "dans = in",
+      "old": "    - at: dans\n",
+      "new": "    - in: dans\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "il is 'it', not 'it's'",
+      "old": "    - Il: he or it's\n",
+      "new": "    - Il: he / it\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "natural English",
+      "old": "  - Phrase: Il fait beau.\n    Translation: It's nice.\n",
+      "new": "  - Phrase: Il fait beau.\n    Translation: It's nice.\n    Alternative translations:\n      - The weather is nice.\n      - It's nice weather.\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_3.yaml",
+      "why": "venteux is the usual adjective for windy weather",
+      "old": "  - Phrase: venté\n    Translation: windy\n",
+      "new": "  - Phrase: venté\n    Alternative versions:\n      - venteux\n    Translation: windy\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_4.yaml",
+      "why": "US English",
+      "old": "  - Phrase: L'automne\n    Translation: autumn\n",
+      "new": "  - Phrase: L'automne\n    Translation: autumn\n    Alternative translations:\n      - fall\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "French spelling is 'centre'",
+      "old": "  - Phrase: Je vais au center de fitness.\n",
+      "new": "  - Phrase: Je vais au centre de fitness.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "English is 'best at'",
+      "old": "  - Phrase: Je suis le meilleur en karaté.\n    Translation: I am the best in karate.\n",
+      "new": "  - Phrase: Je suis le meilleur en karaté.\n    Translation: I am the best at karate.\n    Alternative translations:\n      - I'm the best at karate.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "French spelling",
+      "old": "    - joue: play\n    - center: center\n",
+      "new": "    - joue: play\n    - centre: center\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "English hint for center; 'at' for the karate sentence",
+      "old": "    - center: center\n    - to: au\n",
+      "new": "    - center: centre\n    - at: en\n    - to: au\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "British English",
+      "old": "  - Word: football\n    Translation: soccer\n",
+      "new": "  - Word: football\n    Translation: soccer\n    Also accepted:\n      - football\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "spelling: guitare",
+      "old": "  - Word: la guitar électrique\n",
+      "new": "  - Word: la guitare électrique\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "accent",
+      "old": "  - Word: l'accordeon\n",
+      "new": "  - Word: l'accordéon\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "'Geige' is German; French is 'le violon'",
+      "old": "  - Word: le geige\n",
+      "new": "  - Word: le violon\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "spelling: guitare",
+      "old": "  - Phrase: Je joue de la guitar.\n",
+      "new": "  - Phrase: Je joue de la guitare.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "natural English",
+      "old": "  - Phrase: Je ne sais pas lire la musique.\n    Translation: I can't read music notes. \n",
+      "new": "  - Phrase: Je ne sais pas lire la musique.\n    Translation: I can't read music.\n    Alternative translations:\n      - I can't read music notes.\n      - I cannot read music.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "spelling: guitare",
+      "old": "  - Phrase: La guitar électrique est belle.\n",
+      "new": "  - Phrase: La guitare électrique est belle.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "Écosse / Scotland misspelt",
+      "old": "  - Phrase: En Èncosse, on joue de la cornemuse.\n    Translation: In Scottland they play the bagpipe.\n",
+      "new": "  - Phrase: En Écosse, on joue de la cornemuse.\n    Translation: In Scotland they play the bagpipes.\n    Alternative translations:\n      - In Scotland they play the bagpipe.\n      - In Scotland people play the bagpipes.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "trompette is feminine and has two t's",
+      "old": "  - Phrase: Il a un trompete.\n",
+      "new": "  - Phrase: Il a une trompette.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "French spelling",
+      "old": "    - Je: I\n    - guitar: guitar\n",
+      "new": "    - Je: I\n    - guitare: guitar\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "spelling",
+      "old": "    - trompete: trumpet\n",
+      "new": "    - trompette: trumpet\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "je sais = I know",
+      "old": "    - sais: knowing\n",
+      "new": "    - sais: know (how to)\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "spelling",
+      "old": "    - Èncosse: Scottland (country)\n",
+      "new": "    - Écosse: Scotland (country)\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "infinitive",
+      "old": "    - lire: reading\n",
+      "new": "    - lire: to read\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "on is the generic pronoun, not 'at'",
+      "old": "    - on: at\n",
+      "new": "    - on: one / people / they\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "typo",
+      "old": "    - blues: blues (music sytle)\n",
+      "new": "    - blues: blues (music style)\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "infinitive (J'aime jouer)",
+      "old": "    - playing: joue\n",
+      "new": "    - playing: jouer\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "spelling; hint for 'bagpipes'",
+      "old": "    - Scottland: Èncosse (country)\n",
+      "new": "    - Scotland: Écosse (country)\n    - bagpipes: cornemuse\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "phrase and translation were swapped",
+      "old": "  - Phrase: movie\n    Translation: film    \n",
+      "new": "  - Phrase: film\n    Translation: movie\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "elision: j'aime",
+      "old": "  - Phrase: Je aime les films d'horreur\n",
+      "new": "  - Phrase: J'aime les films d'horreur\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "the word is 'ringard'",
+      "old": "  - Phrase: Ce film est rigard.\n",
+      "new": "  - Phrase: Ce film est ringard.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "English word order",
+      "old": "    Translation: comedy-action movies are the best movies.\n",
+      "new": "    Translation: Action comedies are the best movies.\n    Alternative translations:\n      - Action comedies are the best films.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "spelling",
+      "old": "    - rigard: cheesy\n",
+      "new": "    - ringard: cheesy\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "hints for the corrected English",
+      "old": "    - comedy-action: comédies d'action\n",
+      "new": "    - action: d'action\n    - comedies: comédies\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "the sentence uses Peux-tu",
+      "old": "    - Could: Pourrait\n",
+      "new": "    - Could: Peux-tu (could you)\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "spelling",
+      "old": "    - cheesy: rigard\n",
+      "new": "    - cheesy: ringard\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "spelling",
+      "old": "  - Word: Radonnée\n",
+      "new": "  - Word: Randonnée\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "missing 'a'",
+      "old": "    Translation: Do you have map?\n",
+      "new": "    Translation: Do you have a map?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "carte = map",
+      "old": "    - carte: sign\n",
+      "new": "    - carte: map\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "typo",
+      "old": "    - mountain: montange\n",
+      "new": "    - mountain: montagne\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "bricolage = DIY, not plants",
+      "old": "  - Phrase: bricolage\n    Translation: plants\n",
+      "new": "  - Phrase: bricolage\n    Translation: DIY\n    Alternative translations:\n      - do-it-yourself\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "bricolage = DIY",
+      "old": "    - bricolage: plants\n",
+      "new": "    - bricolage: DIY\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "plants = plantes (also listed)",
+      "old": "    - plants: bricolage\n",
+      "new": ""
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_6.yaml",
+      "why": "aimer = like/love",
+      "old": "    Translation: I love watching dinosaurs.\n",
+      "new": "    Translation: I love watching dinosaurs.\n    Alternative translations:\n      - I like watching dinosaurs.\n      - I like looking at dinosaurs.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_6.yaml",
+      "why": "aimer = like/love",
+      "old": "    Translation: No, I love musicals.\n",
+      "new": "    Translation: No, I love musicals.\n    Alternative translations:\n      - No, I like musicals.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_6.yaml",
+      "why": "the usual meaning",
+      "old": "    Translation: Are you playing chess?\n",
+      "new": "    Translation: Are you playing chess?\n    Alternative translations:\n      - Do you play chess?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "English",
+      "old": "    Translation: Here, my credit card.\n",
+      "new": "    Translation: Here's my credit card.\n    Alternative translations:\n      - Here is my credit card.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "natural English",
+      "old": "    Translation: Can I pay cash?\n",
+      "new": "    Translation: Can I pay cash?\n    Alternative translations:\n      - Can I pay in cash?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "British English",
+      "old": "    Translation: These pants are too tight.\n",
+      "new": "    Translation: These pants are too tight.\n    Alternative translations:\n      - These trousers are too tight.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "trop = too",
+      "old": "    - trop: serré\n",
+      "new": "    - trop: too\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "'too tight' = trop",
+      "old": "    - too: aussi\n",
+      "new": "    - too: trop\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_8.yaml",
+      "why": "natural English",
+      "old": "    Translation: Can I pay cash?\n",
+      "new": "    Translation: Can I pay cash?\n    Alternative translations:\n      - Can I pay in cash?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_8.yaml",
+      "why": "British English",
+      "old": "    Translation: These pants are too tight.\n",
+      "new": "    Translation: These pants are too tight.\n    Alternative translations:\n      - These trousers are too tight.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_8.yaml",
+      "why": "ta taille de vêtements = your clothing size",
+      "old": "    Translation: What size do you have?\n",
+      "new": "    Translation: What's your clothing size?\n    Alternative translations:\n      - What size do you have?\n      - What is your clothing size?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_8.yaml",
+      "why": "ma is 'my'",
+      "old": "    - Here's: Voici ma\n",
+      "new": "    - Here's: Voici\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_9.yaml",
+      "why": "French is 'le surf'",
+      "old": "  - Word: surfing\n    Translation: surfing\n",
+      "new": "  - Word: le surf\n    Translation: surfing\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_9.yaml",
+      "why": "je vais surfer = I'm going to surf",
+      "old": "    Translation: I'm surfing with Max tomorrow.\n",
+      "new": "    Translation: I'm surfing with Max tomorrow.\n    Alternative translations:\n      - I'm going surfing with Max tomorrow.\n      - I am going to surf with Max tomorrow.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "game controllers are 'manettes'; 'commandes' are the controls",
+      "old": "  - Phrase: Les commandes du jeu sont cassées.\n    Translation: The game controllers are broken.\n",
+      "new": "  - Phrase: Les manettes de la console sont cassées.\n    Translation: The console controllers are broken.\n    Alternative translations:\n      - The controllers of the console are broken.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "matches the corrected sentence",
+      "old": "    - commandes: controllers\n",
+      "new": "    - manettes: controllers\n    - console: console\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "matches the corrected sentence",
+      "old": "    - controllers: commandes\n",
+      "new": "    - controllers: manettes\n    - console: console\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "« je m'écris » is reflexive ('I write to myself')",
+      "old": "  - Phrase: Je m'écris une liste de vocabulaire.\n",
+      "new": "  - Phrase: J'écris une liste de vocabulaire.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "matches the corrected sentence",
+      "old": "    - m'écris: I write\n",
+      "new": "    - J'écris: I write\n    - écris: write\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "spelling in both languages; English needs 'an'",
+      "old": "  - Phrase: Je suis enterpreneuer.\n    Translation: I am enterpreneur.\n",
+      "new": "  - Phrase: Je suis entrepreneur.\n    Translation: I am an entrepreneur.\n    Alternative translations:\n      - I'm an entrepreneur.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "typo; chômeurs is plural",
+      "old": "  - Phrase: chômeurs\n    Translation: unempolyed\n",
+      "new": "  - Phrase: chômeur\n    Translation: unemployed person\n    Alternative translations:\n      - unemployed\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "French section had the English word as key",
+      "old": "    - ingénieur: engineer\n    - unemployed: chômeurs\n",
+      "new": "    - ingénieur: engineer\n    - chômeur: unemployed person\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "spelling",
+      "old": "    - enterpreneuer: enterpreneur\n",
+      "new": "    - entrepreneur: entrepreneur\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "spelling; hint for 'unemployed person'",
+      "old": "    - enterpreneur: enterpreneuer\n",
+      "new": "    - entrepreneur: entrepreneur\n    - person: personne\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "matches the corrected word",
+      "old": "    - worker: travailleur\n    - unemployed: chômeurs\n",
+      "new": "    - worker: travailleur\n    - unemployed: chômeur (person), au chômage\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "English",
+      "old": "    Translation: I search an internship.\n",
+      "new": "    Translation: I'm looking for an internship.\n    Alternative translations:\n      - I am looking for an internship.\n      - I look for an internship.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "spelling: entreprise",
+      "old": "  - Phrase: Le stage en enterprise\n",
+      "new": "  - Phrase: Le stage en entreprise\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "typo",
+      "old": "    - travilleur: worker\n",
+      "new": "    - travailleur: worker\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "spelling",
+      "old": "    - enterprise: company\n",
+      "new": "    - entreprise: company\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "spelling",
+      "old": "    - company: enterprise\n",
+      "new": "    - company: entreprise\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "épuisant = exhausting",
+      "old": "    Translation: Our client is annoying.\n",
+      "new": "    Translation: Our client is exhausting.\n    Alternative translations:\n      - Our client is tiring.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "English",
+      "old": "    Translation: My colleague has a further education training tomorrow.\n",
+      "new": "    Translation: My colleague is doing a training course tomorrow.\n    Alternative translations:\n      - My colleague has a training course tomorrow.\n      - My colleague is taking a training course tomorrow.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "signer = to sign (not sing); tu vas + verb = going to",
+      "old": "    Translation: Are you singing the contract? \n",
+      "new": "    Translation: Are you going to sign the contract?\n    Alternative translations:\n      - Will you sign the contract?\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "meaning",
+      "old": "    - épuisant: annoying\n",
+      "new": "    - épuisant: exhausting\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "meaning",
+      "old": "    - signer: singing\n",
+      "new": "    - signer: to sign\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "aller = to go",
+      "old": "    - vas: you (in combination with tu)\n",
+      "new": "    - vas: are going (tu vas)\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "hints for the corrected English",
+      "old": "    - singing: signer\n",
+      "new": "    - sign: signer\n    - going: vas (tu vas)\n    - doing: suit (suivre une formation)\n    - course: formation\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "meaning",
+      "old": "    - annoying: épuisant\n",
+      "new": "    - exhausting: épuisant\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "natural English",
+      "old": "    Translation: I did it already.   \n",
+      "new": "    Translation: I did it already.\n    Alternative translations:\n      - I already did it.\n      - I have already done it.\n      - I've already done it.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "droit = straight/law; 'right away' = tout de suite",
+      "old": "    - right: droit\n",
+      "new": "    - right: tout de suite (right away)\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "l' = it, ai = have",
+      "old": "    - l'ai: the\n",
+      "new": "    - l'ai: have … it\n"
+    },
+    {
+      "file": "8_Plurals/skills/8_Plurals_1.yaml",
+      "why": "beaux = beautiful",
+      "old": "    Translation: Castles are nice.\n",
+      "new": "    Translation: Castles are beautiful.\n    Alternative translations:\n      - The castles are beautiful.\n      - Castles are nice.\n      - The castles are nice.\n"
+    },
+    {
+      "file": "8_Plurals/skills/8_Plurals_1.yaml",
+      "why": "hint for the corrected English",
+      "old": "    - nice: beaux\n",
+      "new": "    - nice: beaux\n    - beautiful: beaux\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "fléau means 'scourge'; horse is cheval",
+      "old": "  - Word: le fléau\n    Translation: the horse\n",
+      "new": "  - Word: le cheval\n    Translation: the horse\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "English plural is 'fish'; aimer = like",
+      "old": "    Translation: My brother loves fishes.\n",
+      "new": "    Translation: My brother likes fish.\n    Alternative translations:\n      - My brother loves fish.\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "fléau = scourge",
+      "old": "    - fléau: horse\n",
+      "new": "    - cheval: horse\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "English plural is 'fish'",
+      "old": "    - fishes: poissons\n",
+      "new": "    - fish: poissons\n    - likes: aime\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "fléau = scourge",
+      "old": "    - horse: fléau\n",
+      "new": "    - horse: cheval\n"
+    },
+    {
+      "file": "10_Colors/skills/10_Colors_1.yaml",
+      "why": "colour follows the noun and agrees; 'sunglasses' = lunettes de soleil",
+      "old": "  - Phrase: J'ai noir lunettes.\n",
+      "new": "  - Phrase: J'ai des lunettes de soleil noires.\n"
+    },
+    {
+      "file": "10_Colors/skills/10_Colors_1.yaml",
+      "why": "lunettes alone = glasses",
+      "old": "    - lunettes: sunglasses\n",
+      "new": "    - lunettes: glasses (lunettes de soleil = sunglasses)\n    - noires: black\n"
+    },
+    {
+      "file": "11_Grammar/skills/11_Grammar_1.yaml",
+      "why": "the usual meaning",
+      "old": "    Translation: Are you speaking french?\n",
+      "new": "    Translation: Do you speak French?\n    Alternative translations:\n      - Are you speaking French?\n      - Do you speak french?\n      - Are you speaking french?\n"
+    },
+    {
+      "file": "11_Grammar/skills/11_Grammar_1.yaml",
+      "why": "prendre du vin = have wine",
+      "old": "    Translation: Are you drinking wine?\n",
+      "new": "    Translation: Are you having wine?\n    Alternative translations:\n      - Are you drinking wine?\n      - Will you have some wine?\n      - Are you having some wine?\n"
+    },
+    {
+      "file": "11_Grammar/skills/11_Grammar_1.yaml",
+      "why": "hints for the corrected English",
+      "old": "    - drinking: boire\n",
+      "new": "    - drinking: boire\n    - having: prenez (prendre)\n    - speak: parles (parler)\n"
+    },
+    {
+      "file": "12_Daily_Life/skills/12_Daily_Life_1_Bakery.yaml",
+      "why": "English word order",
+      "old": "    Translation: How much costs this cake?\n",
+      "new": "    Translation: How much does the cake cost?\n    Alternative translations:\n      - How much is the cake?\n      - How much does this cake cost?\n"
+    },
+    {
+      "file": "12_Daily_Life/skills/12_Daily_Life_1_Bakery.yaml",
+      "why": "hints for the corrected English",
+      "old": "    - cake: gâteau\n",
+      "new": "    - cake: gâteau\n    - cost: coûte\n    - does: (no word in French)\n"
     }
   ],
   "dutch-from-english": [
@@ -154,6 +1198,1200 @@
       "why": "hints for the new phrase",
       "old": "    - put:  zet\n",
       "new": "    - put: verbind\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_2.yaml",
+      "why": "hint typo",
+      "old": "    - Cecille: Ceclille (naam)\n",
+      "new": "    - Cecille: Cecille (a name)\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "bedankt means thanks (already listed), not please",
+      "old": "    - bedankt: please\n",
+      "new": ""
+    },
+    {
+      "file": "1_Hello/skills/Hello_3.yaml",
+      "why": "English name of Den Haag",
+      "old": "  - Phrase: Ik kom uit Den Haag\n    Translation: I come from Den Haag.\n",
+      "new": "  - Phrase: Ik kom uit Den Haag\n    Translation: I come from Den Haag.\n    Alternative translations:\n      - I come from The Hague.\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_4.yaml",
+      "why": "typo",
+      "old": "    - Bedakt: Thanks\n",
+      "new": "    - Bedankt: Thanks\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_4.yaml",
+      "why": "tot means until (Tot morgen = until tomorrow)",
+      "old": "    - Tot: To\n",
+      "new": "    - Tot: until\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello_4.yaml",
+      "why": "hint was French",
+      "old": "    - until: À\n",
+      "new": "    - until: tot\n"
+    },
+    {
+      "file": "1_Hello/skills/Hello.yaml",
+      "why": "English hint pointed at English",
+      "old": "    - morning: morning\n",
+      "new": "    - morning: morgen\n"
+    },
+    {
+      "file": "2_Family/skills/Family_2.yaml",
+      "why": "'married to' is getrouwd met",
+      "old": "    - to: naar\n",
+      "new": "    - to: met\n"
+    },
+    {
+      "file": "2_Family/skills/Family_2.yaml",
+      "why": "Dutch and English were swapped",
+      "old": "  - Phrase: Wife\n    Translation: Vrouw\n",
+      "new": "  - Phrase: Vrouw\n    Translation: wife\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "'enig kind' is an only child",
+      "old": "  - Phrase: Ik ben enig kind.\n    Translation: I am a single child.\n",
+      "new": "  - Phrase: Ik ben enig kind.\n    Translation: I am an only child.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "Dutch sentence was a copy of the previous one",
+      "old": "  - Phrase: Ik ben enig kind.\n    Translation: He is my grandson.\n",
+      "new": "  - Phrase: Hij is mijn kleinzoon.\n    Translation: He is my grandson.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "neef also means (male) cousin",
+      "old": "  - Phrase: Neef\n    Translation: nephew\n",
+      "new": "  - Phrase: Neef\n    Translation: nephew\n    Alternative translations:\n      - cousin\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "nicht also means (female) cousin",
+      "old": "  - Phrase: Nicht\n    Translation: niece\n",
+      "new": "  - Phrase: Nicht\n    Translation: niece\n    Alternative translations:\n      - cousin\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "English/French word as the Dutch phrase; cousin now an alternative of Neef/Nicht",
+      "old": "  - Phrase: cousin(e)\n    Translation: Nicht\n      \n",
+      "new": ""
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "grootouder is singular",
+      "old": "  - Phrase: Grootouder\n    Translation: the grandparents\n",
+      "new": "  - Phrase: Grootouder\n    Translation: grandparent\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "typo",
+      "old": "    Translation: granddaugther\n",
+      "new": "    Translation: granddaughter\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "'Erste' is German; Dutch is volle neef",
+      "old": "  - Phrase: Erste Neef\n    Translation: first cousin\n",
+      "new": "  - Phrase: Volle neef\n    Translation: first cousin\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "German word",
+      "old": "    - Erste: first\n",
+      "new": "    - volle: full (volle neef = first cousin)\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "German word",
+      "old": "    - first: erste\n",
+      "new": "    - first: volle\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "typo",
+      "old": "    - stiefdochter: stepdaugther\n",
+      "new": "    - stiefdochter: stepdaughter\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "enig kind = only child",
+      "old": "    - enig: single\n",
+      "new": "    - enig: only\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "kind means child",
+      "old": "    - kind: grandson\n",
+      "new": "    - kind: child\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "singular",
+      "old": "    - grandparents: grootouder\n",
+      "new": "    - grandparent: grootouder\n"
+    },
+    {
+      "file": "2_Family/skills/Family_3.yaml",
+      "why": "only child",
+      "old": "    - single: enig\n",
+      "new": "    - only: enig\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "stiefdochter is stepdaughter",
+      "old": "  - Phrase: Ik heb een stiefdochter.\n    Translation: I have a sister-in-law. \n",
+      "new": "  - Phrase: Ik heb een stiefdochter.\n    Translation: I have a stepdaughter.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "stiefbroer is stepbrother",
+      "old": "  - Phrase: Hij is mijn stiefbroer.\n    Translation: He is my brother-in-law\n",
+      "new": "  - Phrase: Hij is mijn stiefbroer.\n    Translation: He is my stepbrother.\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "typo",
+      "old": "    Translation: stepdaugther\n",
+      "new": "    Translation: stepdaughter\n"
+    },
+    {
+      "file": "2_Family/skills/Family_4.yaml",
+      "why": "dictionary entries the fixed sentences need",
+      "old": "    - half-brother: halfbroer\n",
+      "new": "    - half-brother: halfbroer\n    - stepdaughter: stiefdochter\n    - stepbrother: stiefbroer\n"
+    },
+    {
+      "file": "2_Family/skills/Family_5.yaml",
+      "why": "English word as the Dutch phrase",
+      "old": "  - Phrase: godfather\n    Translation: godfather\n",
+      "new": "  - Phrase: Peetoom\n    Translation: godfather\n"
+    },
+    {
+      "file": "2_Family/skills/Family_5.yaml",
+      "why": "spelling: peet + tante",
+      "old": "  - Phrase: Peetante\n",
+      "new": "  - Phrase: Peettante\n"
+    },
+    {
+      "file": "2_Family/skills/Family_5.yaml",
+      "why": "petekind is godchild (any gender)",
+      "old": "  - Phrase: Petekind\n    Translation: goddaughter\n",
+      "new": "  - Phrase: Petekind\n    Translation: godchild\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "dit = this",
+      "old": "  - Phrase:  Ja, dit is mijn moeder\n    Translation: Yes, that's my mother\n",
+      "new": "  - Phrase:  Ja, dit is mijn moeder\n    Translation: Yes, this is my mother\n    Alternative translations:\n      - Yes, that's my mother\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "dit = this",
+      "old": "    - dit: that\n",
+      "new": "    - dit: this\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "papa is dad",
+      "old": "  - Phrase: papa\n    Translation: Father\n",
+      "new": "  - Phrase: papa\n    Translation: Father\n    Alternative translations:\n      - dad\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "typo",
+      "old": "    Translation: daugther\n",
+      "new": "    Translation: daughter\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "typo",
+      "old": "    - dochter: daugther\n",
+      "new": "    - dochter: daughter\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "meisje is girl (already listed)",
+      "old": "    - meisje: daugther\n",
+      "new": ""
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "typo",
+      "old": "    - daugther: dochter\n",
+      "new": "    - daughter: dochter\n"
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "wrong hint (girl)",
+      "old": "    - daugther: meisje\n",
+      "new": ""
+    },
+    {
+      "file": "2_Family/skills/Family.yaml",
+      "why": "dit = this",
+      "old": "    - that's: dit is\n",
+      "new": "    - this: dit\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "French/German spelling",
+      "old": "    Translation: Banane\n",
+      "new": "    Translation: Banana\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "English (misspelt) word as the Dutch word",
+      "old": "  - Word: Chery\n",
+      "new": "  - Word: Kers\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "'Orangen' is German; 'mag' means 'may'",
+      "old": "  - Phrase: Cecille mag Orangen\n    Translation: Cecille likes oranges\n",
+      "new": "  - Phrase: Cecille houdt van sinaasappels\n    Translation: Cecille likes oranges\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "said 'Cecille is an orange'",
+      "old": "  - Phrase: Cecille is een sinaasappel\n",
+      "new": "  - Phrase: Cecille eet een sinaasappel\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "'mag' means 'may'",
+      "old": "  - Phrase: Ik mag geen mango's\n    Translation: I don't like mango\n",
+      "new": "  - Phrase: Ik hou niet van mango's\n    Translation: I don't like mangoes\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - is: eats\n",
+      "new": "    - eet: eats\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "follows the fixed sentences",
+      "old": "    - mag: likes\n",
+      "new": "    - houdt: likes\n    - hou: like\n    - van: of\n    - niet: not\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "German word",
+      "old": "    - Orangen: oranges (plural)\n",
+      "new": "    - sinaasappels: oranges\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "French",
+      "old": "    - n'aime: don't like\n",
+      "new": ""
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - likes: mag\n",
+      "new": "    - likes: houdt van\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - like: mag\n",
+      "new": "    - like: hou van\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "plural",
+      "old": "    - mango:  mango\n",
+      "new": "    - mangoes: mango's\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "is means is",
+      "old": "    - eats: is\n",
+      "new": "    - eats: eet\n"
+    },
+    {
+      "file": "3_Food/skills/1_Fruits.yaml",
+      "why": "plural",
+      "old": "    - oranges: sinaasappel\n",
+      "new": "    - oranges: sinaasappels\n    - orange: sinaasappel\n"
+    },
+    {
+      "file": "3_Food/skills/2_Fruits.yaml",
+      "why": "Dutch for lingonberry is vossenbes",
+      "old": "  - Word: Lingonbes\n",
+      "new": "  - Word: Vossenbes\n"
+    },
+    {
+      "file": "3_Food/skills/2_Fruits.yaml",
+      "why": "pointed English at English",
+      "old": "    - eat: eats\n",
+      "new": "    - eats: eet\n"
+    },
+    {
+      "file": "3_Food/skills/3_Groenten.yaml",
+      "why": "wortelen is plural",
+      "old": "  - Word: Wortelen\n    Translation: carrot\n",
+      "new": "  - Word: Wortelen\n    Translation: carrots\n"
+    },
+    {
+      "file": "3_Food/skills/3_Groenten.yaml",
+      "why": "plural",
+      "old": "  - Word: Komkommers\n    Translation: cucumber   \n",
+      "new": "  - Word: Komkommers\n    Translation: cucumbers\n"
+    },
+    {
+      "file": "3_Food/skills/3_Groenten.yaml",
+      "why": "plural",
+      "old": "  - Word: Uien\n    Translation: onion    \n",
+      "new": "  - Word: Uien\n    Translation: onions\n"
+    },
+    {
+      "file": "3_Food/skills/3_Groenten.yaml",
+      "why": "Dutch for zucchini is courgette",
+      "old": "  - Word: Zucini\n",
+      "new": "  - Word: Courgette\n"
+    },
+    {
+      "file": "3_Food/skills/3_Groenten.yaml",
+      "why": "sentence is 'I don't like'",
+      "old": "    - hou: love\n",
+      "new": "    - hou: like (hou van)\n"
+    },
+    {
+      "file": "3_Food/skills/3_Groenten.yaml",
+      "why": "English section had the Dutch word as key",
+      "old": "    - love: hou\n    - heb: have\n",
+      "new": "    - love: hou\n    - have: heb\n    - like: hou van\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "French spelling",
+      "old": "    Translation: Sirop\n",
+      "new": "    Translation: Syrup\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "French",
+      "old": "    Translation: Café\n",
+      "new": "    Translation: Coffee\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "typo",
+      "old": "  - Word: champange\n",
+      "new": "  - Word: champagne\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "bedankt means thanks; cheers is proost",
+      "old": "  - Phrase: bedankt\n    Translation: Cheers!\n",
+      "new": "  - Phrase: Proost!\n    Translation: Cheers!\n"
+    },
+    {
+      "file": "3_Food/skills/4_Drinks.yaml",
+      "why": "French",
+      "old": "    - koffie: café\n",
+      "new": "    - koffie: coffee\n    - proost: cheers\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_1.yaml",
+      "why": "een is also 'a'",
+      "old": "  - Phrase: Cecille heeft een broer\n    Translation: Cecille has one brother\n",
+      "new": "  - Phrase: Cecille heeft een broer\n    Translation: Cecille has one brother\n    Alternative translations:\n      - Cecille has a brother\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_1.yaml",
+      "why": "duplicate wrong hint (heet = hot, listed)",
+      "old": "    - heet: warm\n",
+      "new": ""
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "English",
+      "old": "    Translation: There are a few clouds at the sky.\n",
+      "new": "    Translation: There are a few clouds in the sky.\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "German",
+      "old": "    - zie: sehen \n",
+      "new": "    - zie: see\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "German",
+      "old": "    - maan: Mond\n",
+      "new": "    - maan: moon\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "follows the fixed translation",
+      "old": "    - at: in de\n",
+      "new": "    - in: in\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "the sentence uses wat",
+      "old": "    - few: weinig\n",
+      "new": "    - few: wat\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_2.yaml",
+      "why": "pointed English at English",
+      "old": "    - clouds: clouds\n",
+      "new": "    - clouds: wolken\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "raken = hit; beating a score is verbreken; 'ga' = going to",
+      "old": "  - Phrase: Ik ga je highscore raken\n    Translation: I beat your highscore.\n",
+      "new": "  - Phrase: Ik ga je highscore verbreken\n    Translation: I'm going to beat your highscore.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - raken: hit\n",
+      "new": "    - verbreken: beat (a record)\n    - ga: going to\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - beat: raken\n",
+      "new": "    - beat: verbreken\n    - going: ga\n    - I'm: Ik\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "grafiek = chart/graph; Dutch uses graphics",
+      "old": "  - Phrase: De grafiek in het spel is goed\n    Translation: The graphics in the game are great.\n",
+      "new": "  - Phrase: De graphics in het spel zijn goed\n    Translation: The graphics in the game are good.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - grafiek: graphics\n",
+      "new": "    - graphics: graphics (game images)\n    - zijn: are\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "goed = good",
+      "old": "    - goed: great\n",
+      "new": "    - goed: good\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - graphics: grafiek\n",
+      "new": "    - graphics: graphics\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_10.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - great: goed\n",
+      "new": "    - good: goed\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "Dutch says woordenlijst",
+      "old": "  - Phrase: Ik schrijf een vocabulaire lijst\n",
+      "new": "  - Phrase: Ik schrijf een woordenlijst\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - vocabulaire: vocabulary\n",
+      "new": "    - woordenlijst: vocabulary list\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - vocabulary: vocabulaire\n",
+      "new": "    - vocabulary: woorden\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "debat = debate; pronunciation is uitspraak",
+      "old": "  - Phrase: Ik heb problemen met het debat\n",
+      "new": "  - Phrase: Ik heb problemen met de uitspraak\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - debat: pronunciation\n",
+      "new": "    - uitspraak: pronunciation\n    - de: the\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_11.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - pronunciation: debat\n",
+      "new": "    - pronunciation: uitspraak\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "'Fitness Studio' is German; Dutch says sportschool",
+      "old": "  - Phrase: Ik ga naar de Fitness Studio\n    Translation: I go to the fitness center.\n",
+      "new": "  - Phrase: Ik ga naar de sportschool\n    Translation: I go to the gym.\n    Alternative translations:\n      - I go to the fitness center.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - joggen: jogging\n    - center: center\n",
+      "new": "    - joggen: jogging\n    - sportschool: gym\n    - de: the\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - center: center\n",
+      "new": "    - gym: sportschool\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "Dutch spelling",
+      "old": "    - hou: like\n    - basketball: basketball\n",
+      "new": "    - hou: like\n    - basketbal: basketball\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "zoals = 'such as'",
+      "old": "    - like: zoals\n",
+      "new": "    - like: hou van\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "hard = fast here",
+      "old": "    - fast: play\n",
+      "new": "    - fast: hard\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_1.yaml",
+      "why": "reversed",
+      "old": "    - fast: hard\n    - zwemmen: swimming\n",
+      "new": "    - fast: hard\n    - swimming: zwemmen\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "English spelling",
+      "old": "  - Word: de guitar\n",
+      "new": "  - Word: de gitaar\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "adjective ending (de gitaar)",
+      "old": "  - Word: elektrisch gitaar\n",
+      "new": "  - Word: elektrische gitaar\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "notities = written notes/memos; music notes are noten",
+      "old": "  - Phrase: Ik kan geen muziek notities lezen\n",
+      "new": "  - Phrase: Ik kan geen muzieknoten lezen\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - notities: notes\n",
+      "new": "    - muzieknoten: music notes\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - notes: notities\n",
+      "new": "    - notes: noten\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "deze = this; prachtig = beautiful",
+      "old": "  - Phrase: Deze elektrische gitaar is prachtig\n    Translation: The electric guitar is nice.\n",
+      "new": "  - Phrase: Deze elektrische gitaar is prachtig\n    Translation: This electric guitar is beautiful.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "'Dudelsack' is German; English spelling",
+      "old": "  - Phrase: Ze spelen Dudelsack in Schotland\n    Translation: In Scottland they play the bagpipe.\n",
+      "new": "  - Phrase: Ze spelen doedelzak in Schotland\n    Translation: In Scotland they play the bagpipes.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "German word; plural verb; Dutch compound",
+      "old": "  - Phrase: Mundharmonikas speelt een belangrijke rol in Blues muziek\n",
+      "new": "  - Phrase: Mondharmonica's spelen een belangrijke rol in bluesmuziek\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "typo",
+      "old": "    - Schotland: Scottland\n",
+      "new": "    - Schotland: Scotland\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "spelen = (they) play",
+      "old": "    - spelen: playing\n",
+      "new": "    - spelen: play\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "German",
+      "old": "    - Dudelsack: bagpipe\n",
+      "new": "    - doedelzak: bagpipes\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "German",
+      "old": "    - Mundharmonikas: Harmonicas\n",
+      "new": "    - Mondharmonica's: harmonicas\n    - bluesmuziek: blues music\n    - in: in\n    - prachtig: beautiful\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "lezen = (to) read",
+      "old": "    - lezen: reading\n",
+      "new": "    - lezen: read\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "graag is not please",
+      "old": "    - graag: please\n",
+      "new": "    - graag: gladly (speel graag = like playing)\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "typo",
+      "old": "    - Scottland: Schotland\n",
+      "new": "    - Scotland: Schotland\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "German",
+      "old": "    - Harmonicas: Mundharmonikas\n",
+      "new": "    - Harmonicas: mondharmonica's\n    - play: spelen\n    - This: Deze\n    - beautiful: prachtig\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_2.yaml",
+      "why": "German",
+      "old": "    - bagpipe:  Dudelsack\n",
+      "new": "    - bagpipes: doedelzak\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "goedkoop = cheap; cheesy is melig",
+      "old": "  - Phrase: Deze film is goedkoop.\n",
+      "new": "  - Phrase: Deze film is melig.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - goedkoop: cheesy\n",
+      "new": "    - melig: cheesy\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - cheesy: goedkoop\n",
+      "new": "    - cheesy: melig\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "spelling: alstublieft, zaterdag",
+      "old": "  - Phrase: Kunt u alstublief twee bioscoopkaartjes kopen voor zaterdaag?\n",
+      "new": "  - Phrase: Kunt u alstublieft twee bioscoopkaartjes kopen voor zaterdag?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "spelling",
+      "old": "    - zaterdaag: saturday\n",
+      "new": "    - zaterdag: Saturday\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "spelling",
+      "old": "    - alstublief: please\n",
+      "new": "    - alstublieft: please\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "spelling",
+      "old": "    - saturday: zaterdaag\n",
+      "new": "    - saturday: zaterdag\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "spelling",
+      "old": "    - please: alstublief\n",
+      "new": "    - please: alstublieft\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "infinitive",
+      "old": "  - Phrase: kopen\n    Translation: buying\n",
+      "new": "  - Phrase: kopen\n    Translation: to buy\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_3.yaml",
+      "why": "infinitive",
+      "old": "    - kopen: buying\n",
+      "new": "    - kopen: to buy\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "schild = shield; a sign is a bord; het = the",
+      "old": "  - Phrase: Het schild is vies.\n    Translation: This sign is dirty.\n",
+      "new": "  - Phrase: Het bord is vies.\n    Translation: The sign is dirty.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "het = the",
+      "old": "    - Het: This\n",
+      "new": "    - Het: The\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - schild: sign\n",
+      "new": "    - bord: sign\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - sign: schild\n",
+      "new": "    - sign: bord\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - This: het\n",
+      "new": "    - The: het\n    - a: een\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_4.yaml",
+      "why": "missing 'a'",
+      "old": "    Translation: Do you have map?\n",
+      "new": "    Translation: Do you have a map?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "gieten takes the water, not the plant: Ik geef mijn planten water",
+      "old": "  - Phrase: Ik giet mijn planten\n",
+      "new": "  - Phrase: Ik geef mijn planten water\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - giet: water\n",
+      "new": "    - geef: give\n    - water: water\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - water: giet\n",
+      "new": "    - water: water geven\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "sla = hit; sawing is zagen",
+      "old": "  - Phrase: Ik sla hout\n",
+      "new": "  - Phrase: Ik zaag hout\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - sla: sawing\n",
+      "new": "    - zaag: saw\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - sawing: sla\n",
+      "new": "    - sawing: zaag\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "singular",
+      "old": "  - Phrase: plant\n    Translation: plants\n",
+      "new": "  - Phrase: plant\n    Translation: plant\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "English word as the Dutch phrase",
+      "old": "  - Phrase: garden\n    Translation: garden\n",
+      "new": "  - Phrase: tuin\n    Translation: garden\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "English word as the Dutch phrase",
+      "old": "  - Phrase: gardens\n    Translation: gardening\n",
+      "new": "  - Phrase: tuinieren\n    Translation: gardening\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "English word as the Dutch phrase",
+      "old": "  - Phrase: hammer\n    Translation: hammer\n",
+      "new": "  - Phrase: hamer\n    Translation: hammer\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_5.yaml",
+      "why": "pointed English at English",
+      "old": "    - shines: shines\n",
+      "new": "    - shines: schijnt\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_6.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: Chess\n",
+      "new": "  - Word: Schaak\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_6.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: Garden\n",
+      "new": "  - Word: Tuin\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_6.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: Hammer\n",
+      "new": "  - Word: Hamer\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_6.yaml",
+      "why": "natural reading",
+      "old": "  - Phrase: Speel je schaak?\n    Translation: Are you playing chess?\n",
+      "new": "  - Phrase: Speel je schaak?\n    Translation: Are you playing chess?\n    Alternative translations:\n      - Do you play chess?\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "Dutch lacked 'here'",
+      "old": "  - Phrase: Mijn creditcard.\n    Translation: Here, my credit card.\n",
+      "new": "  - Phrase: Hier, mijn creditcard.\n    Translation: Here, my credit card.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "snee = slice/gash; the cut of clothes is snit",
+      "old": "  - Phrase: Ik hou niet van de snee\n",
+      "new": "  - Phrase: Ik hou niet van de snit\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - snee: cut\n",
+      "new": "    - snit: cut\n    - Hier: Here\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_7.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - cut: snee\n",
+      "new": "    - cut: snit\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_9.yaml",
+      "why": "de surfplank takes prachtige",
+      "old": "  - Phrase: Je hebt een prachtig surfplank.\n",
+      "new": "  - Phrase: Je hebt een prachtige surfplank.\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_9.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - surfplank: surfboard\n",
+      "new": "    - surfplank: surfboard\n    - prachtige: beautiful\n"
+    },
+    {
+      "file": "6_Activities/skills/6_Activities_9.yaml",
+      "why": "the sentence uses springen",
+      "old": "    - jump: spring\n",
+      "new": "    - jump: springen\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "English fragment as the Dutch word",
+      "old": "  - Word: hairdres\n",
+      "new": "  - Word: kapper\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: cashiers\n",
+      "new": "  - Word: kassier\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "spelling, missing 'an'",
+      "old": "  - Phrase: Ik ben een ondernemer\n    Translation: I am enterpreneur.\n",
+      "new": "  - Phrase: Ik ben een ondernemer\n    Translation: I am an entrepreneur.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "entiteit = entity",
+      "old": "  - Phrase: entiteit\n    Translation: enterpreneur\n",
+      "new": "  - Phrase: ondernemer\n    Translation: entrepreneur\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "arbeiders is plural",
+      "old": "  - Phrase: arbeiders\n    Translation: worker\n",
+      "new": "  - Phrase: arbeider\n    Translation: worker\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "typo",
+      "old": "    Translation: unempolyed\n",
+      "new": "    Translation: unemployed\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "typo",
+      "old": "    - ondernemer: enterpreneur\n",
+      "new": "    - ondernemer: entrepreneur\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_1.yaml",
+      "why": "typo",
+      "old": "    - enterpreneur: ondernemer\n",
+      "new": "    - entrepreneur: ondernemer\n    - an: een\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "self-employed is zelfstandig",
+      "old": "  - Phrase: Mijn broer is zelf werkzaam.\n",
+      "new": "  - Phrase: Mijn broer is zelfstandig.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - werkzaam: self-employed\n",
+      "new": "    - zelfstandig: self-employed\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - self-employed: werkzaam\n",
+      "new": "    - self-employed: zelfstandig\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "English",
+      "old": "  - Phrase: Ik zoek een stage\n    Translation: I search an internship.\n",
+      "new": "  - Phrase: Ik zoek een stage\n    Translation: I'm looking for an internship.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_2.yaml",
+      "why": "follows the fixed translation",
+      "old": "    - search: zoek\n",
+      "new": "    - looking: zoek\n    - I'm: Ik\n    - for: (no word)\n    - an: een\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "French spelling",
+      "old": "  - Word: contrat\n",
+      "new": "  - Word: contract\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "the Dutch says nothing about further education",
+      "old": "    Translation: My colleague has a further education training tomorrow.\n",
+      "new": "    Translation: My colleague has a training tomorrow.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "lange = long; a lot = veel",
+      "old": "  - Phrase: We hebben lange taken te doen.\n    Translation: We have a lot of tasks to accomplish.\n",
+      "new": "  - Phrase: We hebben veel taken te doen.\n    Translation: We have a lot of tasks to do.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - lange: lot\n",
+      "new": "    - veel: a lot\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "doen = do",
+      "old": "    - doen: accomplish\n",
+      "new": "    - doen: do\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "follows the fixed translation",
+      "old": "    - accomplish: doen\n",
+      "new": "    - do: doen\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - lot: lange\n",
+      "new": "    - lot: veel\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "typo: singing for signing",
+      "old": "    Translation: Are you singing the contract? \n",
+      "new": "    Translation: Are you signing the contract?\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "follows the fixed translation",
+      "old": "    - singing: ondertekenen\n",
+      "new": "    - signing: teken\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "typo",
+      "old": "    - client:  klaant\n",
+      "new": "    - client: klant\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_3.yaml",
+      "why": "aardig = nice",
+      "old": "    - annoying: aardig\n",
+      "new": "    - annoying: irritant\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "unnatural; Dutch asks 'wat doe je voor werk'",
+      "old": "  - Phrase: Wat doe je professioneel?\n",
+      "new": "  - Phrase: Wat doe je voor werk?\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "follows the fixed sentence",
+      "old": "    - professioneel: professional\n",
+      "new": "    - voor: for\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "ik wil = I want",
+      "old": "    - I'll: Ik wil\n",
+      "new": "    - I'll: ik\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "rechts = to the right",
+      "old": "    - right: rechts\n",
+      "new": "    - right: meteen (right away)\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "right away = meteen",
+      "old": "    - away: weg\n",
+      "new": "    - away: meteen (right away)\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_4.yaml",
+      "why": "wonen = to live somewhere",
+      "old": "    - living: wonen\n",
+      "new": "    - living: werk (for a living)\n"
+    },
+    {
+      "file": "8_Plurals/skills/8_Plurals_1.yaml",
+      "why": "de = the; prachtig = beautiful",
+      "old": "  - Phrase: De kastelen zijn prachtig\n    Translation: Castles are nice.\n",
+      "new": "  - Phrase: De kastelen zijn prachtig\n    Translation: The castles are beautiful.\n"
+    },
+    {
+      "file": "8_Plurals/skills/8_Plurals_1.yaml",
+      "why": "typo",
+      "old": "    - kastelen: casteles\n",
+      "new": "    - kastelen: castles\n    - prachtig: beautiful\n"
+    },
+    {
+      "file": "8_Plurals/skills/8_Plurals_1.yaml",
+      "why": "follows the fixed translation",
+      "old": "    - castles: kastelen\n",
+      "new": "    - castles: kastelen\n    - The: De\n    - beautiful: prachtig\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: Bear\n",
+      "new": "  - Word: Beer\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "bijen is plural (translation is bee)",
+      "old": "  - Word: Bijen\n",
+      "new": "  - Word: Bij\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "vee = cattle",
+      "old": "  - Word: Vee\n    Translation: cat\n",
+      "new": "  - Word: Kat\n    Translation: cat\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: Horse\n",
+      "new": "  - Word: Paard\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: Fish\n",
+      "new": "  - Word: Vis\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "English plural",
+      "old": "    Translation: My brother loves fishes.\n",
+      "new": "    Translation: My brother loves fish.\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "English plural",
+      "old": "    - vis: fishes\n",
+      "new": "    - vis: fish\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "Dutch section had English keys",
+      "old": "    - fish: fish\n    - horse: horse\n",
+      "new": "    - paard: horse\n"
+    },
+    {
+      "file": "9_Animals/skills/9_Animals_1.yaml",
+      "why": "pointed English at English",
+      "old": "    - fishes: vis\n    - horse: horse\n    - fish: fish\n",
+      "new": "    - horse: paard\n    - fish: vis\n"
+    },
+    {
+      "file": "10_Colors/skills/10_Colors_1.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: red\n",
+      "new": "  - Word: rood\n"
+    },
+    {
+      "file": "10_Colors/skills/10_Colors_1.yaml",
+      "why": "zonnebril is singular in Dutch so needs een; removes a duplicate 'De wijn is rood.'",
+      "old": "  - Phrase: Ik heb zwarte zonnebril.\n    Translation: I have black sunglasses.\n\n  - Phrase: De wijn is rood.\n    Translation: The wine is red.\n\n",
+      "new": "  - Phrase: Ik heb een zwarte zonnebril.\n    Translation: I have black sunglasses.\n\n"
+    },
+    {
+      "file": "11_Grammar/skills/11_Grammar_1.yaml",
+      "why": "English word as the Dutch word",
+      "old": "  - Word: Cinema\n",
+      "new": "  - Word: Bioscoop\n"
+    },
+    {
+      "file": "11_Grammar/skills/11_Grammar_1.yaml",
+      "why": "natural reading first",
+      "old": "  - Phrase: Spreek je Frans?\n    Translation: Are you speaking french?\n",
+      "new": "  - Phrase: Spreek je Frans?\n    Translation: Do you speak French?\n    Alternative translations:\n      - Are you speaking French?\n"
+    },
+    {
+      "file": "11_Grammar/skills/11_Grammar_1.yaml",
+      "why": "no 'want' in the Dutch",
+      "old": "  - Phrase: Wanneer ga je naar de film?\n    Translation: When do you want to go to the cinema?\n",
+      "new": "  - Phrase: Wanneer ga je naar de film?\n    Translation: When are you going to the movies?\n    Alternative translations:\n      - When are you going to the cinema?\n"
+    },
+    {
+      "file": "11_Grammar/skills/11_Grammar_1.yaml",
+      "why": "wanneer = when; no 'want'",
+      "old": "  - Phrase: Wanneer ga je?\n    Translation: Where do you want to go?\n",
+      "new": "  - Phrase: Wanneer ga je?\n    Translation: When are you going?\n"
     }
   ]
 }
