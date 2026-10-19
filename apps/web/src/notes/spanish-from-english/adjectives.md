@@ -7,7 +7,7 @@ A describing word changes to match the person or thing it describes:
 | | one | more than one |
 |---|---|---|
 | a man / masculine word | **pequeño** | **pequeños** |
-| a woman / feminine word | **pequeña** | **pequeñas** |
+| a woman / feminine word | **pequeña** | *pequeñas* |
 
 - **Max es alto** — Max is tall
 - **Cecilia es alta** — Cecilia is tall

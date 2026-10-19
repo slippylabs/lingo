@@ -4,8 +4,8 @@ In this lesson: saying what's happening **right now**, as in "I am eating".
 
 "I am eating" is **estar** plus a verb with a new ending. That ending works like English "-ing":
 
-- verbs ending in **‑ar** take **‑ando**: **cocinar** → **cocinando** (cooking)
-- verbs ending in **‑er** or **‑ir** take **‑iendo**: **comer** → **comiendo** (eating), **escribir** → **escribiendo** (writing)
+- verbs ending in **‑ar** take **‑ando**: *cocinar* → **cocinando** (cooking)
+- verbs ending in **‑er** or **‑ir** take **‑iendo**: *comer* → **comiendo** (eating), *escribir* → **escribiendo** (writing)
 
 | | estar | example |
 |---|---|---|
@@ -17,7 +17,7 @@ In this lesson: saying what's happening **right now**, as in "I am eating".
 
 ## "Going" is different
 
-For "going somewhere", use **vamos** (from **ir**, "to go"):
+For "going somewhere", use **vamos** (from *ir*, "to go"):
 
 - **Nosotras vamos al parque** — We are going to the park
 

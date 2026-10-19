@@ -18,8 +18,8 @@ When **six**, **huit** or **dix** comes before a word starting with a consonant 
 
 ## Phone numbers
 
-- **Mon numéro de téléphone est…** — My phone number is…
+- *Mon numéro de téléphone est…* — My phone number is…
 
 French people usually read phone numbers in pairs (*zéro six, douze…*), but saying each digit works too.
 
-> **Watch out:** the course translates **huit femmes** as "eight woman". It means "eight wom**e**n".
+> **Watch out:** the **‑s** on the end of **hommes** and **femmes** is silent. You can only see the plural, not hear it.

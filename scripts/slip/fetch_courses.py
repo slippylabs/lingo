@@ -2,7 +2,9 @@
 """slippylabs: download every deploy:true course in apps/web/config/courses.json
 into courses/<jsonFolder>/ (the directory holding the shallowest course.yaml, plus
 the repo's top-level LICENSE).
-Non-interactive replacement for installSelectedCourses/installExternalCourse.sh."""
+Non-interactive replacement for installSelectedCourses/installExternalCourse.sh.
+Then applies our corrections from course_fixes.json (--fixes-only re-applies them
+without downloading)."""
 import io, json, re, shutil, subprocess, sys, tempfile, urllib.request, zipfile
 from pathlib import Path
 
@@ -10,6 +12,22 @@ ROOT = Path(__file__).resolve().parents[2]
 CFG = ROOT / "apps/web/config/courses.json"
 OUT = ROOT / "courses"
 VOICES = json.loads((ROOT / "scripts/slip/voices.json").read_text())
+FIXES = json.loads((ROOT / "scripts/slip/course_fixes.json").read_text())
+
+
+def apply_fixes(name):
+    """Our corrections to upstream content (course_fixes.json). Safe to re-run:
+    a fix already in place is skipped; one that no longer matches fails."""
+    for fx in FIXES.get(name, []):
+        f = OUT / name / fx["file"]
+        y = f.read_text()
+        if fx["new"] and fx["new"] in y:
+            continue
+        n = y.count(fx["old"])
+        if n == 1:
+            f.write_text(y.replace(fx["old"], fx["new"]))
+        elif not (n == 0 and not fx["new"]):
+            raise SystemExit(f"{name}/{fx['file']}: fix no longer matches ({fx['why']})")
 
 
 def set_audio(course_yaml: Path, voice):
@@ -104,6 +122,7 @@ def main(only=None):
         if name not in VOICES:
             raise SystemExit(f"{name}: add it to scripts/slip/voices.json (voice or null)")
         set_audio(dest / "course.yaml", VOICES[name])
+        apply_fixes(name)
         ok.append((name, n))
     for name, n in ok:
         print(f"ok   {name} ({n} files)")
@@ -112,4 +131,8 @@ def main(only=None):
 
 
 if __name__ == "__main__":
-    main(set(sys.argv[1:]) or None)
+    if sys.argv[1:2] == ["--fixes-only"]:  # re-apply to the courses already downloaded
+        for name in sys.argv[2:] or [k for k in FIXES if not k.startswith("_")]:
+            apply_fixes(name)
+    else:
+        main(set(sys.argv[1:]) or None)

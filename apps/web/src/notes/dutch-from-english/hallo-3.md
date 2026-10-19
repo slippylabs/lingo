@@ -9,7 +9,7 @@ In this lesson: **good evening**, **please**, and **telling someone your name**.
 
 Dutch has a friendly "you" for friends and family, and a polite "you" for strangers, shops and work:
 
-- **je** (or **jij**) — you, friendly
+- **je** (or *jij*) — you, friendly
 - **u** — you, polite
 
 "Please" changes to match:
@@ -28,4 +28,4 @@ Examples:
 - **Mijn naam is Cecille.** — My name is Cecille.
 - **Ik kom uit Den Haag.** — I come from The Hague.
 
-> **Watch out:** the letters **ij** (as in **mijn**) make one sound, a bit like the "ay" in "say". They are not an "i" followed by a "j".
+> **Watch out:** the letters *ij* (as in **mijn**) make one sound, a bit like the "ay" in "say". They are not an "i" followed by a "j".

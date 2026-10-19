@@ -31,4 +31,4 @@ After **ist** or **sind**, the describing word never changes: **Der Rock ist kle
 - **Ich mag es!** — I like it!
 - **Danke** — Thank you
 
-> **Watch out:** **ß** is a double s. **groß** sounds like "grohss".
+> **Watch out:** *ß* is a double s. **groß** sounds like "grohss".

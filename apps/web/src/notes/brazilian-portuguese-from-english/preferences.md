@@ -2,7 +2,7 @@ In this lesson: saying what you **like** and **don't like**.
 
 ## "I like" = gosto de
 
-The verb is **gostar**, and it always comes with **de** ("of"):
+The verb is *gostar*, and it always comes with **de** ("of"):
 
 - **Eu gosto de cerveja** — I like beer
 - **Você gosta de café?** — Do you like coffee?

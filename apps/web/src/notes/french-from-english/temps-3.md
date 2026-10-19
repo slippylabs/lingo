@@ -4,7 +4,7 @@ In this lesson: **weather words** and **"it's …"**.
 
 - **ensoleillé** — sunny
 - **pluvieux** — rainy
-- **nuageux** — cloudy (from **nuage**, cloud)
+- **nuageux** — cloudy (from *nuage*, cloud)
 - **neigeux** — snowy (from **neige**, snow)
 - **orageux** — stormy
 - **brumeux** — foggy
@@ -19,4 +19,4 @@ Put **C'est** ("it's") in front:
 - **C'est orageux.** — It's stormy.
 - **C'est nuageux.** — It's cloudy.
 
-> **Watch out:** the course translates **C'est nuageux** as "It's snowy". That's a mistake: **nuageux** is **cloudy**. Snowy is **neigeux**.
+> **Watch out:** **nuageux** (cloudy) and **neigeux** (snowy) look alike. Cloudy comes from *nuage*, a cloud; snowy from *neige*, snow.

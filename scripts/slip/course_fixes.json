@@ -1,0 +1,129 @@
+{
+  "_comment": "slippylabs: corrections to upstream course content, applied by fetch_courses.py after each download. Each fix replaces old with new exactly once in <course>/<file>; a fix whose old text is gone (and new text absent) fails the fetch, so an upstream edit is noticed.",
+  "brazilian-portuguese-from-english": [
+    {
+      "file": "introduction/skills/phrases.yaml",
+      "why": "missing é",
+      "old": "  - Phrase: Meu nome  José\n    Alternative versions:\n      - Me chamo José\n      - Meu nome é José\n",
+      "new": "  - Phrase: Meu nome é José\n    Alternative versions:\n      - Me chamo José\n"
+    },
+    {
+      "file": "introduction/skills/phrases.yaml",
+      "why": "stray comma",
+      "old": "  - Phrase: E, aí?\n",
+      "new": "  - Phrase: E aí?\n"
+    },
+    {
+      "file": "basics/skills/nature.yaml",
+      "why": "río is the Spanish spelling",
+      "old": "  - Word: río\n",
+      "new": "  - Word: rio\n"
+    },
+    {
+      "file": "basics/skills/nature.yaml",
+      "why": "río is the Spanish spelling",
+      "old": "  - Word: um río\n",
+      "new": "  - Word: um rio\n"
+    },
+    {
+      "file": "activities/skills/continuous.yaml",
+      "why": "vocês is 'you all', not 'they'; the alternatives already said eles/elas",
+      "old": "  - Phrase: Vocês estão escrevendo uma carta?\n    Alternative versions:\n      - Eles estão escrevendo uma carta? \n      - Elas estão escrevendo uma carta? \n",
+      "new": "  - Phrase: Eles estão escrevendo uma carta?\n    Alternative versions:\n      - Elas estão escrevendo uma carta?\n"
+    }
+  ],
+  "french-from-english": [
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "femmes is plural; double full stop",
+      "old": "  - Phrase: sept hommes et huit femmes..\n    Translation: seven men and eight woman.\n",
+      "new": "  - Phrase: Sept hommes et huit femmes.\n    Translation: Seven men and eight women.\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "femmes is plural",
+      "old": "    - femmes: woman\n",
+      "new": "    - femmes: women\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "femmes is plural",
+      "old": "    - woman: femmes (plural)\n",
+      "new": "    - women: femmes\n"
+    },
+    {
+      "file": "4_Numbers/skills/4_Numbers_2.yaml",
+      "why": "'is' is est",
+      "old": "    - is: es\n",
+      "new": "    - is: est\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_3.yaml",
+      "why": "nuageux is cloudy",
+      "old": "  - Phrase: C'est nuageux.\n    Translation: It's snowy.\n",
+      "new": "  - Phrase: C'est nuageux.\n    Translation: It's cloudy.\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_3.yaml",
+      "why": "nuageux is cloudy",
+      "old": "    - nuageux: snowy\n",
+      "new": "    - nuageux: cloudy\n"
+    },
+    {
+      "file": "5_Weather/skills/5_Weather_3.yaml",
+      "why": "nuageux is cloudy",
+      "old": "    - snowy: nuageux\n",
+      "new": "    - cloudy: nuageux\n"
+    }
+  ],
+  "dutch-from-english": [
+    {
+      "file": "7_Work/skills/7_Work_5.yaml",
+      "why": "'Ik haal je er doorheen' means 'I'll get you through it'; switchboard Dutch is 'Ik verbind u door'",
+      "old": "  - Phrase: Ik haal je er doorheen.\n",
+      "new": "  - Phrase: Ik verbind u door.\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_5.yaml",
+      "why": "literal meaning accepted too",
+      "old": "  - Phrase: Praat ik met Max?\n    Translation: May I speak with Max?\n",
+      "new": "  - Phrase: Praat ik met Max?\n    Translation: May I speak with Max?\n    Alternative translations:\n      - Am I speaking with Max?\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_5.yaml",
+      "why": "hints for the new phrase",
+      "old": "    - doorheen: through\n",
+      "new": "    - verbind: connect\n    - u: you\n    - door: through\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_5.yaml",
+      "why": "dropped from the course; 'haal' no longer appears",
+      "old": "    - haal: get\n",
+      "new": ""
+    },
+    {
+      "file": "7_Work/skills/7_Work_5.yaml",
+      "why": "hints for the new phrase; 'Wellicht' means 'perhaps'",
+      "old": "    - I'll: Ik haal\n",
+      "new": "    - I'll: Ik\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_5.yaml",
+      "why": "'Wellicht' means 'perhaps'",
+      "old": "    - May: Wellicht\n",
+      "new": "    - May: mag\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_5.yaml",
+      "why": "hints for the new phrase",
+      "old": "    - through: doorheen\n",
+      "new": "    - through: door\n    - you: u\n"
+    },
+    {
+      "file": "7_Work/skills/7_Work_5.yaml",
+      "why": "hints for the new phrase",
+      "old": "    - put:  zet\n",
+      "new": "    - put: verbind\n"
+    }
+  ]
+}

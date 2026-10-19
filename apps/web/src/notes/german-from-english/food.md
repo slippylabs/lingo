@@ -28,4 +28,4 @@ For he, she or a name, the verb usually ends in **‑t**.
 - **Brot, bitte** — Bread, please
 - **Guten Appetit!** — Enjoy your meal!
 
-> **Watch out:** **essen** (to eat) doesn't follow the pattern: the **e** turns into **i** for he or she, so it's **isst**, not *esst*.
+> **Watch out:** *essen* (to eat) doesn't follow the pattern: the *e* turns into **i** for he or she, so it's **isst**, not *esst*.

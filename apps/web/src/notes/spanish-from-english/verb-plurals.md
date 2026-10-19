@@ -21,4 +21,4 @@ If the group is **only women**, the words end in **‑as** instead: **nosotras, 
 - **Ellas beben cerveza** — They drink beer
 - **Ellos son perros** — They are dogs
 
-> **Watch out:** **coméis** and **bebéis** need the accent on the **é**. (Also, *vosotros* is only used in Spain. In Latin America people say *ustedes* instead.)
+> **Watch out:** **coméis** and **bebéis** need the accent on the *é*. (Also, *vosotros* is only used in Spain. In Latin America people say *ustedes* instead.)

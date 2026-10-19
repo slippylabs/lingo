@@ -13,7 +13,7 @@ Whatever the word's gender, its plural uses **die**:
 German has no single plural ending, so learn each plural with its word. Two common patterns:
 
 - add **‑n** or **‑en**: **Katze** → **Katzen**, **Hemd** → **Hemden**
-- add **‑e**, often with dots over the vowel: **Strand** → **Strände**, **Arzt** → **Ärzte**
+- add **‑e**, often with dots over the vowel: **Strand** → **Strände**, *Arzt* → **Ärzte**
 
 ## Describing words
 
@@ -26,4 +26,4 @@ After **sind** ("are") it doesn't change:
 
 - **Die Hemden sind rot** — The shirts are red
 
-> **Watch out:** one pair of glasses is **eine Brille**. **die Brillen** means several pairs.
+> **Watch out:** one pair of glasses is *eine Brille*. **die Brillen** means several pairs.

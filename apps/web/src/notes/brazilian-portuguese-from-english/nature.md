@@ -7,6 +7,7 @@ Remember each word together with its **o** or **a**:
 - **o céu** — the sky
 - **o sol** — the sun
 - **o mar** — the sea
+- **um rio** — a river
 - **a montanha** — the mountain
 - **a praia** — the beach
 
@@ -17,4 +18,4 @@ Remember each word together with its **o** or **a**:
 - **Boa viagem!** — Have a good trip!
 - **Mar ou montanha?** — Sea or mountain? (**ou** means "or")
 
-> **Watch out:** the course spells "river" *río*, which is Spanish. In Portuguese it's **rio**, with no accent. The exercises accept the course's spelling.
+> **Watch out:** "river" is **rio**, with no accent. The Spanish word *río* has one, so don't mix them up.

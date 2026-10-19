@@ -16,4 +16,4 @@ In this lesson: **nature words** and **"let's go to the beach"**.
 
 **Gehen wir** means "let's go". After **an** ("to", when going to water or the edge of something), **der** changes to **den**: **der Strand** → **an den Strand**.
 
-> **Watch out:** **der See** means "the lake", but **die See** means "the sea". Here the gender changes the meaning, so learn **See** with **der**.
+> **Watch out:** *der See* means "the lake", but **die See** means "the sea". Here the gender changes the meaning, so learn **See** with **der**.
