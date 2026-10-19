@@ -1,21 +1,25 @@
-## "I am doing": estar + -ndo
+In this lesson: saying what's happening **right now**, as in "I am eating".
 
-To say what is happening right now, use **estar** plus a verb ending in **-ndo**:
+## estar + a verb ending in -ndo
 
-- **-ar** → **-ando**: **cozinhando**, **jogando**, **nadando**, **cantando**
-- **-er** → **-endo**: **comendo**, **fazendo**, **escrevendo**, **aprendendo**
+"I am eating" is **estar** plus a verb with a new ending. That ending works like English "-ing":
 
-| | estar | |
+- verbs ending in **‑ar** take **‑ando**: **cozinhar** → **cozinhando** (cooking)
+- verbs ending in **‑er** take **‑endo**: **comer** → **comendo** (eating), **escrever** → **escrevendo** (writing)
+
+| | estar | example |
 |---|---|---|
-| I | **estou** | **Eu estou cantando uma canção** — I am singing a song |
-| you / he / she | **está** | **Ele está comendo chocolate** — He is eating chocolate |
-| we | **estamos** | **Nós estamos cozinhando a janta** — We are cooking dinner |
-| they / you all | **estão** | **Eles estão jogando** — They are playing |
+| I | **estou** | **Eu estou cantando** — I am singing |
+| you, he, she | **está** | **Ele está comendo chocolate** — He is eating chocolate |
+| we | **estamos** | **Nós estamos cozinhando** — We are cooking |
+| you all, they | **estão** | **Eles estão jogando** — They are playing |
 
-This **-ndo** form is how Brazilians say it; in Portugal people say *estou a cantar* instead.
+## "Going" is different
 
-## Going somewhere
+For "going somewhere", use **vamos** (from **ir**, "to go"):
 
-"Going to" uses *ir*: **Nós vamos ao parque** — We are going to the park (*a + o = ao*).
+- **Nós vamos ao parque** — We are going to the park
 
-**Note:** **Vocês estão escrevendo uma carta?** means "Are *you all* writing a letter?" — the course's translation says "they".
+The course translates **Vocês estão escrevendo uma carta?** as "Are they writing a letter?". **Vocês** means "you all", so it really means "Are you writing a letter?".
+
+> **Watch out:** in Portugal people say *estou a cantar*. In Brazil it's always **estou cantando**.

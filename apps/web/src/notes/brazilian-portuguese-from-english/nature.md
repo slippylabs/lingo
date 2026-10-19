@@ -1,19 +1,20 @@
-## More nouns
+In this lesson: **nature words** and **"let's go to …"**.
 
-Keep learning nouns with their article:
+## Keep learning o / a
 
-- masculine: **o céu**, **o sol**, **o mar**, **um lago**
-- feminine: **a montanha**, **a praia**
+Remember each word together with its **o** or **a**:
 
-## para a — to the
+- **o céu** — the sky
+- **o sol** — the sun
+- **o mar** — the sea
+- **a montanha** — the mountain
+- **a praia** — the beach
 
-- **Vamos para a praia!** — Let's go to the beach!
+## Let's go!
 
-**Vamos!** on its own means "Let's go!". To + the merges with **a**: *a + o = ao*, as in **Nós vamos ao parque** (later in the course).
-
-## Useful phrases
-
+- **Vamos!** — Let's go!
+- **Vamos para a praia!** — Let's go to the beach! (**para** means "to")
 - **Boa viagem!** — Have a good trip!
 - **Mar ou montanha?** — Sea or mountain? (**ou** means "or")
 
-**Note:** the course writes "river" as *río* (the Spanish spelling). In Portuguese it is *rio*, without an accent — the exercises accept the course's spelling.
+> **Watch out:** the course spells "river" *río*, which is Spanish. In Portuguese it's **rio**, with no accent. The exercises accept the course's spelling.

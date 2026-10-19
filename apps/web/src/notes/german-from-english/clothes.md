@@ -1,26 +1,34 @@
-## Neuter nouns: das
+In this lesson: **clothes**, **"is" and "are"**, and **shopping phrases**.
 
-The third gender, **neuter**, uses **das**:
+## das: the third "the"
 
-- **das Kleid** — the dress · **das T-Shirt** — the t-shirt
-- masculine: **der Rock** — the skirt (yes, masculine!)
-- **ein Hut** — a hat · **ein Hemd** — a shirt
+Neuter nouns use **das**:
 
-## Plural "the" is always die
+- **das Kleid** — the dress
+- **das T-Shirt** — the t-shirt
 
-Whatever the gender, the plural "the" is **die**: **die Schuhe** — the shoes, **die Socken** — the socks.
+The gender doesn't always match what you'd expect:
 
-## Is / are
+- **der Rock** — the skirt (masculine!)
+
+## "The" with more than one thing is always die
+
+Whatever the gender, use **die** when there's more than one:
+
+- **die Schuhe** — the shoes
+- **die Socken** — the socks
+
+## "Is" and "are"
 
 - **ist** — is: **Das Kleid ist wunderschön** — The dress is beautiful
 - **sind** — are: **Die Schuhe sind groß** — The shoes are big
 
-After **ist / sind**, the adjective doesn't change its ending: **Der Rock ist klein**, **Das T-Shirt ist groß**.
+After **ist** or **sind**, the describing word never changes: **Der Rock ist klein**, **Das T-Shirt ist groß**.
 
-## In a shop
+## Shopping
 
 - **Wie viel kostet es?** — How much is it?
 - **Ich mag es!** — I like it!
 - **Danke** — Thank you
 
-*ß* is a double s: **groß** sounds like "grohss".
+> **Watch out:** **ß** is a double s. **groß** sounds like "grohss".

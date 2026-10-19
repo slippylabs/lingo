@@ -1,21 +1,25 @@
-## Greetings by time of day
+In this lesson: **hello, goodbye**, and **introducing yourself**.
+
+## Saying hello
 
 - **Bom dia!** — Good morning
 - **Boa tarde!** — Good afternoon
-- **Boa noite!** — Good evening / good night
-
-**dia** is masculine (*bom*); **tarde** and **noite** are feminine (*boa*).
+- **Boa noite!** — Good evening / Good night
 
 ## Introducing yourself
 
-- **Bom dia, eu sou a Cecilia.** — Good morning, I'm Cecilia. (Brazilians often put **a** / **o** before names.)
+- **Bom dia, eu sou a Cecilia.** — Good morning, I'm Cecilia.
 - **Qual é o seu nome?** — What's your name?
-- **Prazer em conhecê-lo** — Nice to meet you (to a man; to a woman it's *conhecê-la*). Many people just say *Prazer!*
+- **Prazer em conhecê-lo** — Nice to meet you
 
-The course's "My name is José" is missing a word: it should read *Meu nome é José*.
+Brazilians often put **a** or **o** before a name, as in **eu sou a Cecilia**. Many people just say *Prazer!* for "nice to meet you".
 
-## How's it going?
+## Chatting
 
 - **Como vai?** — How are you?
-- *E aí?* — What's up? (casual)
+- **E aí?** — What's up? (casual)
 - **Até logo!** — See you later!
+
+The course writes "My name is José" with a word missing. The correct sentence is **Meu nome é José**.
+
+> **Watch out:** it's **bom** dia but **boa** tarde and **boa** noite. *dia* is masculine; *tarde* and *noite* are feminine.

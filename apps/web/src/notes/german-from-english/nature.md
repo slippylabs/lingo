@@ -1,18 +1,19 @@
-## Genders in nature
+In this lesson: **nature words** and **"let's go to the beach"**.
 
-- masculine: **der Himmel**, **der Berg**, **der Strand**, **ein Fluss**, **ein See**
-- feminine: **die Sonne**
-- neuter: **das Meer**
+## Learn each word with its "the"
 
-*der See* is a lake; *die See* (feminine) is an old word for the sea. Gender can change the meaning.
+- **der Himmel** — the sky
+- **der Berg** — the mountain
+- **der Strand** — the beach
+- **die Sonne** — the sun
+- **das Meer** — the sea
 
-## Going somewhere
+## Let's go!
 
 - **Gehen wir an den Strand!** — Let's go to the beach!
-
-**Gehen wir** = let's go. After **an** ("to", for water and edges), **der Strand** becomes **den Strand** — the article changes when the noun is where you're going. You'll see this pattern a lot in German.
-
-## Useful phrases
-
 - **Gute Reise!** — Have a good trip!
 - **Berge oder Meer?** — Mountains or sea? (**oder** = or)
+
+**Gehen wir** means "let's go". After **an** ("to", when going to water or the edge of something), **der** changes to **den**: **der Strand** → **an den Strand**.
+
+> **Watch out:** **der See** means "the lake", but **die See** means "the sea". Here the gender changes the meaning, so learn **See** with **der**.

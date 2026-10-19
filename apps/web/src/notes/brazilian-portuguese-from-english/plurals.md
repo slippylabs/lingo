@@ -1,18 +1,27 @@
-## Making plurals
+In this lesson: talking about **more than one** thing.
 
-Most nouns just add **-s**: **gato → gatos**, **praia → praias**, **morangos**, **médicos**. The article goes plural too (**o → os**, **a → as**):
+## Add -s
 
-- **os gatos** — the cats · **as praias** — the beaches
-- **os morangos** — the strawberries · **os estudantes** — the students
+To make a word plural, add **‑s**:
 
-## Adjectives agree
+- **gato** → **gatos** (cats)
+- **praia** → **praias** (beaches)
 
-Describing words match the noun and usually come after it:
+"The" becomes plural too: **o** → **os**, **a** → **as**:
 
-- **Gatos verdes** — green cats
-- **Praias bonitas** — beautiful beaches
-- **as camisas são vermelhas** — the shirts are red
+- **os gatos** — the cats
+- **as praias** — the beaches
+- **os médicos** — the doctors
 
-"Are" is **são**: **os gatos são estudantes** — the cats are students.
+## Describing words
 
-**Watch out:** **óculos** (glasses) is always plural: **os óculos são grandes**.
+Describing words go **after** the noun, and they add **‑s** as well:
+
+- **Gatos verdes** — Green cats
+- **Praias bonitas** — Beautiful beaches
+
+"Are" is **são**:
+
+- **As camisas são vermelhas** — The shirts are red
+
+> **Watch out:** **óculos** (glasses) is always plural, so it's **Os óculos são grandes**, with **são**.

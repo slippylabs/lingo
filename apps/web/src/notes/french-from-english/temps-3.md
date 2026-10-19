@@ -1,18 +1,22 @@
-## Describing the weather: c'est …
+In this lesson: **weather words** and **"it's …"**.
 
-Most weather adjectives here end in **-eux** — like English "-y":
+## Weather words
 
-- **nuageux** — cloudy · **pluvieux** — rainy · **orageux** — stormy
-- **neigeux** — snowy · **brumeux** — foggy
-- **ensoleillé** — sunny · **venté** — windy
+- **ensoleillé** — sunny
+- **pluvieux** — rainy
+- **nuageux** — cloudy (from **nuage**, cloud)
+- **neigeux** — snowy (from **neige**, snow)
+- **orageux** — stormy
+- **brumeux** — foggy
+- **venté** — windy
+
+Many of these end in **‑eux**, which works like English "‑y" (rain → rainy).
+
+## "It's …"
 
 Put **C'est** ("it's") in front:
 
 - **C'est orageux.** — It's stormy.
 - **C'est nuageux.** — It's cloudy.
 
-**Note:** the course translates *C'est nuageux* as "It's snowy" — that's a mistake in the course: *nuageux* is **cloudy** (*nuage* = cloud). Snowy is *neigeux*.
-
-## What people usually say
-
-In everyday French, people more often use *il fait* or *il y a*: *Il fait beau* (it's nice), *il pleut* (it's raining), *il y a du vent* (it's windy). You'll see these later.
+> **Watch out:** the course translates **C'est nuageux** as "It's snowy". That's a mistake: **nuageux** is **cloudy**. Snowy is **neigeux**.

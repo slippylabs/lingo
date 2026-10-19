@@ -1,16 +1,25 @@
-## We, you all, they
+In this lesson: **we, you all, they**.
 
-| | comer | beber | ser |
+## The words for "we", "you all" and "they"
+
+- **nós** — we
+- **vocês** — you all
+- **eles** — they
+
+If the group is **only women**, "they" is **elas** instead.
+
+## The verb endings
+
+**vocês** uses the same form as **eles**, just as **você** matches **ele**:
+
+| | eat | drink | be |
 |---|---|---|---|
-| we — **nós** | **comemos** | **bebemos** | **somos** |
-| you all — **vocês** | **comem** | **bebem** | **são** |
-| they — **eles / elas** | **comem** | **bebem** | **são** |
+| we | **comemos** | **bebemos** | **somos** |
+| you all, they | **comem** | **bebem** | **são** |
 
 - **Nós comemos bananas** — We eat bananas
 - **Vocês bebem água** — You (all) drink water
 - **Elas bebem cerveja** — They drink beer
 - **Eles são cães** — They are dogs
 
-**vocês** ("you all") uses the same form as **eles** ("they"), just like **você** matches **ele**.
-
-**elas** is for a group of women only; **eles** is for men or mixed groups.
+> **Watch out:** a mixed group of men and women is always **eles**, even if there's only one man.

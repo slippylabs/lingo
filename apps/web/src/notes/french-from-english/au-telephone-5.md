@@ -1,14 +1,14 @@
-## On the phone
+In this lesson: **polite phrases for a phone call**.
 
-These are fixed polite phrases — learn them whole:
+## Learn these as whole phrases
 
-- **Pourrais-je parler à Max ?** — May I speak with Max? (*pourrais-je* = could I)
-- **C’est de la part de qui ?** — Who is calling? (literally "it's on whose behalf?")
+- **Pourrais-je parler à Max ?** — May I speak with Max?
+- **C'est de la part de qui ?** — Who is calling? (literally "it's on whose behalf?")
 - **Ne quittez pas.** — Please hold. (literally "don't leave")
 - **Je vous le passe.** — I'll put you through. (literally "I pass him to you")
 
-## Questions by swapping
+## A formal question
 
-**Pourrais-je** swaps the verb and "je" with a hyphen — a formal way to ask a question. Everyday French would say *Je peux parler à Max ?*
+**Pourrais-je** means "could I". It turns "je pourrais" (I could) around and joins the two words with a hyphen. That's a formal way to ask a question. In everyday French you'd hear *Je peux parler à Max ?*
 
-**Polite vous:** **quittez** and **vous** are the polite forms, right for phone calls with people you don't know.
+> **Watch out:** these phrases use the polite **vous** (as in **quittez** and **Je vous le passe**), which is right when you call someone you don't know.

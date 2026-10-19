@@ -1,17 +1,20 @@
-## Verbs change with the person
+In this lesson: **I, you, he, she**, and how verbs change for each of them.
 
-| | comer (eat) | beber (drink) | ser (be) |
+## The ending tells you who
+
+In Brazil "you" is **você**, and it uses the **same verb form** as he (**ele**) and she (**ela**). So there are only two forms to learn here:
+
+| | eat | drink | be |
 |---|---|---|---|
-| I — **eu** | **como** | **bebo** | **sou** |
-| you — **você** | **come** | **bebe** | **é** |
-| he — **ele**, she — **ela** | **come** | **bebe** | **é** |
+| I (**eu**) | **como** | **bebo** | **sou** |
+| you (**você**), he (**ele**), she (**ela**) | **come** | **bebe** | **é** |
 
-- **Eu como pão** — I eat bread · **Você come macarrão** — You eat pasta
-- **Eu bebo cerveja** — I drink beer · **Você bebe leite** — You drink milk
-- **Eu sou um gato** — I am a cat · **Você é grande** — You are big
+So the pattern is **‑o** for I and **‑e** for everyone else.
 
-## você works like "he/she"
+- **Eu como pão** — I eat bread
+- **Você bebe leite** — You drink milk
+- **Ela come pizza** — She eats pizza
+- **Eu sou um gato** — I am a cat
+- **Você é grande** — You are big
 
-In Brazil, "you" is **você**, and it takes the same verb form as **ele** and **ela**: **Você come**, **Ele come**. That makes Brazilian verbs easier than Spanish or European Portuguese ones.
-
-**Common mistake:** *ser* is irregular — **sou, é, é**.
+> **Watch out:** the verb for "be" doesn't follow the pattern. It's **sou** for I and **é** for you, he and she. Just memorise it.

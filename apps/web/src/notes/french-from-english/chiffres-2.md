@@ -1,27 +1,25 @@
-## Six to ten
+In this lesson: the numbers **six to ten**.
 
-| | |
-|---|---|
-| 6 | **six** |
-| 7 | **sept** |
-| 8 | **huit** |
-| 9 | **neuf** |
-| 10 | **dix** |
+## The numbers
 
-**sept** is said "set" (the p is silent).
+- **six** — six (say "seess")
+- **sept** — seven (say "set": the p is silent)
+- **huit** — eight (say "weet")
+- **neuf** — nine
+- **dix** — ten (say "deess")
 
-## Numbers before a noun
+## Some last letters go quiet
 
-The final consonant of **six**, **huit** and **dix** is silent before a consonant and links before a vowel:
+When **six**, **huit** or **dix** comes before a word starting with a consonant (any letter that isn't a vowel), its last letter goes silent:
 
-- *six* on its own: "seess"
-- **Six téléphones** — "see téléphones"
-- **huit femmes** — "hwee femmes"
+- **six** on its own — say "seess"
+- **Six téléphones** — say "see téléphones"
+- **huit femmes** — say "wee femmes"
 
 ## Phone numbers
 
-- *Mon numéro de téléphone est…* — My phone number is…
+- **Mon numéro de téléphone est…** — My phone number is…
 
-French people usually say phone numbers in pairs (*zéro six, douze, …*), but digit by digit is fine.
+French people usually read phone numbers in pairs (*zéro six, douze…*), but saying each digit works too.
 
-**Note:** the course translates *huit femmes* as "eight woman" — it means "eight wom**e**n".
+> **Watch out:** the course translates **huit femmes** as "eight woman". It means "eight wom**e**n".

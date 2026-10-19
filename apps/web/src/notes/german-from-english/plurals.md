@@ -1,24 +1,29 @@
-## One "the" for every plural: die
+In this lesson: talking about **more than one** thing.
 
-Whatever a noun's gender, its plural takes **die**: **die Katzen**, **die Strände**, **die Ärzte**.
+## "The" is always die
 
-## German plurals have several endings
+Whatever the word's gender, its plural uses **die**:
 
-There's no single rule, so learn each plural with its noun. The common patterns:
+- **die Katzen** — the cats
+- **die Strände** — the beaches
+- **die Ärzte** — the doctors
 
-| ending | example |
-|---|---|
-| **-n / -en** | **Katzen**, **Enten**, **Studenten**, **Erdbeeren**, **Brillen** |
-| **-e**, often with an umlaut | **Strände**, **Ärzte** |
-| **-en** after a consonant | **Hemden** |
+## Plural endings
 
-An umlaut (ä, ö, ü) often appears in the plural: *Strand* → **Strände**, *Arzt* → **Ärzte**.
+German has no single plural ending, so learn each plural with its word. Two common patterns:
 
-## Adjectives before a noun take an ending
+- add **‑n** or **‑en**: **Katze** → **Katzen**, **Hemd** → **Hemden**
+- add **‑e**, often with dots over the vowel: **Strand** → **Strände**, **Arzt** → **Ärzte**
 
-- **Grüne Katzen** — green cats
-- **Schöne Strände** — beautiful beaches
+## Describing words
 
-After **sind** they don't: **Die Hemden sind rot** — The shirts are red.
+Before a plural noun, a describing word gets an **‑e**:
 
-**Note:** German says **die Brillen** only for several pairs of glasses; one pair is *eine Brille*.
+- **Grüne Katzen** — Green cats
+- **Schöne Strände** — Beautiful beaches
+
+After **sind** ("are") it doesn't change:
+
+- **Die Hemden sind rot** — The shirts are red
+
+> **Watch out:** one pair of glasses is **eine Brille**. **die Brillen** means several pairs.

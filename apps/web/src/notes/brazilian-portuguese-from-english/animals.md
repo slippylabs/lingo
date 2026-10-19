@@ -1,23 +1,32 @@
-## Every noun has a gender
+In this lesson: **animal names**, and how to say **"it's a …"**.
 
-In Portuguese every noun is **masculine** or **feminine**, and "the" and "a" change with it. All the animals in this lesson are masculine:
+## "The" and "a"
 
-| | the | a |
-|---|---|---|
-| masculine | **o** | **um** |
+Every animal in this lesson uses the same two little words:
 
-- **o gato** — the cat · **um urso** — a bear
-- **o cão** — the dog · **um leão** — a lion
+- **o** = the
+- **um** = a
 
-Learn each noun with its article (**o gato**, not just *gato*) — that's how you remember its gender.
+Examples:
 
-## "Is" = é
+- **o gato** — the cat
+- **um urso** — a bear
+- **o cão** — the dog
+- **um leão** — a lion
 
-**é** means "is" (and "it is"); Portuguese usually drops "it":
+Tip: learn each animal together with **o**, as in **o gato** rather than just *gato*. It will help you later.
+
+## "It's a …"
+
+**é** means "is". Portuguese leaves out the word "it", so **é** alone can mean "it's":
 
 - **É um cavalo** — It's a horse
 - **Max é um cão** — Max is a dog
 
-**e** (no accent) means "and": **Um pato e um cavalo** — a duck and a horse. The accent matters: **é** = is, **e** = and.
+**e** means "and":
 
-In everyday Brazilian Portuguese a dog is usually *cachorro*; **cão** is the word this course uses.
+- **Um pato e um cavalo** — A duck and a horse
+
+In everyday Brazilian Portuguese a dog is usually *cachorro*. This course uses **cão**.
+
+> **Watch out:** the little accent changes the word: **é** = is, **e** = and.

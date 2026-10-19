@@ -1,20 +1,25 @@
-## der, die, das — and ein, eine
+In this lesson: **animal names**, **"a"**, and **"it's a …"**.
 
-Each noun's gender decides its articles. There's no reliable rule, so learn every noun with its "the":
+## "The" and "a"
 
-| | the | a |
-|---|---|---|
-| masculine | **der Hund** | **ein Bär**, **ein Löwe** |
-| feminine | **die Katze**, **die Ente** | *eine Ente* |
-| neuter | *das Pferd* | **ein Pferd** |
+Each animal comes with its own word for "the":
 
-So "a" is **ein** for masculine and neuter nouns, **eine** for feminine ones:
+- **der Hund** — the dog
+- **die Katze** — the cat
+- **die Ente** — the duck
 
+"A" is **ein** for masculine and neuter words, and **eine** for feminine words:
+
+- **ein Bär** — a bear
+- **ein Löwe** — a lion
+- **ein Pferd** — a horse
 - **Eine Ente und ein Pferd** — A duck and a horse
 
-## "is" = ist
+## "It's a …"
 
-- **Es ist ein Pferd** — It's a horse (**es** = it)
+**ist** means "is", and **es** means "it":
+
+- **Es ist ein Pferd** — It's a horse
 - **Max ist ein Hund** — Max is a dog
 
-**Watch out:** **Bär** and **Löwe** have umlauts (ä, ö). If you can't type them, the special-letter buttons under the answer box will.
+> **Watch out:** **Bär** and **Löwe** have dots over the vowel (ä, ö). If you can't type them, use the special-letter buttons under the answer box.

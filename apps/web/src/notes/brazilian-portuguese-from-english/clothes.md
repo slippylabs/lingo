@@ -1,26 +1,35 @@
-## Feminine nouns and plurals
+In this lesson: **clothes**, the other words for **"the"**, and **shopping phrases**.
 
-"The" has four forms — it matches the noun's gender and number:
+## Portuguese has two kinds of noun
 
-| | singular | plural |
+In Portuguese every noun (a word for a thing) is either **masculine** or **feminine**. These are just labels, like two teams. They decide which word for "the" you use, and it changes again for more than one thing:
+
+| | one | more than one |
 |---|---|---|
 | masculine | **o** | **os** |
 | feminine | **a** | **as** |
 
-- **o vestido** — the dress · **os sapatos** — the shoes
-- **a saia** — the skirt · **as meias** — the socks · **a camiseta** — the t-shirt
+- **o vestido** — the dress
+- **os sapatos** — the shoes
+- **a saia** — the skirt
+- **as meias** — the socks
 
-"A" is **um** (masculine) or **uma** (feminine): **um chapéu** — a hat, **uma camisa** — a shirt.
+"A" works the same way. It's **um** for masculine words and **uma** for feminine ones:
 
-## Is / are
+- **um chapéu** — a hat
+- **uma camisa** — a shirt
+
+## "Is" and "are"
 
 - **é** — is: **O vestido é bonito** — The dress is beautiful
 - **são** — are: **Os sapatos são grandes** — The shoes are big
 
-Adjectives match the noun: **A saia é pequena** (feminine), but *o chapéu é pequeno* (masculine).
+The describing word changes to match: **A saia é pequena** (feminine, so it ends in **‑a**).
 
-## In a shop
+## Shopping
 
 - **Quanto custa?** — How much is it?
-- **Obrigado** — Thank you (a woman says *obrigada*)
 - **Eu gosto!** — I like it!
+- **Obrigado** — Thank you
+
+> **Watch out:** "thank you" depends on who is speaking. A man says **obrigado**; a woman says *obrigada*.

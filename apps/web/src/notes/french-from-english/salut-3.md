@@ -1,23 +1,31 @@
-## Greetings and politeness
+In this lesson: **hello, good evening, please**, and **telling someone your name**.
 
-- **Bonjour** — Hello / Good morning (all day, until evening)
+## Greetings
+
+- **Bonjour** — Hello / Good morning (used all day until evening)
 - **Bonsoir** — Good evening
 - **Merci** — Thanks
-- **s'il vous plaît** — please (polite; to a friend: *s'il te plaît*)
+- **Bonsoir et merci.** — Good evening and thanks.
 
-## Two kinds of "you"
+## Two words for "you"
 
-French has a casual and a polite "you", and it shows in the phrases:
+French has a friendly "you" for friends, family and children, and a polite "you" for strangers, shops and work:
 
-- **Comment t’appelles-tu ?** — What's your name? (to a friend: **tu**)
-- **Votre nom, s'il vous plaît ?** — Your name, please? (polite: **votre**, **vous**)
+- **tu** — you, friendly
+- **vous** — you, polite
 
-Use **vous** with strangers, in shops and at work; **tu** with friends, family and children.
+Other words change to match:
+
+- **Comment t'appelles-tu ?** — What's your name? (friendly)
+- **Votre nom, s'il vous plaît ?** — Your name, please? (polite: **votre** = your)
+- **s'il vous plaît** — please (polite)
 
 ## Saying who you are
 
-- **Je m’appelle Cecille.** — My name is Cecille (literally "I call myself")
+- **Je m'appelle Cecille.** — My name is Cecille. (literally "I call myself Cecille")
 - **Je viens de Paris.** — I come from Paris.
-- **Ça va ?** — How are you? (the answer can be the same: *Ça va !*)
+- **Ça va ?** — How are you?
 
-**Spacing:** French puts a space before **?** and **!**: *Ça va ?* The exercises accept it either way.
+You can answer **Ça va ?** with the same words: **Ça va !** (I'm fine!)
+
+> **Watch out:** French puts a space before **?** and **!**, as in **Ça va ?** The exercises accept it with or without the space.

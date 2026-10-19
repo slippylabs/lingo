@@ -1,22 +1,27 @@
-## Adjectives match the noun
+In this lesson: **describing words** such as big, small, tall and old.
 
-| | masculine | feminine |
+## Describing words change their ending
+
+A describing word changes to match the person or thing it describes:
+
+| | one | more than one |
 |---|---|---|
-| one | **alto**, **velho**, **pequeno** | **alta**, **velha** |
-| several | **pequenos** | — |
+| a man / masculine word | **pequeno** | **pequenos** |
+| a woman / feminine word | **pequena** | **pequenas** |
 
-- **Max é alto** — Max is tall · **Cecilia é alta** — Cecilia is tall
-- **Ele é velho** — He is old · **Ela é velha** — She is old
-- **Eles são pequenos** — They're small
+- **Max é alto** — Max is tall
+- **Cecilia é alta** — Cecilia is tall
+- **Os gatos são pequenos** — The cats are small
 
-Adjectives ending in **-e** are the same for both genders and just add **-s**: **Eu sou grande**, **Nós somos grandes**.
+Words ending in **‑e** don't change for a man or a woman. They only add **‑s** for more than one:
 
-## Not
+- **Ela é grande** — She is big
+- **Nós somos grandes** — We are big
 
-Put **não** right before the verb: **Max não é baixo** — Max is not short.
+## Saying "not"
 
-## Adjectives as nouns
+Put **não** right before the verb:
 
-**Os velhos comem carne** — The old ones eat meat.
+- **Max não é baixo** — Max is not short
 
-**Note:** **rato** covers both "mouse" and "rat".
+> **Watch out:** **rato** means both "mouse" and "rat".

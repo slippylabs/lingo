@@ -1,22 +1,21 @@
-## Three words for "the"
+In this lesson: **hello**, and the words for **the man** and **the woman**.
 
-German nouns are **masculine**, **feminine** or **neuter**, and each has its own "the":
+## German has three words for "the"
 
-| masculine | feminine | neuter |
-|---|---|---|
-| **der** | **die** | *das* |
+Every German noun (a word for a thing or person) belongs to one of three groups: **masculine**, **feminine** or **neuter**. These are just labels. Each group has its own word for "the":
 
-- **der Mann** — the man
-- **die Frau** — the woman
+- masculine: **der** — **der Mann** (the man)
+- feminine: **die** — **die Frau** (the woman)
+- neuter: **das** (you'll see it with your first neuter words in the next lessons)
 
 ## Nouns start with a capital letter
 
-Every German noun is written with a capital: **Mann**, **Frau**. It's a handy way to spot nouns in a sentence.
+Every German noun is written with a capital: **Mann**, **Frau**. It makes nouns easy to spot.
 
 ## Saying hello
 
-- **Hallo** — hello
+- **Hallo** — Hello
 - **Der Mann sagt hallo** — The man says hello
 - **Die Frau sagt hallo** — The woman says hello
 
-**sagt** = says. German verbs for he/she usually end in **-t**.
+> **Watch out:** learn every noun together with its **der**, **die** or **das**. There's no reliable way to guess which one a word takes.
