@@ -5130,6 +5130,18 @@
    "why": "Latin í (U+00ED) used for stressed Cyrillic і",
    "old": "* *Examples (Synthetic Future):* Я **прачыта́ю** кнíгу (I will read a book). Ты **ска́жаш** яму́ (You will tell him). Яна́ **зро́біць** гэта (She will do it).",
    "new": "* *Examples (Synthetic Future):* Я **прачыта́ю** кні́гу (I will read a book). Ты **ска́жаш** яму́ (You will tell him). Яна́ **зро́біць** гэта (She will do it)."
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Новы год у снежні.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Новы год у студзені.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module8numbersandtimeoftheday/skills/numbers1120.yaml",
+   "why": "шаснаццаць is sixteen",
+   "old": "  - Phrase: шаснаццаць гадзіннікаў\n    Translation: twenty clocks\n",
+   "new": "  - Phrase: шаснаццаць гадзіннікаў\n    Translation: sixteen clocks\n"
   }
  ],
  "church-slavonic-from-english": [
@@ -6416,6 +6428,24 @@
    "why": "'I' is а́зъ (я is Russian); the imperfect has no masculine/feminine forms",
    "old": "Вчера́ **я҆̀ рабо́таахъ** (masc.) (Yesterday I was working). Вчера́ та̀ **рабо́тааше** (fem.) (Yesterday she was working).",
    "new": "Вчера́ **а́зъ рабо́таахъ** (Yesterday I was working). Вчера́ та̀ **рабо́тааше** (Yesterday she was working)."
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Новъи рокъ ѥстъ въ дєкємвриꙋ.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Новъи рокъ ѥстъ въ ꙗноуариꙋ.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Азъ дамъ котꙋ рꙑбѫ.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Азъ дамъ котꙋ рꙑбѫ.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Азъ дамъ котꙋ имѧ.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Азъ дамъ котꙋ имѧ.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "croatian-from-english": [
@@ -7492,6 +7522,12 @@
    "why": "dictionary entries for words added by the fixes above (Croatian)",
    "old": "  Croatian:\n",
    "new": "  Croatian:\n    - nema: does not have\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Nova godina je u prosincu.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Nova godina je u siječnju.\n    Translation: New Year's is in January.\n"
   }
  ],
  "czech-from-english": [
@@ -9462,6 +9498,12 @@
    "why": "mini-dictionary entries for the corrected sentences",
    "old": "  English:\n    - a: undefined\n",
    "new": "    - vyšší: taller\n    - silnější: stronger\n    - krásnější: more beautiful\n    - tamten: that one\n    - moudřejší: wiser\n    - zelenější: greener\n    - hlasitěji: louder\n    - větší: bigger\n  English:\n    - this: undefined\n    - a: undefined\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Já dám kočce jméno.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Já dám kočce jméno.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "german-from-english": [
@@ -10264,6 +10306,24 @@
    "why": "mini-dictionary entry for 'děti' (needed by a corrected sentence)",
    "old": "  Interslavic:\n",
    "new": "  Interslavic:\n    - děti: undefined\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Novy rok jest v dekembru.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Novy rok jest v januaru.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dam kotu rybu.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Ja dam kotu rybu.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dam kotu ime.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Ja dam kotu ime.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "kabyle-from-french": [
@@ -11528,6 +11588,24 @@
    "why": "mini-dictionary entries for the corrected sentences",
    "old": "  English:\n",
    "new": "  English:\n    - today: undefined\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Nowi rok je w gòdnikù.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Nowi rok je w stëcznikù.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dóm kòtowi rëbã.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Ja dóm kòtowi rëbã.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dóm kòtowi miono.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Ja dóm kòtowi miono.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "lower-sorbian-from-english": [
@@ -12598,6 +12676,24 @@
    "why": "mini-dictionary entries for corrected English",
    "old": "  English:\n",
    "new": "  English:\n    - only: undefined\n    - rains: undefined\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Nowe lěto jo we decemberje.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Nowe lěto jo w januarje.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dam kócce rybu.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Ja dam kócce rybu.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dam kócce mě.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Ja dam kócce mě.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "occitan-auvergnat-from-french": [
@@ -13844,6 +13940,24 @@
    "why": "dictionary entries for corrected text",
    "old": "  English:\n",
    "new": "  English:\n    - this: сь\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Новъи рокъ ѥстъ въ дєкємвриꙋ.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Новъи рокъ ѥстъ въ ꙗноуариꙋ.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Азъ дамъ котꙋ рꙑбѫ.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Азъ дамъ котꙋ рꙑбѫ.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Азъ дамъ котꙋ имѧ.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Азъ дамъ котꙋ имѧ.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "polish-from-english": [
@@ -16212,6 +16326,24 @@
    "why": "dictionary entries for corrected words",
    "old": "  Rusin:\n",
    "new": "  Rusin:\n    - дньом: day\n    - кажный: every\n    - місяцьом: month\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Новый рок є в децембрї.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Новый рок є в януарї.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Я дам котови рыбу.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Я дам котови рыбу.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Я дам котови імня.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Я дам котови імня.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "russian-from-english": [
@@ -21720,6 +21852,24 @@
    "why": "mini-dictionary entries for the corrected sentences",
    "old": "  Silesian:\n",
    "new": "  Silesian:\n    - miesiōncym: month\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Nowy rok je we grudniu.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Nowy rok je we styczniu.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Jo dōm kotu ryba.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Jo dōm kotu ryba.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Jo dōm kotu miano.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Jo dōm kotu miano.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "slovak-from-english": [
@@ -22820,6 +22970,18 @@
    "why": "mini-dictionary entries for the corrected sentences",
    "old": "  Slovak:\n",
    "new": "  Slovak:\n    - čoskoro: soon\n    - skončí: will end\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dám mačke rybu.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Ja dám mačke rybu.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dám mačke meno.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Ja dám mačke meno.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "slovenian-from-english": [
@@ -23962,6 +24124,24 @@
    "why": "mini-dictionary entries for the corrected sentences",
    "old": "  Slovenian:\n",
    "new": "  Slovenian:\n    - nima: does not have\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Novo leto je v decembru.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Novo leto je v januarju.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Jaz dam mački ribo.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Jaz dam mački ribo.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Jaz dam mački ime.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Jaz dam mački ime.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
   }
  ],
  "ukrainian-from-english": [
@@ -26868,6 +27048,12 @@
    "why": "a slash inside the sentence makes learners type both words; keep one",
    "old": "  - Phrase: Ти без фляжки/пляшки?\n",
    "new": "  - Phrase: Ти без пляшки?\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Новий рік є в грудні.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Новий рік є в січні.\n    Translation: New Year's is in January.\n"
   }
  ],
  "upper-sorbian-from-english": [
@@ -28334,6 +28520,30 @@
    "why": "mini-dictionary entries for corrected sentences",
    "old": "  Upper Sorbian:\n",
    "new": "  Upper Sorbian:\n    - wutrobje: undefined\n    - swoje: undefined\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "New Year's Day is in January",
+   "old": "  - Phrase: Nowe lěto je w decembru.\n    Translation: New Year's is in December.\n",
+   "new": "  - Phrase: Nowe lěto je w januaru.\n    Translation: New Year's is in January.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dam kóčce rybu.\n    Translation: I give the cat a fish.\n",
+   "new": "  - Phrase: Ja dam kóčce rybu.\n    Translation: I give the cat a fish.\n    Alternative translations:\n      - I will give the cat a fish.\n"
+  },
+  {
+   "file": "module5describingnatureanddirections/skills/animalsdativecase.yaml",
+   "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
+   "old": "  - Phrase: Ja dam kóčce mjeno.\n    Translation: I give the cat a name.\n",
+   "new": "  - Phrase: Ja dam kóčce mjeno.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
+  },
+  {
+   "file": "module9timeandthecalendar/skills/weekdaysmonths.yaml",
+   "why": "dictionary entry for januaru",
+   "old": "    - decembru: undefined\n",
+   "new": "    - decembru: undefined\n    - januaru: January\n"
   }
  ]
 }

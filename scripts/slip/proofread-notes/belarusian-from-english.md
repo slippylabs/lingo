@@ -26,3 +26,6 @@
   "Плаванне добрае для здароўя"), left as is.
 - The course as a whole is a word-for-word adaptation of the Interslavic template; a native speaker review
   would find more.
+
+## From the notes rewrite (2026-10-19)
+- The ordinal clock times use "у … гадзіне"; the standard is probably "а … гадзіне".

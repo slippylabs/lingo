@@ -35,3 +35,7 @@
   мокрый→синїй/синє/синї/синю (blue), ясень→осїнь with locative "в осени", Ты→Тоты (these), часы→часу.
 - Intro notes still use Вон, читати/книга (vs the course's Он, чітати/кнїга) and a few other spellings. I only fixed
   the forms that contradict what the exercises accept.
+
+## From the notes rewrite (2026-10-19)
+- *матка* is still taught as "mother" (Він/Она іде з матков). Probably *мати* / *мама*; not changed because the Rusin instrumental form needs a native check.
+- "Я дам" is answered "I give"; "I will give" is now also accepted.

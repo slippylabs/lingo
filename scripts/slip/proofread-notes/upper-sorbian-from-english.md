@@ -33,3 +33,7 @@
   instrumental takes no z. Note "a a" conjunction section looks invented.
 - "Strowy!" as a greeting, "Powtórij" (repeat = wospjetuj), "Njesym rozumjał", "Štož to woznamjeni?"
   (što to rěka?), "Daj!" = let's go.
+
+## From the notes rewrite (2026-10-19)
+- "Wón šoł do doma" / "Radostnje šoł do doma" are probably missing *je* (Upper Sorbian keeps "to be" in the 3rd-person past).
+- *stół* (taught as table) and *stólčk* look swapped against standard *blido* (table) / *stół* (chair).

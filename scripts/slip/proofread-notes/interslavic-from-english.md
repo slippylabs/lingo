@@ -27,3 +27,6 @@
 - numbers010: "tri koti" twice (koty?).
 - Notes: instrumental intro says "always used with a preposition" then gives "Pišem perom";
   locative intro says masc/neuter loc is -u but its examples use "v dobrom domě"; "On išel by" (šel).
+
+## From the notes rewrite (2026-10-19)
+- "Čujem se radostno tutdenj" still has the English "We feel joyful this week" (other courses: "I feel joyful today").
