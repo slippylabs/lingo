@@ -4,7 +4,7 @@
 	// ahead, then the course as a path of units and lessons.
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
-	import { loadIndex, loadMeta, moduleTitle, type CourseMeta } from '$lib/data';
+	import { loadIndex, loadMeta, moduleTitle, EXPERIMENTAL, type CourseMeta } from '$lib/data';
 	import TopBar from '$lib/ui/TopBar.svelte';
 	import GoalRing from '$lib/ui/GoalRing.svelte';
 	import Icon from '$lib/ui/Icon.svelte';
@@ -85,6 +85,9 @@
 
 {#if learner && plan && index && meta}
 	<main class="wrap dash">
+		{#if EXPERIMENTAL[course]}
+			<p class="card notice warn">{EXPERIMENTAL[course]}</p>
+		{/if}
 		{#if migrated}
 			<p class="card notice">We moved your earlier progress over: {migrated} words and phrases from lessons you'd finished are now in your reviews.</p>
 		{/if}

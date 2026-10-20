@@ -22,6 +22,13 @@ const introFiles = import.meta.glob('../courses/*/introduction/*.md', {
 // Our own notes (in git) win over the course's introduction.
 const ourNotes = import.meta.glob('../notes/*/*.md', { query: '?raw', import: 'default' });
 
+// Courses whose content is a modern reconstruction we can't vouch for: shown
+// with an "Experimental" pill and this note.
+export const EXPERIMENTAL: Record<string, string> = {
+	'old-church-slavonic-from-english':
+		'This course is experimental. It was converted from a modern template, so many sentences are reconstructions rather than attested Old Church Slavonic, and some forms may be wrong.'
+};
+
 export const courseNames = (): string[] =>
 	Object.keys(metaFiles)
 		.map((k) => k.split('/')[2])

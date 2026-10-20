@@ -3,7 +3,7 @@
 	// minutes a day, listening, and the progress file tools.
 	import { onMount } from 'svelte';
 	import { goto } from '$app/navigation';
-	import { loadIndex, loadMeta, type CourseMeta } from '$lib/data';
+	import { loadIndex, loadMeta, EXPERIMENTAL, type CourseMeta } from '$lib/data';
 	import TopBar from '$lib/ui/TopBar.svelte';
 	import { Learner } from '../../../../learn/learner';
 	import { GOALS, MINUTES, dailyTarget, newPerDay } from '../../../../learn/plan';
@@ -90,6 +90,7 @@
 	<main class="wrap setup">
 		<form onsubmit={save}>
 			<h1>{first ? `Let's set up your ${meta.languageName} plan` : 'Your plan'}</h1>
+			{#if first && EXPERIMENTAL[course]}<p class="card experimental">{EXPERIMENTAL[course]}</p>{/if}
 			<p class="muted">You can change any of this later. It shapes which exercises you get and how much is new each day.</p>
 
 			<fieldset>
@@ -243,5 +244,9 @@
 	.msg {
 		margin-top: 10px;
 		font-weight: 650;
+	}
+	.experimental {
+		background: var(--warn-soft);
+		border-color: transparent;
 	}
 </style>

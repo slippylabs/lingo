@@ -88,6 +88,7 @@
 					<span class="tags">
 						{#if c!.audio}<span class="pill">Audio</span>{/if}
 						{#if c!.notes}<span class="pill brand">Grammar notes</span>{/if}
+						{#if c!.experimental}<span class="pill warn">Experimental</span>{/if}
 					</span>
 				</a>
 			{/each}
@@ -101,6 +102,7 @@
 					<span class="tags">
 						{#if c.audio}<span class="pill">Audio</span>{/if}
 						{#if c.notes}<span class="pill brand">Notes</span>{/if}
+						{#if c.experimental}<span class="pill warn">Experimental</span>{/if}
 					</span>
 				</a>
 			{/each}

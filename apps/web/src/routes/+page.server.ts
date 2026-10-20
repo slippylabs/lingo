@@ -1,5 +1,5 @@
 // slippylabs: the course list, read from the exported courses at build time.
-import { courseNames, loadIndex, loadMeta, fromLanguage } from '$lib/data';
+import { courseNames, loadIndex, loadMeta, fromLanguage, EXPERIMENTAL } from '$lib/data';
 import { uniqueItems } from '../learn/plan';
 
 export async function load() {
@@ -13,7 +13,8 @@ export async function load() {
 				items: uniqueItems(idx).length,
 				skills: idx.skills.length,
 				audio: idx.items.some((i) => i.a),
-				notes: idx.skills.filter((s) => s.intro).length
+				notes: idx.skills.filter((s) => s.intro).length,
+				experimental: path in EXPERIMENTAL
 			};
 		})
 	);
