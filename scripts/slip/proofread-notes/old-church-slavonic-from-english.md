@@ -5,7 +5,7 @@ Resolved 2026-10-19 (see course_fixes.json): copula тъ, "very" = зѣло, н�
 
 ## Still open (needs an OCS specialist)
 - Modern loanwords (аѵто, фꙋтболъ, компютєр, пицѫ, кава, викєндъ, Хондꙋрасъ, офисъ…) have no OCS equivalent. The course
-  remains a modern-vocabulary course in OCS spelling; consider labelling it experimental.
+  remains a modern-vocabulary course in OCS spelling; labelled "Experimental" on the site since slip-v2.7.0 (EXPERIMENTAL in apps/web/src/lib/data.ts).
 - Definite-adjective endings are modern/Polish (на словѣньскомъ ѥзꙑцѣ, съ моимъ братомь, съ тꙑмъ пєромь): OCS compound
   declension (-ѣѥмь, -ꙑимь) would need checking per form.
 - Verb endings outside the fixed set were not audited one by one (e.g. -аѥши/-аѥтъ contracted forms, perfective futures).
