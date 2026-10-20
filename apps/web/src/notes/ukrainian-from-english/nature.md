@@ -14,7 +14,7 @@ With a verb of movement, **в** and **на** take the accusative case (the "wher
 - **Ріка тече через долину.** — The river flows through the valley.
 - **Долина лежить між горами.** — The valley lies between the mountains.
 - **Ріка йде між полями.** — The river goes between the fields.
-- **Поле є за домом.** — The field is behind the house.
+- **Поле за домом.** — The field is behind the house.
 
 ## Growing and blooming
 

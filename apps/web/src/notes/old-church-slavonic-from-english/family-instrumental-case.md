@@ -4,13 +4,13 @@ In this lesson: **family words** and the **instrumental case**: the form a word 
 
 After **съ**, nouns take new endings:
 
-- masculine words add **‑омъ**: **дѣдъ** → **съ дѣдомъ**
+- masculine words add **‑омь**: **дѣдъ** → **съ дѣдомь**
 - feminine words in **‑а** change it to **‑оѭ**: **тєтка** → **съ тєткоѭ**
 - **мати** (mother) is irregular: **съ материѭ**
 
 - **Она идєтъ съ материѭ.** — She is going with her mother.
-- **Онъ живєтъ съ сꙑномъ.** — He lives with his son.
-- **Онъ ѥстъ съ внꙋкомъ.** — He is with his grandson.
+- **Онъ живєтъ съ сꙑномь.** — He lives with his son.
+- **Онъ ѥстъ съ внꙋкомь.** — He is with his grandson.
 - **Они ѥдѫтъ съ тєткоѭ.** — They are going with their aunt.
 - **Она играѥтъ съ внꙋчкоѭ.** — She is playing with her granddaughter.
 
@@ -20,6 +20,6 @@ After **съ**, nouns take new endings:
 
 ## Asking "with whom?"
 
-- **Съ кимь тꙑ идєши?** — Who are you going with?
+- **Съ цѣмь тꙑ идєши?** — Who are you going with?
 
 > **Watch out:** **съ** is its own word and ends in a silent *ъ*: **съ материѭ**.

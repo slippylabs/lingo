@@ -9,7 +9,7 @@ In the present tense Belarusian simply leaves out "am", "is" and "are":
 - **Вы добрыя.** — You are good.
 - **Хто ты?** — Who are you?
 
-The word cards list forms like **я ёсць**, but in normal sentences you leave the verb out. **ёсць** is mainly used for "there is".
+**ёсць** is not "am" or "is". It means "there is", as in **На поўначы ёсць снег.** — In the north there is snow.
 
 ## I, you, he, she…
 

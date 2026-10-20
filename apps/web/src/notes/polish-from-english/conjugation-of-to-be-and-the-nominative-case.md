@@ -12,7 +12,7 @@ In this lesson: **"to be"**, the words for **I, you, he, she**, and **this / tha
 | oni, one (they) | **są** |
 
 - **Ja jestem mądry.** — I am wise.
-- **Kto ty jesteś?** — Who are you?
+- **Kto ty jesteś?** — Who are you? (everyday Polish: *Kim jesteś?*)
 - **Ta kobieta jest dobra.** — This woman is good.
 - **Wy jesteście dobrzy.** — You are good.
 

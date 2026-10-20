@@ -3,7 +3,7 @@ In this lesson: **shopping**: prices, buying and selling.
 ## In the shop
 
 - **Chce kùpic chléb.** — He wants to buy bread.
-- **On przedôwô miãso.** — He sells meat.
+- **Òn przedôwô miãso.** — He sells meat.
 - **Òna kùpùje knégã.** — She is buying a book.
 - **Cena je wësokô.** — The price is high.
 - **Tôrba je cãżkô.** — The bag is heavy.

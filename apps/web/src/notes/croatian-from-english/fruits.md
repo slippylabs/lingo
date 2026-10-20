@@ -28,4 +28,4 @@ Some masculine forms hide a vowel: **kiseo** (masculine) but **kisela** (feminin
 - **Ona pije sok od naranči.** — She is drinking orange juice.
 - **On pravi šljivovicu od šljiva.** — He is preparing plum brandy from plums.
 
-> **Watch out:** **grožđe** (grapes) is singular in Croatian, so it takes a singular verb: **Grožđe raste na vinogradu.**
+> **Watch out:** **grožđe** (grapes) is singular in Croatian, so it takes a singular verb: **Grožđe raste u vinogradu.**

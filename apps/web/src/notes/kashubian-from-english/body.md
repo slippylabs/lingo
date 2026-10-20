@@ -17,7 +17,7 @@ In this lesson: **parts of the body** and saying **it hurts**.
 ## Describing
 
 - **Òna mô długą nogã.** — She has a long leg.
-- **On mô mòdré snôżé òczë.** — He has beautiful blue eyes.
+- **Òn mô mòdré snôżé òczë.** — He has beautiful blue eyes.
 - **Jej serce biéje chùtczi.** — Her heart beats fast.
 
 > **Watch out:** **òkò** ("eye") has an irregular plural: **òczë** ("eyes").

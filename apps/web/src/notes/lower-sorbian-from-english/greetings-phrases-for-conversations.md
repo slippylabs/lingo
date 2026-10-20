@@ -2,7 +2,7 @@ In this lesson: **greetings**, **thank you**, and short **answers**.
 
 ## Greetings
 
-- **Dobro ranjo!** — Good morning!
+- **Dobre zajtšo!** — Good morning!
 - **Dobry źeń!** — Good day!
 - **Dobry wjacor!** — Good evening!
 - **Dobra noc!** — Good night!
@@ -21,7 +21,7 @@ You can leave out "I": **Som dobry** already says who, because **som** only goes
 
 - **Tak jo.** — That is so.
 - **Snano.** — Maybe.
-- **Nje wěm.** — I don't know.
+- **Njewěm.** — I don't know.
 - **Škoda!** — What a pity!
 
 > **Watch out:** **jo** means "is", and on its own it also means "yes": **Jo, móžno.** — Yes, it is possible.

@@ -5,7 +5,7 @@ In this lesson: **family words** and the **"with" form** of a noun.
 - **brat** — brother
 - **sestra** — sister
 - **matka** — mother
-- **otěc** — father
+- **otec** — father
 - **děd** — grandfather
 - **babka** — grandmother
 - **syn** — son

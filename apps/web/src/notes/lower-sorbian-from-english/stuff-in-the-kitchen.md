@@ -13,7 +13,7 @@ In this lesson: **kitchen** things, and **z** for both **with** and **from**.
 **z** + the "with" ending means "with"; **z** + the "of" ending means "from":
 
 - **Wón jě z widłami.** — He eats with a fork.
-- **Wóna pijo z cokela.** — She drinks from a cup.
+- **Wóna pijo z tasy.** — She drinks from a cup.
 
 **we** + the "where" ending means "in":
 

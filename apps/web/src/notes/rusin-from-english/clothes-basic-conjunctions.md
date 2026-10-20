@@ -3,7 +3,7 @@ In this lesson: **clothes**, and the joining words *і*, **а** and **ці**.
 ## And, but, or
 
 - *і* — and: **Обутя і плащ лежать при дверях.** — Shoes and the coat are lying by the door.
-- **а** — and (to contrast): **Она має чорны ногавицї, а он бїлы.** — She has black trousers, and he has white.
+- **а** — and (to contrast): **Она має чорны ногавицї, а он білы.** — She has black trousers, and he has white.
 - **ці** — or: **Ты хочеш шал ці кошулю.** — You want a scarf or a shirt.
 
 ## Wearing

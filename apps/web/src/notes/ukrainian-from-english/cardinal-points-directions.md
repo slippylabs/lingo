@@ -24,7 +24,7 @@ In this lesson: **north, south, east, west**, and **where** versus **where to**.
 ## Describing words
 
 - **Західний вітер дує.** — A western wind is blowing.
-- **Східна музика є цікава.** — Eastern music is interesting.
-- **Південні краї є теплі.** — The southern regions are warm.
+- **Східна музика цікава.** — Eastern music is interesting.
+- **Південні краї теплі.** — The southern regions are warm.
 
 > **Watch out:** **на півночі** is "in the north", but **на північ** is "to the north".

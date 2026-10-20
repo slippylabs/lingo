@@ -2,8 +2,8 @@ In this lesson: **colours** and how their **endings** match the noun.
 
 ## Colours are describing words
 
-- **Мой пёс чёрный.** — My dog is black. (masculine **‑ый**)
-- **Мышь белая.** — The mouse is white. (feminine **‑ая**)
+- **Лист оранжевый.** — The leaf is orange. (masculine **‑ый**)
+- **Моя собака чёрная.** — My dog is black. (feminine **‑ая**)
 - **Солнце жёлтое.** — The sun is yellow. (neuter **‑ое**)
 - **Цветы красные.** — The flowers are red. (more than one: **‑ые**)
 
@@ -21,4 +21,4 @@ In this lesson: **colours** and how their **endings** match the noun.
 - **Облака серые.** — The clouds are grey.
 - **Это седой волос?** — Is that a grey hair?
 
-> **Watch out:** the course's **каштановый** is chestnut brown, for hair, horses and coats. Everyday plain "brown" is *коричневый*.
+> **Watch out:** plain "brown" is **коричневый**: **Он носит коричневое пальто.** **каштановый** is chestnut brown, only for hair and horses: **Каштановый конь стоит в конюшне.**

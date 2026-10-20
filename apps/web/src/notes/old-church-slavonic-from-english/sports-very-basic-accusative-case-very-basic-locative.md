@@ -16,7 +16,7 @@ After **въ** ("in") or **на** ("on, at"), a place word changes its ending, o
 
 ## When and how
 
-- **Они бѣгаѭтъ оутромъ.** — They run in the morning.
+- **Они бѣгаѭтъ оутромь.** — They run in the morning.
 - **Онъ бѣгаѥтъ бързо.** — He runs fast.
 - **Мꙑ плаваѥмъ часто.** — We swim often.
 

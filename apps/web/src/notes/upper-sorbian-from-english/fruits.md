@@ -18,7 +18,7 @@ Its ending follows the noun's gender and number:
 
 ## More than one
 
-- **Kruški leža na stole.** — The pears are lying on the table.
-- **Jagody su w misy.** — The strawberries are in the bowl.
+- **Kruški leža na blidźe.** — The pears are lying on the table.
+- **Truskalcy su w misy.** — The strawberries are in the bowl.
 
 > **Watch out:** the describing word follows the noun, not the English: **Kruška je słódka**, but **Melon je wulki a słódki**.

@@ -22,7 +22,7 @@ Every noun is masculine, feminine or neuter. Describing words change to match: *
 
 - **To jo dobry cłowjek.** — This is a good person.
 - **Ta žona jo dobra.** — This woman is good.
-- **Tamto ranjo jo zymne.** — That morning over there is cold.
+- **Tamto zajtšo jo zymne.** — That morning over there is cold.
 
 ## This and that
 

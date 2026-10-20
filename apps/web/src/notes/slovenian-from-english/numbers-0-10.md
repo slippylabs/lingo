@@ -25,6 +25,10 @@ After **tri** and **štiri** the noun is in its normal plural:
 - **tri mačke** — three cats
 - **štiri kolesa** — four bicycles
 
+With masculine nouns, three and four are **trije** and **štirje**:
+
+- **štirje dolarji** — four dollars
+
 ## Five and up
 
 From five on, the noun takes its "of" form (the genitive plural), as if you said "five of boys":

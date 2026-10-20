@@ -8,8 +8,10 @@ In this lesson: **places in a town**, and saying **in** and **to** a place.
 
 ## To a place
 
-- **Ulica idzie do sklepu.** — The street goes to the shop.
-- **Ulica prowadzi do placu/rynku.** — The street leads to the square.
+- **Ulica prowadzi do sklepu.** — The street goes to the shop.
+- **Ulica prowadzi do placu.** — The street leads to the square.
+
+A street or road "leads" (**prowadzi**); it doesn't walk (*idzie*).
 
 ## Near
 

@@ -15,7 +15,7 @@ In this lesson: **revision**: **me, you, us** and other little words in differen
 
 ## This and these
 
-- **Te baby som piykne.** — These women are beautiful.
+- **Te baby sōm piykne.** — These women are beautiful.
 - **Tego niy wia.** — I don't know that.
 
 ## Himself

@@ -2,7 +2,7 @@ In this lesson: **kitchen things** and saying **with** and **from**.
 
 ## In the kitchen
 
-- **Nóž leži na stole.** — The knife is lying on the table.
+- **Nóž leži na blidźe.** — The knife is lying on the table.
 - **Talér je połny jědźe.** — The plate is full of food.
 - **Honc je na wohmjenju.** — The pot is on the flame.
 - **Kuchnja je čista.** — The kitchen is clean.

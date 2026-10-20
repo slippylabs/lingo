@@ -5,7 +5,7 @@ In this lesson: **time words** and the **past tense**.
 The past form ends in **‑лъ**, **‑ла**, **‑ло** or **‑ли**, matching who did it, like an adjective:
 
 - a man: **Онъ шєлъ до дома.** — He went home.
-- a woman: **Въчєра она бꙑла въ домꙋ о осмои части.** — Yesterday she was at home at the eighth hour.
+- a woman: **Въчєра она бꙑла въ домꙋ въ осмꙑи часъ.** — Yesterday she was at home at the eighth hour.
 - more than one: **Они ничьто нє дѣлали.** — They did nothing.
 
 For "I" and "you", add the present of "to be":

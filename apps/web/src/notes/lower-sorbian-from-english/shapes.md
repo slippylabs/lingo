@@ -4,7 +4,7 @@ In this lesson: **shapes**, the numbers **three** and **four**, and saying **of*
 
 - **To jo krug.** — This is a circle.
 - **Tśirožk ma tśi boki.** — A triangle has three sides.
-- **Kwadrat ma styrjo boki.** — A square has four sides.
+- **Kwadrat ma styri boki.** — A square has four sides.
 - **Ta linija jo dłujka.** — This line is long.
 - **Dypk ležy na liniji.** — The point lies on the line.
 

@@ -11,7 +11,7 @@ In this lesson: **shopping**: prices, buying and selling.
 ## Buying and selling
 
 - **Chca kupić chlyb.** — I want to buy bread.
-- **Ôna kupuje ksiónżka.** — She is buying a book.
+- **Ôna kupuje ksiōnżka.** — She is buying a book.
 - **Ôn sprzedŏwŏ miyso.** — He sells meat.
 
 ## A piece of

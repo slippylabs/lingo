@@ -1,10 +1,10 @@
 In this lesson: the **days of the week** and the **months**.
 
-## The days, as this course spells them
+## The days
 
-**póńźele**, **wałpš**, **srjoda**, **styrstwjertk**, **pěśtwjertk**, **sobota**, **njeźela**
+**pónjeźele**, **wałtora**, **srjoda**, **stwórtk**, **pětk**, **sobota**, **njeźela**
 
-- **Póńźele jo prědny źeń we tyźenju.** — Monday is the first day of the week.
+- **Pónjeźele jo prědny źeń we tyźenju.** — Monday is the first day of the week.
 - **Sobota jo wikend.** — Saturday is the weekend.
 - **Njeźela jo źeń wótpocynka.** — Sunday is the day of rest.
 
@@ -12,7 +12,7 @@ In this lesson: the **days of the week** and the **months**.
 
 To say "in January", use **w** or **we**, and the month takes the "where" ending:
 
-- **Mam w januarje prázdniny.** — I have vacation in January.
+- **Mam w januarje prozniny.** — I have vacation in January.
 - **We februarje jo wjele sněga.** — In February there is a lot of snow.
 - **Oktober jo krasny mjasec.** — October is a beautiful month.
 

@@ -1,6 +1,3 @@
 # Occitan Auvergnat: unsure, not fixed
-- genre1.md says Romance languages (and Occitan) have "féminin, masculin ou neutre" gender agreement. Occitan nouns have
-  no neuter (only the neuter pronoun quo/aquò); probably should read "féminin ou masculin". Left: dialect expert call.
-- "ega" (mare) is taught as "cheval", deliberately (genre1.md explains it); left.
-- French "il: i-aul" dictionary hint looks odd; left.
-- "boeuf" vs "bœuf": both widely accepted; left.
+- French "il: i-aul" dictionary hint (in "Qu'est-ce qu'il se passe?" = "De que se passa?", where Occitan has no
+  pronoun): could not confirm i-aul as an Auvergnat subject pronoun (el/eu are the forms usually cited). Left.

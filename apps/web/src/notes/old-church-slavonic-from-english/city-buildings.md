@@ -4,8 +4,8 @@ In this lesson: **places in a city**, how to say **"to"** a place and **"in"** a
 
 **до** ("to") takes the genitive case:
 
-- **Идємъ до тръга.** — We are going to the square.
-- **Оулица идєтъ до магазина.** — The street goes to the shop.
+- **Идємъ къ тръгꙋ.** — We are going to the square.
+- **Оулица идєтъ къ магазинꙋ.** — The street goes to the shop.
 
 ## Being in a place
 

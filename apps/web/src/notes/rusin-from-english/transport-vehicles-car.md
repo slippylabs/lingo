@@ -6,7 +6,7 @@ Things with wheels use **їде** (goes, drives):
 
 - **Автобус їде до центра.** — The bus goes to the center.
 - **Поїзд їде на станцію.** — The train goes to the station.
-- **Шофер їде барже.** — The driver drives fast.
+- **Шофер їде швыдко.** — The driver drives fast.
 
 A road or a bridge "goes" with **іде**:
 

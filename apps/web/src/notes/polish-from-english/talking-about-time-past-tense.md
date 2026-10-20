@@ -5,7 +5,7 @@ In this lesson: **the past tense** and words for **time**.
 Past verbs end in **‑ł** (he), **‑ła** (she), **‑ło** (it) and **‑li** (a group with a man):
 
 - **Wczoraj był poniedziałek.** — Yesterday was Monday.
-- **Wczoraj ona była w domu o ósmej godzinie.** — Yesterday she was at home at the eighth hour.
+- **Wczoraj ona była w domu o ósmej.** — Yesterday she was at home at eight.
 - **Rano nie było bardzo ciepło.** — In the morning it was not very warm.
 - **Oni nic nie robili.** — They did nothing.
 
@@ -14,7 +14,7 @@ For "I", "you" and "we" a personal ending is added:
 - **Byłem w domu rano.** — I was at home in the morning. (said by a man)
 - **Byliście w kinie?** — Were you at the cinema?
 - **Wieczorem poszliśmy do restauracji.** — In the evening we went to the restaurant.
-- **Dzisiaj nie miałeś/miałaś na to czasu.** — Today you did not have time for that. (to a man / to a woman)
+- **Dzisiaj nie miałeś na to czasu.** — Today you did not have time for that. (to a man; to a woman: *Dzisiaj nie miałaś na to czasu.*)
 
 ## Time words
 

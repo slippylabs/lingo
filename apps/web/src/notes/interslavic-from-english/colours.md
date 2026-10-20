@@ -24,7 +24,7 @@ Colour words are describing words, so their ending follows the noun's gender:
 ## Before the noun
 
 - **Ja ljubim črveny kolor.** — I like the red color.
-- **Črvena roza rastě tu.** — A red rose grows here.
+- **Črvena roza raste tu.** — A red rose grows here.
 
 As the object of a verb, a feminine colour word ends in **‑u**, like its noun:
 

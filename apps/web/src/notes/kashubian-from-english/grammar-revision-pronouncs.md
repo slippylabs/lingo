@@ -3,9 +3,9 @@ In this lesson: **pronouns**, words like **me, you, him**, and the forms they ta
 ## Me and you
 
 - **Mnie nie widzyjiesz.** — You don't see me.
-- **Ja widzyjã was.** — I see you.
+- **Jô widzyjã was.** — I see you.
 - **Ò mnie gôdôsz?** — Are you talking about me?
-- **Nie, ja nie gôdóm ò tobie.** — No, I don't talk about you.
+- **Nie, jô nie gôdóm ò tobie.** — No, I don't talk about you.
 - **Gôdómë z tobą.** — We are talking with you.
 
 ## Who and what
@@ -18,4 +18,4 @@ In this lesson: **pronouns**, words like **me, you, him**, and the forms they ta
 
 - **Dôj mie wòdã.** — Give me water.
 
-> **Watch out:** after **ò** ("about") the pronoun changes: **të** becomes **ò tobie**, and **ja** becomes **Ò mnie**.
+> **Watch out:** after **ò** ("about") the pronoun changes: **të** becomes **ò tobie**, and **jô** becomes **Ò mnie**.

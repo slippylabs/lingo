@@ -9,7 +9,7 @@ In this lesson: the **tens**, and numbers like **24** or **78**.
 Slovenian says the units before the tens, joined by **in** ("and"), all as one word — "four-and-twenty":
 
 - **štiriindvajset stvari** — twenty four things
-- **enainpetdeset ur** — fifty one clocks
+- **enainpetdeset ur** — fifty one hours
 - **oseminsedemdeset rubljev** — seventy eight rubles
 - **triindevetdeset računalnikov** — ninety three computers
 

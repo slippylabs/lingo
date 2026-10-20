@@ -2,6 +2,7 @@ In this lesson: **greetings**, **thanks** and short **everyday replies**.
 
 ## Hello and goodbye
 
+- **Witaj!** — Hello!
 - **Dobry dźeń!** — Good day!
 - **Dobre ranjo!** — Good morning!
 - **Dobry wječor!** — Good evening!

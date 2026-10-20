@@ -12,7 +12,7 @@ In this lesson: **countries, peoples and languages**.
 
 "In the German language" uses **на** and the locative ending:
 
-- **Глаголиши ли на нѣмьчьскомъ ѥзꙑцѣ?** — Do you speak the German language?
+- **Глаголѥши ли на нѣмьчьскомъ ѥзꙑцѣ?** — Do you speak the German language?
 
 ## Knowing and loving
 

@@ -19,7 +19,7 @@ After **na** (in, on) the direction changes its ending:
 
 - **To je pōłnocno strōna.** — This is the northern side.
 - **Zachodni wiater dmie.** — A western wind is blowing.
-- **Połedniowe kraje som ciepłe.** — The southern regions are warm.
+- **Połedniowe kraje sōm ciepłe.** — The southern regions are warm.
 
 ## Left, right, straight
 

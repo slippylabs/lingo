@@ -19,10 +19,10 @@ For a tool, Ukrainian changes the ending (‑ою, ‑ом) and uses no word for
 
 - **Тарілка повна їжі.** — The plate is full of food.
 - **Багато цукру є в мисці.** — There is a lot of sugar in the bowl.
-- **Ложка є повна перцю.** — The spoon is full of pepper.
+- **Ложка повна перцю.** — The spoon is full of pepper.
 
 ## More than one
 
-- **Виделки і ножі є на столі.** — Forks and knives are on the table. (ніж → ножі)
+- **Виделки і ножі на столі.** — Forks and knives are on the table. (ніж → ножі)
 
 > **Watch out:** **ніж** (knife) loses its і in the plural: **ножі**.

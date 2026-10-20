@@ -17,7 +17,7 @@ Use **на** and the ending **‑ꙋ**:
 
 ## Describing words
 
-- **Сь ѥстъ сѣвєрьна страна.** — This is the northern side.
+- **Си ѥстъ сѣвєрьна страна.** — This is the northern side.
 - **Западънъи вѣтръ дꙋѥтъ.** — A western wind is blowing.
 - **Южьни краѥ сѫтъ тєплє.** — The southern regions are warm.
 

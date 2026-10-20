@@ -37,7 +37,7 @@ A describing word changes its ending to match:
 
 - **тото** — this (also "this is…"): **Тото моя сестра.** — This is my sister.
 - **тотот** — that, with masculine words: **Тотот дїнь є хладный.** — That day is cold.
-- **тамто** — that over there: **Тамто утро є хладноє.** — That morning over there is cold.
+- **тамтото** — that over there: **Тамтото утро є хладноє.** — That morning over there is cold.
 
 ## Saying "not"
 

@@ -10,6 +10,7 @@ In this lesson: **colours** and how they **match** their noun.
 - **rumen** — yellow
 - **siv** — grey
 - **oranžen** — orange
+- **rjav** — brown
 
 ## A colour matches its noun
 

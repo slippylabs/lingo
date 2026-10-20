@@ -8,9 +8,9 @@ In the present tense Ukrainian normally drops the verb "to be":
 - **Ми дуже мудрі** — We are very wise
 - **Хто ти?** — Who are you?
 
-You will also see **є** ("is/are") in some sentences. It is correct, but more formal:
+You will also see **є** ("is/are") in some sentences. It is correct, but formal, and the course accepts it either way:
 
-- **Та жінка є добра.** — That woman is good.
+- **Мій брат є вчителем.** — My brother is a teacher.
 
 ## "This is …"
 
@@ -30,9 +30,9 @@ Every noun is masculine, feminine or neuter. This is its gender: a grammar group
 | feminine | **ця** | **та** |
 
 - **Той чоловік милий.** — That man is kind.
-- **Та жінка є висока.** — That woman is tall.
+- **Та жінка висока.** — That woman is tall.
 - **Це приємне місто.** — This is a pleasant city. (neuter, ending ‑е)
-- **Отой дім є красивий.** — That house over there is beautiful.
+- **Отой дім красивий.** — That house over there is beautiful.
 
 ## I, you, he, she …
 

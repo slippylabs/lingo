@@ -16,10 +16,11 @@ They match their noun like describing words:
 
 ## Telling the hour
 
-This course says "at the fifth hour" with *о* and a feminine ordinal:
+"Hour" is **часъ**. "At the fifth hour" is **въ** + the ordinal + **часъ**:
 
-- **о пѧтои части** — at the fifth hour
-- **о дєвѧтои части** — at the ninth hour
-- **о дъванадесѧтои части** — at the twelfth hour
+- **въ пѧтꙑи часъ** — at the fifth hour
+- **въ дєвѧтꙑи часъ** — at the ninth hour
+- **въ дъванадесѧтꙑи часъ** — at the twelfth hour
+- **въ пръвꙑи часъ дъвадесѧть** — at twenty past the first hour
 
 > **Watch out:** "fifth" is **пѧтъ**, but "five" is **пѧть**; only the last letter differs.

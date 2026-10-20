@@ -14,6 +14,6 @@ In this lesson: a **review of the cases**, the different endings that show a wor
 ## Many and none
 
 - **Уж не є бананов в домї.** — There are no more bananas in the house.
-- **В містах увидиш много люди.** — In the cities you will see many people.
+- **В містах увидиш много людей.** — In the cities you will see many people.
 
 > **Watch out:** word order is free in Rusin. In **Імня он не має** ("He has no name") the ending, not the position, tells you who does what.

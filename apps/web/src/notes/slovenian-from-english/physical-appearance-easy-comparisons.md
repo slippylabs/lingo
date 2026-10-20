@@ -24,7 +24,11 @@ The easy way to compare is **bolj** ("more") before the describing word and **ko
 
 For "less", use **manj**: **Suh ima manj telesne mase kot debel.** — The thin person has less body mass than the fat one.
 
-Many common words also have their own one-word form, such as *višji* (taller) and *lepši* (more beautiful).
+Many common words have their own one-word form instead, and that is the one to use:
+
+- **On je višji in močnejši kot on.** — He is taller and stronger than he is.
+- **To je lepši človek kot tisti.** — This is a more beautiful person than that one.
+- **Suh nosi večjo srajco kot jaz.** — The thin one wears a larger shirt than I do.
 
 ## Like
 

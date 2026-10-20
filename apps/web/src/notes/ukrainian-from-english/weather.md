@@ -4,7 +4,7 @@ In this lesson: **weather** and sentences with **no "it"**.
 
 English says "it is warm" or "it is raining". Ukrainian has no word for that "it":
 
-- **Сьогодні є тепло.** — It is warm today.
+- **Сьогодні тепло.** — It is warm today.
 - **В Росії холодно.** — In Russia it is cold.
 - **Хмарно сьогодні.** — It is cloudy today.
 - **Сьогодні тепло і сухо.** — It is warm and dry today.

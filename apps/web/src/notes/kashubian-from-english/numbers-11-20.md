@@ -2,20 +2,20 @@ In this lesson: **numbers 11 to 20**.
 
 ## The teens
 
-The teens end in **‑nasce** or **‑nasc**:
+The teens end in **‑nôsce**:
 
-- **jednasce chłôpczów** — eleven boys
-- **dwanasce białków** — twelve women
-- **trzenasce kòtów** — thirteen cats
-- **piãcnasce chłôpczów** — fifteen boys
-- **dzewiãtnasc kòmpùterów** — nineteen computers
-- **dwadzescãt kòtów** — twenty cats
+- **jednôsce chłôpczów** — eleven boys
+- **dwanôsce białków** — twelve women
+- **trzënôsce kòtów** — thirteen cats
+- **piãtnôsce chłôpczów** — fifteen boys
+- **dzewiãtnôsce kòmpùterów** — nineteen computers
+- **dwadzescë kòtów** — twenty cats
 
 ## The noun after a teen
 
 As with five and up, the noun takes the "of many" form:
 
-- **trzenasce psów** — thirteen dogs
-- **sztërnasce dolarów** — fourteen dollars
+- **trzënôsce psów** — thirteen dogs
+- **sztërnôsce dolarów** — fourteen dollars
 
-> **Watch out:** **dwanasce** is twelve and **dwadzescãt** is twenty. They start the same way.
+> **Watch out:** **dwanôsce** is twelve and **dwadzescë** is twenty. They start the same way.

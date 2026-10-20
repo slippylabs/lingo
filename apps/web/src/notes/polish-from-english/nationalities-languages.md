@@ -24,4 +24,4 @@ Nationalities after **jestem**, **jest** take the instrumental, like jobs and fa
 - **Niemiec żyje w Niemczech.** — A German lives in Germany.
 - **On zna trzy języki.** — He knows three languages.
 
-> **Watch out:** nationalities take a capital letter (**Polak**, **Niemiec**), but language words don't: **Ona zna rosyjski i słowiański.**
+> **Watch out:** nationalities take a capital letter (**Polak**, **Niemiec**), but language words don't: **Ona zna rosyjski i polski.**

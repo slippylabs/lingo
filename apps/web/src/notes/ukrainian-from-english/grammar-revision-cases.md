@@ -2,12 +2,12 @@ In this lesson: a **review of the cases**: the endings that show a noun's job in
 
 ## The cases you've met
 
-- *nominative*, the dictionary form, for the subject: **Вона є в місті.** — She is in the city.
+- *nominative*, the dictionary form, for the subject: **Вона в місті.** — She is in the city.
 - *accusative*, the thing an action is done to: **Він бачить свою жінку.** — He sees his wife.
 - *genitive*, for "of" and "there is no": **Брата тут нема.** — There is no brother here.
 - *dative*, for "to someone": **Дам жінці.** — I will give to the woman.
 - *instrumental*, for "with" and tools: **Говоримо з друзями.** — We talk with friends.
-- *locative*, after **в** and **на** for "where": **Вона є в місті.** — She is in the city.
+- *locative*, after **в** and **на** for "where": **Вона в місті.** — She is in the city.
 
 ## "There is no …"
 

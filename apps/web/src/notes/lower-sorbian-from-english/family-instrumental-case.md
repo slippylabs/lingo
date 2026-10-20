@@ -3,7 +3,7 @@ In this lesson: **family** words and the **instrumental case**, the form a word 
 ## Masculine words: ‑om
 
 - **Wón jo z wnukom.** — He is with his grandson.
-- **Wón źiwe z synom.** — He lives with his son.
+- **Wón bydli z synom.** — He lives with his son.
 - **Wón jo z mójim bratšom.** — He is with my brother.
 
 ## Feminine words: ‑u or ‑oju

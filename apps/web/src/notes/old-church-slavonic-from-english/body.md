@@ -9,8 +9,8 @@ In this lesson: **the body**, and saying what **hurts**.
 
 Body parts that come in twos use the pair form (the dual):
 
-- **Азъ имамъ дъвѣ рѫки и дъвѣ ноги и тъждє дъвѣ стопꙑ.** — I have two hands and two legs, and also two feet.
-- **Онъ имаѥтъ модрє красьни очи.** — He has beautiful blue eyes.
+- **Азъ имамь дъвѣ рѫки и дъвѣ ноги и тъждє дъвѣ стопꙑ.** — I have two hands and two legs, and also two feet.
+- **Онъ иматъ модрє красьни очи.** — He has beautiful blue eyes.
 
 ## His and her
 

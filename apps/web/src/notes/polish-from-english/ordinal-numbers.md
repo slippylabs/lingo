@@ -20,6 +20,8 @@ In a long number, only the last word is an ordinal:
 - **o pierwszej dwadzieścia** — at twenty past one
 - **o drugiej piętnaście** — at fifteen past two
 - **o ósmej pięćdziesiąt pięć** — at eight fifty five
-- **o piątej godzinie** — at the fifth hour
+- **o godzinie piątej** — at five o'clock
+
+In everyday speech **godzinie** is left out: *o piątej* — at five.
 
 > **Watch out:** the hour is an ordinal (**o drugiej**), but the minutes are not (**piętnaście**).

@@ -20,7 +20,7 @@ A describing word on its own can mean "a … person":
 
 ## Character
 
-- **Вона є добра і щира.** — She is good and sincere.
+- **Вона добра і щира.** — She is good and sincere.
 - **Він сильний, але сміливий.** — He is strong but brave.
 
 > **Watch out:** the past form follows gender, so a woman says *якби я була смілива*, but a man says **Якби я був сміливий**.

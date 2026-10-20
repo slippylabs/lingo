@@ -6,7 +6,7 @@ In this lesson: **time words** and how to talk about the **past**.
 - **minuta** — minute
 - **sekunda** — second
 - **wcora** — yesterday
-- **juter** — tomorrow
+- **jutro** — tomorrow
 - **Wiela je czasu?** — What time is it?
 
 ## "Was"

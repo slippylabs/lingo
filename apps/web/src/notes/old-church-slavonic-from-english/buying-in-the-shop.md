@@ -16,6 +16,6 @@ The food after **кꙋсъ** takes the genitive, the "of" form:
 
 ## Giving to the seller
 
-- **Дамъ чєкъ продавьцꙋ.** — I give the receipt to the seller.
+- **Дамь чєкъ продавьцꙋ.** — I give the receipt to the seller.
 
 > **Watch out:** "buys" is **кꙋпꙋѥтъ**, "sells" is **продаѥтъ**; don't mix them up.

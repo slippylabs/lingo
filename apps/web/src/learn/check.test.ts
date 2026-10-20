@@ -26,6 +26,15 @@ describe('checkTyped', () => {
 			expected: 'perro'
 		});
 	});
+	it('slash options and bracketed notes need not be typed', () => {
+		expect(checkTyped('rynek', ['Plac/Rynek'])).toMatchObject({ ok: true, kind: 'exact', expected: 'Plac/Rynek' });
+		expect(checkTyped('plac', ['Plac/Rynek']).ok).toBe(true);
+		expect(checkTyped('plac/rynek', ['Plac/Rynek']).ok).toBe(true);
+		expect(checkTyped('dwa', ['dwa (m/n)']).ok).toBe(true);
+		expect(checkTyped('Jesteś zdrowa?', ['Jesteś zdrowy/zdrowa?']).ok).toBe(true);
+		expect(checkTyped('Jesteś', ['Jesteś zdrowy/zdrowa?']).ok).toBe(false);
+		expect(checkTyped('1', ['1/2']).ok).toBe(false);
+	});
 	it('a spaced dash is punctuation, not a word', () => {
 		expect(checkTyped('Любовь сильная эмоция', ['Любовь — сильная эмоция.'])).toMatchObject({ ok: true, kind: 'exact' });
 		expect(checkChips(['Любовь', 'сильная', 'эмоция'], [['Любовь', '', 'сильная', 'эмоция']])).toBe(true);

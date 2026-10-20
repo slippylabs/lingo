@@ -8,7 +8,7 @@ In this lesson: **family words** and the **instrumental case**, the form a word 
 - **djed** — grandfather
 - **baka** — grandmother
 - **sin** — son
-- **kćer** — daughter
+- **kći** — daughter
 
 ## "With" changes the ending
 

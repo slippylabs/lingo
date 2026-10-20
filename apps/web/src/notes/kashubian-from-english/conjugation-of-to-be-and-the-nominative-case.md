@@ -7,13 +7,13 @@ Kashubian changes the verb for each person:
 | | singular | plural |
 |---|---|---|
 | I / we | **jem** | **jesmë** |
-| you / you all | **jes** | **jeste** |
+| you / you all | **jes** | **jesce** |
 | he, she, it / they | **je** | **są** |
 
 - **Jô jem mądri.** — I am wise.
 - **Chto të jes?** — Who are you?
-- **Òna je wiele mądrô** — She is very wise
-- **Më jesmë wiele mądri** — We are very wise
+- **Òna je baro mądrô** — She is very wise
+- **Më jesmë baro mądri** — We are very wise
 - **To są przëjacelé.** — These are friends.
 
 ## "Not"
@@ -38,4 +38,4 @@ A describing word (an adjective) changes its ending to match:
 - **Ta białka je dobrô.** — This woman is good. (feminine)
 - **To je dobré aùto?** — Is this a good car? (neuter)
 
-> **Watch out:** "they" has two forms. **Òni** is for groups that include men; **Òne** is for all other groups: **Òni są wiele miłi.** but **Òne są wiele miłé.**
+> **Watch out:** "they" has two forms. **Òni** is for groups that include men; **Òne** is for all other groups: **Òni są baro miłi.** but **Òne są baro miłé.**

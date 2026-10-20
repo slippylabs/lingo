@@ -3,7 +3,7 @@ In this lesson: **colours**, and how they change to match the word.
 ## Colours change their ending
 
 - **Мой пес є чорный.** — My dog is black. (masculine: **‑ый**)
-- **Мыша є бїла.** — The mouse is white. (feminine: **‑а**)
+- **Мыша є біла.** — The mouse is white. (feminine: **‑а**)
 - **Єго авто є чорноє.** — His car is black. (neuter: **‑оє**)
 - **Цвіты суть червены.** — The flowers are red. (plural: **‑ы**)
 

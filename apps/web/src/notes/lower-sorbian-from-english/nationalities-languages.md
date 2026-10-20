@@ -19,7 +19,7 @@ A woman often adds **‑ka**: **Chorwat** → **Chorwatka**.
 ## Countries
 
 - **Kraj jo Pólska.** — The country is Poland.
-- **Nimc źiwe w Nimskej.** — A German lives in Germany.
+- **Nimc bydli w Nimskej.** — A German lives in Germany.
 - **Wón zna tśi rěcy.** — He knows three languages.
 
 > **Watch out:** people take a capital letter, language words don't: **Nimc**, but **nimskej rěcy**.

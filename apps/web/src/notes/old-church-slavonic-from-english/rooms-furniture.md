@@ -6,7 +6,7 @@ Each of these words is followed by its own form of the noun:
 
 - **на** (on): **Полица виситъ на стѣнѣ.** — The shelf hangs on the wall.
 - **подъ** (under): **Скринѥ ѥстъ подъ постєлѭ.** — The chest is under the bed.
-- **надъ** (above): **Лампа свѣтитъ надъ столомъ.** — The lamp shines above the table.
+- **надъ** (above): **Лампа свѣтитъ надъ столомь.** — The lamp shines above the table.
 - **близъко** (near): **Стꙋлъ ѥстъ близъко стола.** — The chair is near the table.
 
 ## Describing the room
@@ -16,4 +16,4 @@ Each of these words is followed by its own form of the noun:
 - **Постєлѥ ѥстъ мѧкъка.** — The bed is soft.
 - **Стꙋлъ ѥстъ старъ, нъ комфортьнъ.** — The chair is old, but comfortable.
 
-> **Watch out:** **двєри** (doors) is always plural, so its verb is plural too: **Двєри вєдѫтъ до кꙋхъниѥ** (the doors lead to the kitchen).
+> **Watch out:** **двєри** (doors) is always plural, so its verb is plural too: **Двєри вєдѫтъ въ кꙋхъниѭ** (the doors lead to the kitchen).

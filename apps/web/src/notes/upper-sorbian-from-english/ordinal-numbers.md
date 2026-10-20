@@ -6,7 +6,7 @@ They end like describing words:
 
 - **prěni** — first
 - **druhi** — second
-- **třěći** — third
+- **třeći** — third
 - **štwórty** — fourth
 - **pjaty** — fifth
 
@@ -15,12 +15,14 @@ They end like describing words:
 Only the last part becomes an ordinal:
 
 - **dwěsćě prěni bratr** — two hundred first brother
-- **dwěsćě třěći ličak** — two hundred third computer
+- **dwěsćě třeći ličak** — two hundred third computer
 
 ## At an hour
 
-**wo** + the ordinal + **hodźinje** gives a time:
+**w** (in) + the ordinal ending in **‑ej** + **hodźinje** gives a time. Before a word starting with *w*, **w** becomes **we**:
 
-- **wo pjatej hodźinje** — at the fifth hour
+- **w pjatej hodźinje** — at the fifth hour
+- **w třećej hodźinje dwaj** — at two past the third hour
+- **we wosmej hodźinje pjećdźesat pjeć** — at fifty five past the eighth hour
 
 > **Watch out:** "first" is **prěni**, not built from **jedyn**; "second" is **druhi**, not built from **dwaj**.

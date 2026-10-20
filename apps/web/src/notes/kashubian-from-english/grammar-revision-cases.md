@@ -5,7 +5,7 @@ In this lesson: a **review of the cases**, the different endings a word takes de
 After **nie mô** and **nie je** ("there is no"), the word takes the "of" form (the genitive case):
 
 - **Brata tu nie je.** — There is no brother here. (**brat**)
-- **Miona on nie mô.** — He has no name. (**miono**)
+- **Miona òn nie mô.** — He has no name. (**miono**)
 - **Chłopów tu nie widzymë.** — We do not see men here.
 
 ## Giving to someone

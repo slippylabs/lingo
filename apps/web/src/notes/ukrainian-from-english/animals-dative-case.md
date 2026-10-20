@@ -16,11 +16,11 @@ The dative case is the form for the person or animal who receives something ("to
 
 ## Helping someone
 
-**помагати** (to help) also takes the dative:
+**допомагати** (to help) also takes the dative:
 
-- **Він помагає птахові.** — He helps the bird.
+- **Він допомагає птахові.** — He helps the bird.
 - **Помагаємо вовкові.** — We help the wolf.
-- **Ми помагаємо птахам.** — We help the birds.
+- **Ми допомагаємо птахам.** — We help the birds.
 
 ## "Will give"
 

@@ -14,13 +14,13 @@ Roads and bridges "go" on foot, with **йде**:
 
 ## Describing vehicles
 
-- **Авто є нове і красиве.** — The car is new and beautiful.
-- **Велосипед є зламаний.** — The bicycle is broken.
-- **Водій є обережний.** — The driver is careful.
+- **Авто нове і красиве.** — The car is new and beautiful.
+- **Велосипед зламаний.** — The bicycle is broken.
+- **Водій обережний.** — The driver is careful.
 
 ## The traffic light
 
 - **Світлофор показує червоне.** — The traffic light shows red.
 - **Світлофор показує зелене.** — The traffic light shows green.
 
-> **Watch out:** **авто** (car) never changes its ending and is neuter: **Авто є нове.**
+> **Watch out:** **авто** (car) never changes its ending and is neuter: **Авто нове.**

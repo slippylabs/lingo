@@ -13,7 +13,7 @@ In this lesson: **shapes** and the numbers **three** and **four**.
 The word after "of" changes: **kwadrat** becomes **kwadrata**.
 
 - **Widźimy wobrys kwadrata.** — We see the outline of a square.
-- **Stół ma formu kwadrata.** — The table has the shape of a square.
+- **Blido ma formu kwadrata.** — The table has the shape of a square.
 
 ## Drawing
 

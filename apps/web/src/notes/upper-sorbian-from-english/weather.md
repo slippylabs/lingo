@@ -16,10 +16,11 @@ No word for "it" is needed:
 - **Dźensa je ćopło.** — It is warm today.
 - **W Ruskej je zymno.** — In Russia it is cold.
 - **Dźensa je ćopło a sucho.** — It is warm and dry today.
+- **Dźensa je mróčnje.** — It is cloudy today.
 
 ## Clouds
 
-- **Mróčki su ćěmne.** — The clouds are dark.
-- **Dźensa njewidźimy mróčkow.** — Today we do not see clouds.
+- **Mróčele su ćěmne.** — The clouds are dark.
+- **Dźensa njewidźimy mróčelow.** — Today we do not see clouds.
 
-> **Watch out:** **ćopło** (warm) and **zymno** (cold) end in **‑o** when they mean "it is warm / it is cold".
+> **Watch out:** **ćopło** (warm), **zymno** (cold) and **mróčnje** (cloudy) are "it is" forms: say **Dźensa je mróčnje**, not *mróčny*.

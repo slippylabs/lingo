@@ -14,7 +14,7 @@ In this lesson: a **review of the cases**, the endings that show a word's job in
 - **Дамъ женѣ.** — I give to the woman.
 - **Онъ видитъ своѭ женѫ.** — He sees his wife.
 - **Сь можьно рѣзати ножомъ.** — This can be cut with a knife.
-- **Глаголимъ съ приꙗтєлꙗми.** — We talk with friends.
+- **Глаголѥмъ съ приꙗтєлꙗми.** — We talk with friends.
 - **Она ѥстъ въ градꙋ.** — She is in the city.
 
 > **Watch out:** **нємаѥтъ** ("there is no") takes the genitive: **Брата тѫ нємаѥтъ**, not *братъ*.

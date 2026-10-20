@@ -4,7 +4,7 @@ In this lesson: **time words** and the **past tense** (what happened before).
 
 - **Вчера быв понедїлок.** — Yesterday was Monday. (masculine: **быв**)
 - **Вчера она была в домї о восьмой годинї.** — Yesterday she was at home at the eighth hour. (feminine: **была**)
-- **О третьій годинї двадцять было хладно.** — At twenty past the third hour it was cold. (neuter: **было**)
+- **О третїй годинї двадцять было хладно.** — At twenty past the third hour it was cold. (neuter: **было**)
 - **Они нич не дїлали.** — They did nothing. (plural: **‑ли**)
 
 For "I", add **єм**: **Я єм быв в домї утром.** — I was at home in the morning.

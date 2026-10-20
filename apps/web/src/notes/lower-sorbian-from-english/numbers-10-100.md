@@ -2,23 +2,23 @@ In this lesson: the **tens**, up to **100**.
 
 ## The tens
 
-- **dwójcasć** — twenty
-- **tśójcasć** — thirty
-- **styrjźasć** — forty
-- **pěśźasć** — fifty
-- **šesćźasć** — sixty
-- **sedymźasć** — seventy
-- **wosymźasć** — eighty
-- **źewjeśźasć** — ninety
+- **dwaźasća** — twenty
+- **tśiźasća** — thirty
+- **styrźasća** — forty
+- **pěśźaset** — fifty
+- **šesćźaset** — sixty
+- **sedymźaset** — seventy
+- **wósymźaset** — eighty
+- **źewjeśźaset** — ninety
 - **sto** — one hundred
 
-From fifty on, the tens are the number plus **‑źasć**.
+Twenty to forty end in **‑źasća**; from fifty on, the tens are the number plus **‑źaset**.
 
 ## With a noun
 
-- **dwójcasć žonow** — twenty women
-- **styrjźasć mužow** — forty men
-- **šesćźasć kóckow** — sixty cats
-- **sto goźinikow** — one hundred clocks
+- **dwaźasća žonow** — twenty women
+- **styrźasća mužow** — forty men
+- **šesćźaset kóckow** — sixty cats
+- **sto zegerow** — one hundred clocks
 
 > **Watch out:** "one hundred" is just **sto**; there's no word for "one" in front.

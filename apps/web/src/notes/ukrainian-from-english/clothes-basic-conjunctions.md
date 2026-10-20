@@ -2,7 +2,7 @@ In this lesson: **clothes**, and the linking words **and**, **but** and **or**.
 
 ## Linking words
 
-- **і** — and: **Шарф є важкий і теплий.** — The scarf is heavy and warm.
+- **і** — and: **Шарф важкий і теплий.** — The scarf is heavy and warm.
 - **а** — and/but, for a contrast: **Вона має чорні штани, а він білі.** — She has black trousers, and he has white.
 - **чи** — or: **Ти хочеш шарф чи сорочку?** — Do you want a scarf or a shirt?
 
@@ -19,7 +19,7 @@ In this lesson: **clothes**, and the linking words **and**, **but** and **or**.
 
 Some clothes are always plural, like **штани** (trousers) and **труси** (underwear):
 
-- **Нові труси є зручні.** — New underwear is comfortable.
-- **Штани є красиві чи бридкі?** — Are the trousers beautiful or ugly?
+- **Нові труси зручні.** — New underwear is comfortable.
+- **Штани красиві чи бридкі?** — Are the trousers beautiful or ugly?
 
 > **Watch out:** **чи** at the start of a sentence just marks a question. In the middle it means "or".

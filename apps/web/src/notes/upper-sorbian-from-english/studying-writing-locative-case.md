@@ -13,7 +13,7 @@ Jobs have a man's and a woman's form: **wučer**, **wučerka**.
 
 After **na** (on) and **w** (in), nouns take the locative ending. Masculine and neuter words often end in **‑e** or **‑u**:
 
-- **Kniha je na stole.** — The book is on the table.
+- **Kniha je na blidźe.** — The book is on the table.
 - **Šula je w centru.** — The school is in the center.
 
 ## Writing with something
@@ -23,4 +23,4 @@ After **na** (on) and **w** (in), nouns take the locative ending. Masculine and 
 - **Pišu na papjer z pjerom.** — I am writing on paper with a pen.
 - **Ja spěšnje pišu z tym pjerom.** — I am writing quickly with this pen.
 
-> **Watch out:** **stół** (table) becomes **na stole**: the *ó* turns into *o* when the ending changes.
+> **Watch out:** the ending can change the consonant before it: **blido** (table) becomes **na blidźe**.

@@ -2,7 +2,7 @@ In this lesson: **me, you, us** and **who**, which change form like nouns.
 
 ## Me and you
 
-- **Mje nje wiźiš.** — You don't see me.
+- **Mje njewiźiš.** — You don't see me.
 - **Daj mě wódu.** — Give me water.
 - **Ja wiźim was.** — I see you.
 - **Powědam z tobu.** — I am talking with you.

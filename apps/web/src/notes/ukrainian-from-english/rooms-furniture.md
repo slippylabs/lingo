@@ -6,9 +6,9 @@ Each little place word puts the noun after it into a particular form:
 
 - **На столі лежить книжка.** — A book is lying on the table. (на + ‑і)
 - **Полиця висить на стіні.** — The shelf hangs on the wall.
-- **Скриня є під ліжком.** — The chest is under the bed. (під + ‑ом)
+- **Скриня під ліжком.** — The chest is under the bed. (під + ‑ом)
 - **Лампа світить над столом.** — The lamp shines above the table. (над + ‑ом)
-- **Стілець є близько столу.** — The chair is near the table.
+- **Стілець близько столу.** — The chair is near the table.
 - **Стіл стоїть посередині кімнати.** — The table stands in the middle of the room.
 
 ## Having and holding
@@ -19,7 +19,7 @@ Each little place word puts the noun after it into a particular form:
 
 ## Open and closed
 
-- **Вікно є відкрите.** — The window is open.
-- **Двері є закриті.** — The doors are closed.
+- **Вікно відкрите.** — The window is open.
+- **Двері закриті.** — The doors are closed.
 
 > **Watch out:** **двері** (door) is always plural, so it takes plural words: **Двері ведуть до кухні.** — The doors lead to the kitchen.

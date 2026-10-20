@@ -5,7 +5,7 @@ In this lesson: a **review of the cases**, the different endings a word takes de
 | Job | Example |
 |---|---|
 | the thing you see or have | **Wón wiźi swóju žonu.** — He sees his wife. |
-| "not", "of" | **Brata how nje ma.** — There is no brother here. |
+| "not", "of" | **Bratša how njama.** — There is no brother here. |
 | giving to | **Dam žonje.** — I give to the woman. |
 | "with" | **Powědamy z pśijaśelami.** — We talk with friends. |
 | where | **Na pólu wjele źěłam.** — I work a lot in the field. |

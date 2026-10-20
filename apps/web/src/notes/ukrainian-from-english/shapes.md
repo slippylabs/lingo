@@ -9,9 +9,9 @@ In this lesson: **shapes** and their **genders**.
 The describing word follows that gender:
 
 - **Це простий трикутник.** — This is a simple triangle.
-- **Та лінія є довга.** — That line is long.
+- **Та лінія довга.** — That line is long.
 - **Я малюю велике коло.** — I am drawing a big circle.
-- **Фігура є складна.** — The figure is complex.
+- **Фігура складна.** — The figure is complex.
 
 ## "Of a square"
 

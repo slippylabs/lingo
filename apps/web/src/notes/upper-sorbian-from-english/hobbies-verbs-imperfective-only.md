@@ -11,7 +11,7 @@ A verb's ending shows who does it. With **čitać** (to read):
 Many verbs end in **‑u** for "I" instead of **‑m**:
 
 - **Ja moluju wobraz.** — I am painting a picture.
-- **Ja tancuju mnoho** — I dance a lot
+- **Ja rejuju mnoho** — I dance a lot
 
 ## "We" and "they"
 

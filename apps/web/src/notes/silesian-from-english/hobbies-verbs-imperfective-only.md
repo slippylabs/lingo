@@ -10,7 +10,7 @@ The end of a verb shows who is doing it. Here is **czytać** (to read):
 | you | **czytosz** |
 | he / she | **czyto** |
 
-- **Jo czytōm ksiónżka.** — I am reading a book.
+- **Jo czytōm ksiōnżka.** — I am reading a book.
 - **Czytosz ty romany?** — Do you read novels?
 - **Ôna siedzi a czyto.** — She is sitting and reading.
 

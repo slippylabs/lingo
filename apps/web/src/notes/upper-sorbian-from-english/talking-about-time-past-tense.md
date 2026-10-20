@@ -18,5 +18,6 @@ The past is often made with **być** (to be) plus a verb form ending in **-ł**,
 
 - **Ja sym był w domje zaranja.** — I was at home in the morning.
 - **Wječor smy šli do restawracije.** — In the evening we went to the restaurant.
+- **Wón je domoj šoł.** — He went home.
 
-> **Watch out:** the past form changes for a man, a woman and a group: **šoł**, **šła**, **šli**.
+> **Watch out:** the past form changes for a man, a woman and a group (**šoł**, **šła**, **šli**), and **je** stays even for "he": **Wón je domoj šoł**.

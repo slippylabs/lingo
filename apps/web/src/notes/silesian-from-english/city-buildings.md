@@ -14,7 +14,7 @@ In this lesson: **places in a town** and how to say where they are.
 After **we** (in) and **na** (on, at) the place word changes:
 
 - **sklep** → **Kupujymy chlyb we sklepie.** — We buy bread in the shop.
-- **biblijoteka** → **Czytōm ksiónżka we biblijotece.** — I read a book in the library.
+- **biblijoteka** → **Czytōm ksiōnżka we biblijotece.** — I read a book in the library.
 - **ulica** → **Dōm stoji na ulicy.** — The house stands on the street.
 
 ## Near and to

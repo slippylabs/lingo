@@ -20,4 +20,14 @@ In this lesson: **describing how people look**, and **comparing** them.
 - **нїж** — than: **Худый має менше тїлесной масы нїж грубый.** — The thin person has less body mass than the fat one.
 - **як** — as, like: **Она є низка і худа як он.** — She is as short and thin as he is.
 
+## Comparing
+
+To say "wiser" or "greener", the adjective takes **‑їшы** (plural) or **‑їшый**:
+
+- **Стары люди суть мудрїшы нїж мы.** — Old people are wiser than us.
+- **Очі суть зеленїшы нїж у него.** — Her eyes are greener than his.
+- **Тото є краснїшый чоловік нїж тот.** — He is a more beautiful person than that one.
+
+Some have their own form: **высшый** (taller), **векшу** (bigger): **Худый носить векшу кошулю нїж я.** — The thin one wears a larger shirt than I do.
+
 > **Watch out:** **грубый** means "fat" here, and **красный** means "beautiful": **Красны очі блискають ся як звїзда на небї.**

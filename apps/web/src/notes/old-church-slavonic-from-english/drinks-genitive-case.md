@@ -9,7 +9,7 @@ In this lesson: **drinks**, and the **genitive case**: the form a word takes aft
 
 ## After "not"
 
-- **Азъ нє имамъ водꙑ.** — I do not have water.
+- **Азъ нє имамь водꙑ.** — I do not have water.
 - **Она нє пиѥтъ вина.** — She does not drink wine.
 - **Онъ нємаѥтъ кавꙑ.** — He does not have coffee.
 

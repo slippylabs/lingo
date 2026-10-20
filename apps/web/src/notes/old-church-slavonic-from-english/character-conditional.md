@@ -8,7 +8,7 @@ In this lesson: **character words**, and the **conditional**: saying what **woul
 
 A describing word can stand alone for a person:
 
-- **Мѫдръ знаѥтъ мьного.** — A smart person knows much.
+- **Мѫдръ знаѥтъ мъного.** — A smart person knows much.
 - **Глꙋпъ нє оучитъ сѧ.** — Stupid people do not learn.
 
 ## "Would"

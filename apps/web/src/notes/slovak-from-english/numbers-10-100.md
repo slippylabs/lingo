@@ -23,7 +23,12 @@ Tens take the "of" form:
 
 ## Tens and units
 
-- **sedemdesiat osem rubľov** — seventy eight rubles
-- **osemdesiat sedem dolárov** — eighty seven dollars
+A ten and a unit are written as ONE word, and the noun still takes the "of" form, even after 1 to 4:
+
+- **sedemdesiatosem rubľov** — seventy eight rubles
+- **osemdesiatsedem dolárov** — eighty seven dollars
+- **deväťdesiattri počítačov** — ninety three computers
+- **dvadsaťštyri vecí** — twenty four things
+- **päťdesiatjeden hodiniek** — fifty one clocks
 
 > **Watch out:** it's **štyridsať** (*‑dsať*) but **päťdesiat** (*‑desiat*). The switch happens at fifty.

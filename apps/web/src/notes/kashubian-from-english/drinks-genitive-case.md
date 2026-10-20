@@ -10,10 +10,10 @@ In this lesson: **drinks** and the **genitive case**, the form a word takes afte
 
 When you say you don't have or don't drink something, the drink changes its ending:
 
-- **Ja nie mô wòdë.** — I do not have water. (**wòda**)
+- **Jô nie móm wòdë.** — I do not have water. (**wòda**)
 - **Òna nie pije wina.** — She does not drink wine. (**winò**)
 - **Më nie pijemë piwa.** — We do not drink beer. (**piwò**)
-- **On nie mô kawë.** — He does not have coffee. (**kawa**)
+- **Òn nie mô kawë.** — He does not have coffee. (**kawa**)
 
 ## After "without" and "of"
 

@@ -23,8 +23,8 @@ Ukrainian has two words for "where":
 
 ## Near and far
 
-- **Магазин є близько бібліотеки.** — The shop is near the library.
-- **Майдан є далеко від готелю.** — The square is far from the hotel.
+- **Магазин близько бібліотеки.** — The shop is near the library.
+- **Майдан далеко від готелю.** — The square is far from the hotel.
 - **Де найближчий готель?** — Where is the nearest hotel?
 
 > **Watch out:** with a verb of going, ask **куди**, not **де**: **Куди йдете?** — Which way are you going?

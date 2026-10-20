@@ -21,7 +21,7 @@ The body part is the subject, and **болить** means "hurts":
 
 - **Її серце б'ється швидко.** — Her heart beats fast.
 - **Його мозок швидкий.** — His brain is quick.
-- **Її обличчя є красиве.** — Her face is beautiful.
+- **Її обличчя красиве.** — Her face is beautiful.
 
 **його** (his) and **її** (her) never change their ending.
 

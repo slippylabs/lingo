@@ -7,9 +7,9 @@ The person or animal you give to takes the dative case — the "to someone" form
 - **Ja dam kóčce rybu.** — I give the cat a fish.
 - **Damoj konjej wodu.** — We give the horse water.
 - **My damoj žabje chlěb.** — We give bread to the frog.
-- **Wón da myši ser.** — He gives the mouse cheese.
+- **Wón da myši twarožk.** — He gives the mouse cheese.
 
-Common endings: masculine **‑ej** or **‑u** (**konjej**, **posu**), feminine **‑e** (**kóčce**, **žabje**).
+Common endings: masculine **‑ej** or **‑u** (**konjej**, **psej**), feminine **‑e** (**kóčce**, **žabje**).
 
 ## Helping
 

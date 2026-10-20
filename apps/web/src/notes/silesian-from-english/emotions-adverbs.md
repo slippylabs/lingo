@@ -24,7 +24,7 @@ A word that says how something is done (an adverb) often ends in **‑o**:
 
 **to** can link two nouns, like "is":
 
-- **Miłość to srogo emocijo.** — Love is a strong emotion.
+- **Miłość to mocno emocijo.** — Love is a strong emotion.
 - **Strach to naturalno reakcyjo.** — Fear is a natural reaction.
 
-> **Watch out:** **barzo** means "very": **Wstyd je barzo srogi.** — Shame is very strong.
+> **Watch out:** **barzo** means "very": **Wstyd je barzo mocny.** — Shame is very strong.

@@ -18,8 +18,8 @@ They match their noun like describing words:
 
 This course says "at the fifth hour" with *о* and a feminine ordinal:
 
-- **о пѧтои части** — at the fifth hour
-- **о дєвѧтои части** — at the ninth hour
-- **о дъванадесѧтои части** — at the twelfth hour
+- **въ пѧтꙑи часъ** — at the fifth hour
+- **въ дєвѧтꙑи часъ** — at the ninth hour
+- **въ дъванадесѧтꙑи часъ** — at the twelfth hour
 
 > **Watch out:** "fifth" is **пѧтъ**, but "five" is **пѧть**; only the last letter differs.

@@ -22,4 +22,4 @@ The noun follows the last part of the number:
 - **девятьдесят три компьютеры** — ninety three computers (ends in three, so the ordinary plural)
 - **седемдесят осем рублїв** — seventy eight rubles (ends in eight, so the "of" plural)
 
-> **Watch out:** forty is **штирдцять**, built on **штири** (four).
+> **Watch out:** forty is **штиридцять**, built on **штири** (four).

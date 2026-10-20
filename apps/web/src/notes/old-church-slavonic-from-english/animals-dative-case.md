@@ -9,7 +9,7 @@ In this lesson: **animals**, and the **dative case**: the form for the one you g
 
 ## Giving
 
-- **Азъ дамъ котꙋ рꙑбѫ.** — I give the cat a fish.
+- **Азъ дамь котꙋ рꙑбѫ.** — I give the cat a fish.
 - **Мꙑ даѥмъ жабѣ хлѣбъ.** — We give bread to the frog.
 - **Онъ даѥтъ мꙑши сꙑръ.** — He gives cheese to the mouse.
 - **Даѥмъ конѭ водѫ.** — We give the horse water.
@@ -22,4 +22,4 @@ In this lesson: **animals**, and the **dative case**: the form for the one you g
 - **Помагаѥмъ вълкꙋ.** — We help the wolf.
 - **Мꙑ помагаѥмъ птицамъ.** — We help the birds.
 
-> **Watch out:** the one who receives is in the dative, the thing given is not: **дамъ котꙋ рꙑбѫ** — cat **котꙋ**, fish **рꙑбѫ**.
+> **Watch out:** the one who receives is in the dative, the thing given is not: **дамь котꙋ рꙑбѫ** — cat **котꙋ**, fish **рꙑбѫ**.

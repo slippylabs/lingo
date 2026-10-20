@@ -2,9 +2,9 @@ In this lesson: **describing people's looks** and making **simple comparisons**.
 
 ## Looks
 
-- **On mô długé włosë.** — He has long hair.
-- **Òna mô zielené òczë.** — She has green eyes.
-- **Jegò włoscë są plëwé.** — His hair is blonde.
+- **Òn mô długé włosë.** — He has long hair.
+- **Òna mô zeloné òczë.** — She has green eyes.
+- **Jegò włosë są plëwé.** — His hair is blonde.
 - **Stôrô białka nosy czapkã.** — The old woman wears a hat.
 - **Grëbi chłop jidze pò ùlicë.** — The fat man is walking down the street.
 
@@ -25,4 +25,4 @@ This lesson compares with **wicy** ("more") and **jakno** ("than"):
 
 - **Snôżé òczë lësną jakno gwiôzdë na niebie.** — Beautiful eyes shine like stars in the sky.
 
-> **Watch out:** "hair" is plural in Kashubian, so it takes **są**: **Jegò włoscë są plëwé.**
+> **Watch out:** "hair" is plural in Kashubian, so it takes **są**: **Jegò włosë są plëwé.**

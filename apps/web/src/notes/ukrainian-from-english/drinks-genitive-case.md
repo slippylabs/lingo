@@ -19,7 +19,7 @@ The genitive case is the form for "of" and "none of". You'll see it in three pla
 ### After "a bottle of" or "a glass of"
 
 - **Ти маєш пляшку соку?** — Do you have a bottle of juice?
-- **Келих вина для мене, прошу.** — A glass of wine for me, please.
+- **Келих вина для мене, будь ласка.** — A glass of wine for me, please.
 
 The endings: ‑а becomes **‑и**, ‑о becomes **‑а**, and short masculine words often take **‑у**.
 

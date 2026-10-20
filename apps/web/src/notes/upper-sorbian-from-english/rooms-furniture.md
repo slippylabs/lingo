@@ -9,15 +9,15 @@ In this lesson: **rooms and furniture**, and words for **where** things are.
 
 ## Where things are
 
-- **Stólčk je blisko stola.** — The chair is near the table.
+- **Stólc je blisko blida.** — The chair is near the table.
 - **Truhła je pod postelju.** — The chest is under the bed.
-- **Lampa swěći nad stolom.** — The lamp shines above the table.
-- **Na stole leži kniha.** — A book is lying on the table.
+- **Lampa swěći nad blidom.** — The lamp shines above the table.
+- **Na blidźe leži kniha.** — A book is lying on the table.
 
-**pod** (under) and **nad** (above) use the "with" form: **nad stolom**. **blisko** (near) uses the "of" form: **blisko stola**.
+**pod** (under) and **nad** (above) use the "with" form: **nad blidom**. **blisko** (near) uses the "of" form: **blisko blida**.
 
 ## Made of
 
 - **Truhła je z drjewa.** — The chest is made of wood.
 
-> **Watch out:** each place word wants its own ending: **pod postelju**, **nad stolom**, but **blisko stola**.
+> **Watch out:** each place word wants its own ending: **pod postelju**, **nad blidom**, but **blisko blida**.

@@ -17,4 +17,4 @@ In this lesson: **rooms and furniture**, and saying where things are with **na**
 - **Rum jo śopły a śichy.** — The room is warm and quiet.
 - **Šafa jo pełna.** — The wardrobe is full.
 
-> **Watch out:** **wrota** (door) is always plural, so it takes **su**: **Wrota su zawrěśe.**
+> **Watch out:** **źurja** (door) is always plural, so it takes **su**: **Źurja su zawrěśe.**

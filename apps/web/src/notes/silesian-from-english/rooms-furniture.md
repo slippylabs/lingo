@@ -5,13 +5,13 @@ In this lesson: **rooms and furniture**, and words for **where** things are.
 - **izba** — room
 - **stōł** — table
 - **stołek** — chair
-- **łóżko** — bed
+- **łōżko** — bed
 - **ôkno** — window
 - **szrank** — wardrobe
 
 ## Where is it?
 
-- **Szuflada je pod łóżkym.** — The drawer is under the bed.
+- **Szuflada je pod łōżkym.** — The drawer is under the bed.
 - **Stołek je blisko stōła.** — The chair is near the table.
 - **Lampa świyci nad stōłym.** — The lamp shines above the table.
 - **Połka wisi na ścianie.** — The shelf hangs on the wall.
@@ -21,6 +21,6 @@ Notice how the noun changes after each little word: **stōł** becomes **stōła
 ## Open and closed
 
 - **Ôkno je ôdewrzōne.** — The window is open.
-- **Dźwiyrze som zawrzōne.** — The doors are closed.
+- **Dźwiyrze sōm zawrzōne.** — The doors are closed.
 
-> **Watch out:** **dźwiyrze** (door) is always plural, so it takes **som** (are): **Dźwiyrze som zawrzōne.**
+> **Watch out:** **dźwiyrze** (door) is always plural, so it takes **sōm** (are): **Dźwiyrze sōm zawrzōne.**

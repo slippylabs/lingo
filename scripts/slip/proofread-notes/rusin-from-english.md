@@ -1,41 +1,20 @@
 # rusin-from-english: unsure / not fixed
 
-## Cross-course (affects 15 of the 16 Slavic courses; Ukrainian is the exception)
-- **Every mini-dictionary gloss is the literal string "undefined"** (4332 of 5689 entries here; 4289-4394 in each
-  sibling). The exporter carries it through, so word hints show "undefined" (index.json dict: "я":["I","undefined"]).
-  Best fixed in code (drop "undefined" glosses at export or in the hint UI) rather than per course. I did not
-  fill them in. New entries I added carry real glosses.
-- course.yaml "Special characters" lists Interslavic Latin letters (ě š č ž Ł) for a Cyrillic course. It's not
-  used by the web UI, so I left it.
-- The course is an Interslavic template machine-carried into Rusin. The vocabulary mixes Prešov/Lemko/Pannonian
-  forms with Russian and Interslavic ones. A native reviewer would change much more than I did.
+Items from the 2026-10-19 proofread that the follow-up check (against Rusyn Wikipedia, rue.wikipedia.org, and
+Wiktionary) could not settle. Everything confirmed is now in `../course_fixes.json`.
 
-## Plausible errors left alone (not certain of the right Rusin)
-- Pronouns он/она/оно/они: the Prešov standard has він/вона/воно/вони (the course's own notes use Вон). Consistent in the exercises, so I left it.
-- "много" used for "very" (Она много мудра, Мелон є много смачный): standard is барз/дуже. Several sentences
-  also drop the copula (Она много мудра, Мы много мудры).
-- 1st person "Грам в футбол" vs "Я граю" elsewhere (грам is Pannonian).
-- барже glossed "fast", "quickly" and "quick" (Он бігає барже, Єго мозок є барже): it usually means "more/faster", while борзо = quickly.
-- Тамто утро (neuter) vs the тамтотот/тамтота pattern: тамтото?
-- штолїк = "chair" (usually a small table; chair = стілець/кріселко). колесо = "bicycle" (wheel; bicycle = бицикель). паланка = pancake (палачінта?).
-- дозрїв glossed "ripe" is a past-tense verb (adjective дозрїлый). ягода = strawberry (berry).
-- Вишня росте на дївї: дївї looks wrong (дереві).
-- Нїмець жиє в Нїмецьку: Germany = Нїмеччина / Нїмецько?
-- много люди / Шофер веде люди: genitive/accusative should be людей. Учитель каже учеником: dative ученикам.
-- Numbers: штирдцять (40) and єдиннадцять (11, double н) are spelled oddly but consistently. I aligned the
-  number notes to the course's own forms, not the other way round. о третьий / о третьій are inconsistent.
-- Conditional skill: the forms "быв быс слухав", "были бысме ... помагали" are garbled. The note teaches a
-  different (simpler) system.
-- Он дає собі спокой = "He stops troubling others" (the idiom is more like "he gives up / leaves it be").
-  "Тым хторі лежать спати спокойного сна" is garbled.
-- Гаты taught as "underwear" but two phrases say "shorts". I left both.
-- бїлый (Colours) vs білый (Studying, after my Latin-i fix): one of them should win. Standard is білый.
-- Comparatives built with выше ("Он є выше высокый і сильный нїж он") are not Rusin; the English is circular too.
-- Fixes I made where the error was certain but the replacement is my best Rusin (worth a native check):
-  мокрый→синїй/синє/синї/синю (blue), ясень→осїнь with locative "в осени", Ты→Тоты (these), часы→часу.
-- Intro notes still use Вон, читати/книга (vs the course's Он, чітати/кнїга) and a few other spellings. I only fixed
-  the forms that contradict what the exercises accept.
-
-## From the notes rewrite (2026-10-19)
-- *матка* (queen bee; "mother" only as an obsolete sense) is now *мама*, instrumental *мамов* like бабков/тетков (slip-v2.5.1). The ‑ов instrumental is the Prešov form; Pannonian would be *з маму*.
-- "Я дам" is answered "I give"; "I will give" is now also accepted.
+- The course mixes varieties: it is an Interslavic template carried into Rusin, with Prešov, Lemko and Pannonian
+  forms side by side. A native reviewer would still change more than the fixes here.
+- Pronouns он/она/оно/они. Rusyn Wikipedia uses він, вун and вона, but the course uses он/она in every skill.
+  Switching means rewriting the whole course to one standard: a native speaker should pick which one.
+- Conditional skill: "Кед ты быв быс слухав", "были бысме ... помагали", "быв бым быв смїлый" stack two
+  past forms. The Word list (быв бым / быв быс / быв бы / были бысме / были бысьте / были бы) looks right, but I
+  found no source for the correct Prešov sentences (бысь or быс? is "кед бы" needed?). Our note teaches the simple system.
+- "Он дає собі спокой" = "He stops troubling others": the idiom more likely means "he leaves it be / gives up".
+  "Тым хторі лежать спати спокойного сна" is garbled. No source for the right phrasing.
+- гаты is taught as "underwear", but two phrases translate it as "shorts" ("Гаты суть красны ці брїдкы?",
+  "Новы гаты суть комфортны"). I found no Rusin source for which is right (Lemko гаті = trousers).
+- "Хвала тобі барз" (now барз, not много): хвала as "thanks" is Pannonian; Prešov says дякую. Left, because
+  хвала is taught as a word in the same skill.
+- Intro .md files (still bundled upstream) use Вон, читати/книга etc. Our notes replace them on the site, so they
+  are never shown.

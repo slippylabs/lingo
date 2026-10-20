@@ -22,6 +22,6 @@ Some are short or irregular:
 
 - **Він має довге волосся.** — He has long hair.
 - **Вона має зелені очі.** — She has green eyes.
-- **Шкіра є гладка.** — The skin is smooth.
+- **Шкіра гладка.** — The skin is smooth.
 
 > **Watch out:** **ніж** means "than" here, but it is also the word for a knife.

@@ -23,6 +23,21 @@ export const normalize = (s: string): string =>
 export const stripAccents = (s: string): string =>
 	s.normalize('NFD').replace(/\p{M}/gu, '').normalize('NFC');
 
+/**
+ * Course answers written as "Plac/Rynek", "dwa (m/n)" or "Jesteś zdrowy/zdrowa?"
+ * mean any one of the options; the bracketed note is never typed. The form as
+ * written stays valid too.
+ */
+export function answerForms(f: string): string[] {
+	const bare = f.replace(/\s*\([^)]*\)/g, '').trim();
+	let out = [''];
+	for (const tok of bare.split(/\s+/)) {
+		const opts = /\p{L}\/\p{L}/u.test(tok) ? tok.split('/') : [tok];
+		out = out.flatMap((o) => opts.map((t) => (o ? o + ' ' + t : t))).slice(0, 32);
+	}
+	return [...new Set([f, bare, ...out])].filter(Boolean);
+}
+
 /** Allowed slips: none under 5 letters, one up to 11, two from 12. */
 const allowedSlips = (s: string) => (s.length < 5 ? 0 : s.length < 12 ? 1 : 2);
 
@@ -35,15 +50,15 @@ export function checkTyped(answer: string, valid: string[], known?: Set<string>)
 	const forms = valid.filter(Boolean);
 	const expected = forms[0] ?? '';
 	if (!a) return { ok: false, expected, kind: 'wrong' };
-	for (const f of forms) if (normalize(f) === a) return { ok: true, expected: f, kind: 'exact' };
-	for (const f of forms)
-		if (stripAccents(normalize(f)) === stripAccents(a)) return { ok: true, expected: f, kind: 'accent' };
+	// each accepted spelling, paired with the course form it came from
+	const variants = forms.flatMap((f) => answerForms(f).map((v) => [f, normalize(v)] as const));
+	for (const [f, v] of variants) if (v === a) return { ok: true, expected: f, kind: 'exact' };
+	for (const [f, v] of variants)
+		if (stripAccents(v) === stripAccents(a)) return { ok: true, expected: f, kind: 'accent' };
 	const isOtherWord = known?.has(a) ?? false;
-	for (const f of isOtherWord ? [] : forms) {
-		const n = normalize(f);
-		if (leven(stripAccents(n), stripAccents(a)) <= allowedSlips(n))
+	for (const [f, v] of isOtherWord ? [] : variants)
+		if (leven(stripAccents(v), stripAccents(a)) <= allowedSlips(v))
 			return { ok: true, expected: f, kind: 'typo' };
-	}
 	// teach the main form, unless the learner was plainly aiming at another
 	// accepted one (within two letters of it)
 	let best = expected;

@@ -9,15 +9,15 @@ After **на** ("on") and **въ** ("in"), the place takes the ending **‑ѣ**:
 
 ## Writing with a pen
 
-A tool takes the instrumental ending **‑омъ** with no extra word for "with":
+A tool takes the instrumental ending **‑омь** with no extra word for "with":
 
-- **Пишѫ на папирѣ пєромъ.** — I am writing on paper with a pen.
+- **Пишѫ на папирѣ пєромь.** — I am writing on paper with a pen.
 
 ## Describing school things
 
 - **Папиръ ѥстъ бѣлъ.** — The paper is white.
 - **Книга ѥстъ нова.** — The book is new.
 - **Си мєтода ѥстъ добра.** — This method is good.
-- **Сь моꙗ шькола.** — This is my school.
+- **Си моꙗ шькола.** — This is my school.
 
-> **Watch out:** a tool needs no **съ**: **пєромъ** alone means "with a pen". **съ** is for people you are with, as in **съ материѭ**.
+> **Watch out:** a tool needs no **съ**: **пєромь** alone means "with a pen". **съ** is for people you are with, as in **съ материѭ**.

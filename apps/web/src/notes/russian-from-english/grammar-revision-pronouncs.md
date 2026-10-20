@@ -20,7 +20,7 @@ In this lesson: how **pronouns** like I, you, who and that change with their **j
 "That" changes like a describing word:
 
 - **Те женщины красивые.** — Those women are beautiful.
-- **Ты даёшь тому псу кости.** — You give that dog bones.
+- **Ты даёшь той собаке кости.** — You give that dog bones.
 - **О той вещи я ничего не знаю.** — I know nothing about that thing.
 
 > **Watch out:** Russian needs two "no" words in one sentence: **я ничего не знаю** is literally "I nothing don't know".

@@ -16,7 +16,7 @@ This form is called the genitive case. Feminine words in **‑a** change to **�
 After **bez** — without:
 
 - **Piješ li bez mlěka?** — Do you drink without milk?
-- **Ja ljubu sok bez cukra.** — I like juice without sugar.
+- **Ja ljubim sok bez cukra.** — I like juice without sugar.
 
 After "a bottle of", "a glass of":
 

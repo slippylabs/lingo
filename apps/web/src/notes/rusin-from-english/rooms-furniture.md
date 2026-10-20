@@ -6,7 +6,7 @@ In this lesson: **rooms and furniture**, and words for **where things are**.
 - **В комнатї є спокій.** — It is quiet in the room.
 - **Скриня є под постельов.** — The chest is under the bed.
 - **Лампа світить над столом.** — The lamp shines above the table.
-- **Штолїк є близко стола.** — The chair is near the table.
+- **Столець є близко стола.** — The chair is near the table.
 
 Each little word asks for its own ending: **под** and **над** take the "with" ending (**постельов**, **столом**), and **близко** takes the "of" ending (**стола**).
 

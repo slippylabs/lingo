@@ -25,4 +25,4 @@ Short describing forms say what state something is in:
 - **Светофор показывает красный.** — The traffic light shows red.
 - **Мост связывает два города.** — The bridge connects two cities.
 
-> **Watch out:** **авто** is neuter and never changes its ending: **Авто новое и красивое.** In everyday speech people also say **машина**.
+> **Watch out:** the everyday word for a car is **машина**, a feminine word: **Машина новая и красивая.** You may also see *авто*, which is neuter and never changes its ending.

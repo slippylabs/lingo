@@ -13,7 +13,7 @@ Add **-nje** to a describing word to say *how*:
 
 - **Čuju so radostnje dźensa.** — I feel joyful today.
 - **Žałostnje wón rěčeše.** — He spoke sadly.
-- **Radostnje šoł do doma.** — He joyfully went home.
+- **Radostnje je domoj šoł.** — He joyfully went home.
 
 ## To feel
 

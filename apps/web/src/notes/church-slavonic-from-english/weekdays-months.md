@@ -12,7 +12,7 @@ Several days are named by number:
 - **сѫбота** — Saturday
 - **нєдѣлꙗ** — Sunday
 
-- **Понєдѣлъкъ ѥстъ пръвъи дьнь въ тꙑждньꙋ.** — Monday is the first day of the week.
+- **Понєдѣлъкъ ѥстъ пръвъи дьнь въ тꙑжьдьнꙋ.** — Monday is the first day of the week.
 - **Въ пѧтъкъ вєчєромъ идємъ на фильмъ.** — On Friday evening we are going to the movies.
 
 ## Months

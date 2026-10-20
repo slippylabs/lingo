@@ -2,7 +2,7 @@ In this lesson: the numbers **0 to 10**, and how the **noun changes** after each
 
 ## The numbers
 
-**nul**, **jaden**, **dwa**, **tśi**, **styrjo**, **pěś**, **šesć**, **sedym**, **wosym**, **źewjeś**, **źaset**
+**nul**, **jaden**, **dwa**, **tśi**, **styri**, **pěś**, **šesć**, **sedym**, **wósym**, **źewjeś**, **źaseś**
 
 ## One
 
@@ -17,16 +17,16 @@ In this lesson: the numbers **0 to 10**, and how the **noun changes** after each
 After two, the noun takes its own "pair" ending (called the dual):
 
 - **dwaj gólca** — two boys
-- **dwě žoni** — two women
+- **dwě žonje** — two women
 
 ## Three and four
 
 - **tśi kócki** — three cats
-- **styrjo kóła** — four bicycles
+- **styri kóła** — four bicycles
 
 ## Five and up: ‑ow
 
 - **pěś gólcow** — five boys
 - **šesć kółow** — six bicycles
 
-> **Watch out:** after two it's **dwě žoni**, not the plural *žony*.
+> **Watch out:** after two it's **dwě žonje**, not the plural *žony*.

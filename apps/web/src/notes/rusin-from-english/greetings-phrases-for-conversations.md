@@ -14,7 +14,7 @@ In this lesson: **greetings** and **short phrases** for a conversation.
 - **Яко єси?** — How are you?
 - **Єм добре, хвала!** — I am well, thank you!
 - **І ты?** — And you?
-- **Хвала тобі много.** — Thank you very much.
+- **Хвала тобі барз.** — Thank you very much.
 
 ## Names
 

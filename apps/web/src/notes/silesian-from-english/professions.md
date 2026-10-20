@@ -13,9 +13,9 @@ In this lesson: **jobs**, and how to say what someone **is**.
 
 After **je** (is), the job takes the ending **‑ym**:
 
-- **Mój brat je rechtōrym.** — My brother is a teacher.
+- **Mōj brat je rechtōrym.** — My brother is a teacher.
 - **Ôna je dŏchtōrym.** — She is a doctor.
-- **Mój ôjc je kucharzym.** — My father is a cook.
+- **Mōj ôjc je kucharzym.** — My father is a cook.
 
 ## What they do
 

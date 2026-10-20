@@ -15,7 +15,7 @@ For the thing you use, Russian changes the ending and adds no word for "with":
 
 ## In, on, out of
 
-- **Мы готовим в горшке.** — We cook in a pot.
+- **Мы готовим в кастрюле.** — We cook in a pot.
 - **На сковородке есть мясо.** — There is meat in the frying pan.
 - **Она пьёт из чашки.** — She drinks from a cup. (**из** + "of" form)
 

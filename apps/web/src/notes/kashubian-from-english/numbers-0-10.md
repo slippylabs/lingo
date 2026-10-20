@@ -22,7 +22,7 @@ The noun is plural. "Two" is **dwa** for most words and **dwie** for feminine on
 From five on, the noun takes the "of many" form, often ending in **‑ów**:
 
 - **piãc kòtów** — five cats
-- **òsem dolarów** — eight dollars
+- **òsmë dolarów** — eight dollars
 - **dzesãc gòdzënków** — ten clocks
 
 > **Watch out:** the noun changes after the number: **trzë kòtë**, but **piãc kòtów**.

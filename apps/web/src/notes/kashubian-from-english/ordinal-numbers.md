@@ -4,8 +4,8 @@ In this lesson: **ordinal numbers** (first, second, third) and **telling the tim
 
 Ordinal numbers say the position of something and work like describing words:
 
-- **pierwszi** — first, and **drëdżi** — second
-- **trzeci** — third, and **czwôrti** — fourth
+- **pierszi** — first, and **drëdżi** — second
+- **trzecy** — third, and **czwiôrti** — fourth
 - **piąti** — fifth, and **szósti** — sixth
 
 ## Telling the time
@@ -18,12 +18,12 @@ This course gives the time as "at the … hour": **ò**, the ordinal, and **gòd
 
 Add the minutes after it:
 
-- **ò czwôrti gòdzënie sedem** — at seven past the fourth hour
-- **ò drëdżi gòdzënie piãcnasce** — at fifteen past the second hour
+- **ò czwiôrti gòdzënie sétmë** — at seven past the fourth hour
+- **ò drëdżi gòdzënie piãtnôsce** — at fifteen past the second hour
 
 ## Big ordinals
 
 - **sotni dolar** — hundredth dollar
-- **trzidzesti chłop** — thirtieth man
+- **trzëdzesti chłop** — thirtieth man
 
-> **Watch out:** in a long ordinal only the last part takes the ordinal ending: **dwiesce trzeci kòmpùter** — two hundred third computer.
+> **Watch out:** in a long ordinal only the last part takes the ordinal ending: **dwasta trzecy kòmpùter** — two hundred third computer.

@@ -16,7 +16,7 @@ In this lesson: **shapes**, **lines** and **sides**.
 
 ## Drawing
 
-- **Ja malëjã wiôldżi krąg.** — I am drawing a big circle.
-- **On maluje figùrë na papiórze.** — He is drawing figures on paper.
+- **Jô malëjã wiôldżi krąg.** — I am drawing a big circle.
+- **Òn maluje figùrë na papiórze.** — He is drawing figures on paper.
 
 > **Watch out:** **lënia** becomes **na lënie** after "on", the same way places change after **na**.

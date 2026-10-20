@@ -14,9 +14,9 @@ In this lesson: **colours**, and how they change to match the thing you describe
 
 A colour is a describing word, so its ending matches the noun:
 
-- masculine, **‑y**: **Mój pies je czŏrny.** — My dog is black.
+- masculine, **‑y**: **Mōj pies je czŏrny.** — My dog is black.
 - feminine, **‑o**: **Mysz je bioło.** — The mouse is white.
 - neuter, **‑e**: **Niybo je modre.** — The sky is blue.
-- more than one, **‑e**: **Chmury som szere.** — The clouds are grey.
+- more than one, **‑e**: **Chmury sōm szere.** — The clouds are grey.
 
-> **Watch out:** blue is **modry**. **Moje ôczy som modre.** — My eyes are blue.
+> **Watch out:** blue is **modry**. **Moje ôczy sōm modre.** — My eyes are blue.

@@ -19,6 +19,6 @@ In this lesson: **shopping**: prices, buying and selling.
 
 - **Cena je wysoka.** — The price is high.
 - **Cena masła je dobra.** — The price of butter is good.
-- **Kupec praše wo cenu.** — The customer asks about the price.
+- **Kupc so praša wo cenu.** — The customer asks about the price.
 
-> **Watch out:** **kupić** is "to buy" and **předawać** is "to sell" — don't mix up **kupec** (customer) and **předawaćel** (seller).
+> **Watch out:** **kupić** is "to buy" and **předawać** is "to sell" — don't mix up **kupc** (customer) and **předawaćel** (seller).

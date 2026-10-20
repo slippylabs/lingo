@@ -8,9 +8,9 @@ In this lesson: **vehicles**, travel verbs and **traffic** words.
 - **Pociąg jedzie na stację.** — The train goes to the station.
 - **Kierowca jedzie szybko.** — The driver drives fast.
 
-Roads and paths "go" with *iść*, like people on foot:
+A road doesn't walk: it "leads" (**prowadzi**):
 
-- **Droga idzie przez las.** — The road goes through the forest.
+- **Droga prowadzi przez las.** — The road goes through the forest.
 
 ## Describing vehicles
 
@@ -20,7 +20,7 @@ Roads and paths "go" with *iść*, like people on foot:
 
 ## Traffic
 
-- **Światła drogowe pokazują zielone.** — The traffic light shows green.
+- **Na światłach jest zielone.** — The traffic light shows green.
 - **Prędkość jest ograniczona.** — The speed is limited.
 
 > **Watch out:** people walk with *iść*, vehicles move with **jechać**: **On szedł do domu**, but **Autobus jedzie do centrum.**

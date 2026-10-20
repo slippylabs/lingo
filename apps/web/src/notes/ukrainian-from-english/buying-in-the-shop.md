@@ -10,10 +10,10 @@ In this lesson: **shopping**, **buying and selling**, and **"a piece of"**.
 
 The second noun takes the genitive case, the "of" form:
 
-- **Кусень сиру є добрий.** — A piece of cheese is good. (сир)
-- **Кусень хліба є малий.** — The piece of bread is small. (хліб)
-- **Ціна масла є добра.** — The price of butter is good. (масло)
-- **Продавець дасть кусень ковбаси.** — The seller will give a piece of sausage. (ковбаса)
+- **Шматок сиру добрий.** — A piece of cheese is good. (сир)
+- **Шматок хліба малий.** — The piece of bread is small. (хліб)
+- **Ціна масла добра.** — The price of butter is good. (масло)
+- **Продавець дасть шматок ковбаси.** — The seller will give a piece of sausage. (ковбаса)
 
 ## At the till
 

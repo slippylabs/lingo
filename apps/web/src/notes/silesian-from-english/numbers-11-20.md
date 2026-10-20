@@ -1,15 +1,15 @@
 In this lesson: **numbers 11 to 20**.
 
-## The ‑naście numbers
+## The ‑nŏście numbers
 
-Eleven to nineteen all end in *‑naście*:
+Eleven to nineteen all end in *‑nŏście*:
 
-- **jedenaście synkōw** — eleven boys
-- **dwanaście bab** — twelve women
-- **trzinaście kōtōw** — thirteen cats
-- **sztyrnaście dolarōw** — fourteen dollars
-- **piyntnaście synkōw** — fifteen boys
-- **szesnaście zegarkōw** — sixteen clocks
+- **jedynŏście synkōw** — eleven boys
+- **dwanŏście bab** — twelve women
+- **trzinŏście kōtōw** — thirteen cats
+- **sztyrnŏście dolarōw** — fourteen dollars
+- **piytnŏście synkōw** — fifteen boys
+- **szesnŏście zegarkōw** — sixteen clocks
 
 ## Twenty
 
@@ -19,7 +19,7 @@ Eleven to nineteen all end in *‑naście*:
 
 All of these numbers work like 5 and up: the noun takes the "of" form.
 
-- **kōt** → **trzinaście kōtōw**
-- **baba** → **dwanaście bab**
+- **kōt** → **trzinŏście kōtōw**
+- **baba** → **dwanŏście bab**
 
-> **Watch out:** the spelling of some numbers shifts: **piyńć** (five) but **piyntnaście** (fifteen).
+> **Watch out:** the spelling of some numbers shifts: **piyńć** (five) but **piytnŏście** (fifteen).

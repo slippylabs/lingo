@@ -22,7 +22,7 @@ Say **ô** (at), the order word with **‑yj**, then **godzinie** (hour):
 
 Add the minutes at the end:
 
-- **ô drugij godzinie piyntnaście** — at fifteen past the second hour
+- **ô drugij godzinie piytnŏście** — at fifteen past the second hour
 - **ô piyrwszyj godzinie dwadzieścia** — at twenty past the first hour
 
 > **Watch out:** the hour is an order word ("the second hour"), but the minutes are plain numbers.

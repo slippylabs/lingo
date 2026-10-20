@@ -4,8 +4,8 @@ In this lesson: **school words** and the **locative case**, the form a place tak
 
 - **To je mòja szkòła.** — This is my school.
 - **Òna je ùczëcelką.** — She is a teacher.
-- **On je ùcznikã.** — He is a student.
-- **Ja mëm zadanié.** — I have an assignment.
+- **Òn je ùcznikã.** — He is a student.
+- **Jô móm zadanié.** — I have an assignment.
 - **Papiór je biôłi.** — The paper is white.
 
 ## On and in
@@ -19,6 +19,6 @@ After **na** and **w**, the place word changes its ending:
 
 The tool you use takes the "with" form, even without a word for "with":
 
-- **Ja chùtczi piszã z tim piórã.** — I am writing quickly with this pen.
+- **Jô chùtczi piszã z tim piórã.** — I am writing quickly with this pen.
 
-> **Watch out:** a job word changes after **je**: **Òna je ùczëcelką** (from **ùczëcelka**), **On je mòjim ùczëcelã** (from **ùczëcel**).
+> **Watch out:** a job word changes after **je**: **Òna je ùczëcelką** (from **ùczëcelka**), **Òn je mòjim ùczëcelã** (from **ùczëcel**).

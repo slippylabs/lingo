@@ -16,6 +16,6 @@ In this lesson: **asking the way** and giving **directions**.
 ## Near and far
 
 - **Wobchod je blisko knihownje.** — The shop is near the library.
-- **Knihownja je zdaloka.** — The library is far away.
+- **Knihownja je daloko.** — The library is far away.
 
 > **Watch out:** **Dźeće** is the polite or plural "you go" — use it when asking a stranger.

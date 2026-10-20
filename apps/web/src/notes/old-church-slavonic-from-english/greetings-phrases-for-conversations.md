@@ -15,7 +15,7 @@ In this lesson: **greetings**, **thanks**, and short **replies** for a conversat
 - **Како ѥси?** — How are you?
 - **Ѥсмь добро, хвала!** — I am well, thank you!
 - **И тꙑ?** — And you?
-- **Хвала тобѣ мьного.** — Thank you very much.
+- **Хвала тобѣ мъного.** — Thank you very much.
 
 ## Names
 

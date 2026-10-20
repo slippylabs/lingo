@@ -12,7 +12,7 @@ In this lesson: **greetings**, **thank you**, and short **everyday replies**.
 ## Names
 
 - **Jak sã nazëwôsz?** — What is your name?
-- **Ja sã nazëwôm Bartek.** — My name is Bartek.
+- **Jô sã nazëwôm Bartek.** — My name is Bartek.
 
 ## Short replies
 
@@ -22,4 +22,4 @@ In this lesson: **greetings**, **thank you**, and short **everyday replies**.
 - **Dzãka wam wiele.** — Thank you very much.
 - **Przeproszenié, nie rozmiem.** — Excuse me, I don't understand.
 
-> **Watch out:** **sã** is a small word that belongs to the verb, as in **Jak sã môsz?** and **Ja sã nazëwôm Bartek.** Don't leave it out.
+> **Watch out:** **sã** is a small word that belongs to the verb, as in **Jak sã môsz?** and **Jô sã nazëwôm Bartek.** Don't leave it out.

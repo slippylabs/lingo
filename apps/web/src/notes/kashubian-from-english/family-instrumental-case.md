@@ -11,14 +11,14 @@ In this lesson: **family words** and the **instrumental case**, the form a word 
 
 After **z** ("with"), the family word takes a new ending. In this lesson, words for men end in **‑ã**, and words for women end in **‑ą** or **‑òj**:
 
-- **On żëje z synã.** — He lives with his son.
-- **On gôdô z dzôdã.** — He is talking with his grandfather.
+- **Òn żëje z synã.** — He lives with his son.
+- **Òn gôdô z dzôdã.** — He is talking with his grandfather.
 - **Òna jidze z matkòj.** — She is going with her mother.
 - **Gôdóm z twòją sostrą.** — I am talking with your sister.
 
 The same form follows **je** when you say who someone is:
 
-- **On je mòjim bratã.** — He is my brother.
-- **On je twòjim òjcã** — He is your father
+- **Òn je mòjim bratã.** — He is my brother.
+- **Òn je twòjim òjcã** — He is your father
 
 > **Watch out:** "my" and "your" change too: **mòjim bratã**, but **z mòją babkòj**. Match them to the person, not to yourself.

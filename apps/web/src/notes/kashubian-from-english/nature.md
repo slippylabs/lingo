@@ -4,7 +4,7 @@ In this lesson: **nature words**: rivers, mountains, forests and fields.
 
 - **Rzéka płënie przez dolëznã.** — The river flows through the valley.
 - **Góra je wësokô.** — The mountain is high.
-- **Trawa je zielenô.** — The grass is green.
+- **Trawa je zelonô.** — The grass is green.
 - **Pòle je szëroké.** — The field is wide.
 - **Zemia je mòkrô.** — The earth is wet.
 

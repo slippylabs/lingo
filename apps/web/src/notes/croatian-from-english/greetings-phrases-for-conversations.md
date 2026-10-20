@@ -4,7 +4,7 @@ In this lesson: **greetings**, **how are you?**, saying your **name**, and short
 
 - **Dobro jutro!** — Good morning!
 - **Dobar dan!** — Good day!
-- **Dobar večer!** — Good evening!
+- **Dobra večer!** — Good evening! (*dobar večer* is common in speech too)
 - **Laku noć!** — Good night!
 - **Bok!** — Hello! (casual; friends also say it for "bye")
 

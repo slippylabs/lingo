@@ -3,7 +3,7 @@ In this lesson: **clothes**, and the joining words **and**, **or** and **but**.
 ## Joining words
 
 - *и* — and: **Шаликъ ѥстъ тѧжькъ и тєплъи.** — The scarf is heavy and warm.
-- *а* — and (in contrast): **Она имаѥтъ чрьнє ногавицє, а онъ бѣлє.** — She has black trousers, and he has white.
+- *а* — and (in contrast): **Она иматъ чрьнє ногавицє, а онъ бѣлє.** — She has black trousers, and he has white.
 - **или** — or: **Тꙑ хощєши шаликъ или кошꙋлѭ.** — You want a scarf or a shirt.
 - **нъ** — but: **Стꙋлъ ѥстъ старъ, нъ комфортьнъ.** — The chair is old, but comfortable.
 

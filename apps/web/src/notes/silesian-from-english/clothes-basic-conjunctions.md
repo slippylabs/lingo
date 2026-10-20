@@ -20,4 +20,4 @@ In this lesson: **clothes**, and the linking words **and**, **or**, **but**.
 - **abo** — or: **Ty chcesz szalik abo heja.** — You want a scarf or a shirt.
 - **a** can also mean "but" when comparing two things: **Ôna mo czŏrne galoty, a ôn biołe.** — She has black trousers, and he has white.
 
-> **Watch out:** **galoty** (trousers) and **gacie** (underwear) are always plural: **Nowe gacie som wygodne.**
+> **Watch out:** **galoty** (trousers) and **gacie** (underwear) are always plural: **Nowe gacie sōm wygodne.**

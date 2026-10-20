@@ -23,4 +23,10 @@ They change their ending to match the noun, just like describing words do:
 
 **гадзіна** (hour) is feminine, so ordinals used with it take feminine endings: **першай**, **другой**, **трэцяй**, **пятай**.
 
+"At" a clock time is **а**, or **аб** before a vowel:
+
+- **а пятай гадзіне** — at the fifth hour
+- **а першай гадзіне дваццаць** — at twenty past the first hour
+- **аб адзінаццатай гадзіне трыццаць тры** — at thirty three past the eleventh hour
+
 > **Watch out:** **трэці** (third) has soft endings: **трэцяй**, not *трэцай*.

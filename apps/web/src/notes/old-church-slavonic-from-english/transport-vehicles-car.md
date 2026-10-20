@@ -5,7 +5,7 @@ In this lesson: **transport**, and two verbs for **"go"**.
 - **ѥдєтъ** — goes by vehicle (or drives)
 - **идєтъ** — goes on foot; also used for a road or line that "goes" somewhere
 
-- **Аѵтобꙋсъ ѥдєтъ до цєнтра.** — The bus goes to the center.
+- **Аѵтобꙋсъ ѥдєтъ къ цєнтрꙋ.** — The bus goes to the center.
 - **Поѥздъ ѥдєтъ на сѣвєръ.** — The train goes to the north.
 - **Шофєръ ѥдєтъ бързо.** — The driver drives fast.
 - **Дорога идєтъ чрѣзъ лѣсъ.** — The road goes through the forest.

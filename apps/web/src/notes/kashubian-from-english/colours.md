@@ -4,7 +4,7 @@ In this lesson: **colours**, and how they match the thing they describe.
 
 - **Mój pies je czôrny.** — My dog is black.
 - **Mësz je biôłô.** — The mouse is white.
-- **Trawa je zelenô.** — The grass is green.
+- **Trawa je zelonô.** — The grass is green.
 - **Niebo je mòdré.** — The sky is blue.
 - **Słuncé je żôłté.** — The sun is yellow.
 - **Kwiatë są czerwòné.** — The flowers are red.

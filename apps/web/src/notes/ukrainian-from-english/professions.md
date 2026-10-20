@@ -15,7 +15,7 @@ Without **є** the job keeps its plain form:
 
 ## What people do
 
-- **Лікар помагає людям.** — The doctor helps people.
+- **Лікар допомагає людям.** — The doctor helps people.
 - **Продавець продає їжу.** — The seller sells food.
 - **Водій веде автобус.** — The driver drives a bus.
 - **Художник малює портрет.** — The artist is drawing a portrait.

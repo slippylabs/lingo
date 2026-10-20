@@ -3,7 +3,7 @@ In this lesson: **kitchen things** and **cooking**.
 ## Things on the table
 
 - **nōż** — knife
-- **widly** — fork
+- **widołka** — fork
 - **łyżka** — spoon
 - **talyrz** — plate
 - **szolka** — cup
@@ -22,4 +22,4 @@ In this lesson: **kitchen things** and **cooking**.
 
 After **pełny** (full of) and **z** (from) the noun changes: **jedzynie** becomes **jedzynia**, **szolka** becomes **szolki**.
 
-> **Watch out:** "with a fork" uses the "with" ending and no little word: **Ôn je widlami.** — He eats with a fork.
+> **Watch out:** "with a fork" uses the "with" ending and no little word: **Ôn je widołkōm.** — He eats with a fork.

@@ -4,9 +4,9 @@ In this lesson: **school words**, saying **where** things are, and writing **wit
 
 After **на** (on) and **в** (in) the place takes the locative case: the form for "where". Most words here end in **‑і**:
 
-- **Книжка є на столі.** — The book is on the table. (стіл)
-- **Пишу на папері пером.** — I am writing on paper with a pen. (папір)
-- **Школа є в центрі.** — The school is in the center. (центр)
+- **Книжка на столі.** — The book is on the table. (стіл)
+- **Пишу на папері ручкою.** — I am writing on paper with a pen. (папір)
+- **Школа в центрі.** — The school is in the center. (центр)
 
 Notice that **стіл** becomes **на столі**: the і inside the word turns into о.
 
@@ -14,7 +14,7 @@ Notice that **стіл** becomes **на столі**: the і inside the word tur
 
 For a tool, Ukrainian just changes the ending to the instrumental case. No word for "with" is needed:
 
-- **Я швидко пишу цим пером.** — I am writing quickly with this pen.
+- **Я швидко пишу цією ручкою.** — I am writing quickly with this pen.
 
 ## Teachers and students
 

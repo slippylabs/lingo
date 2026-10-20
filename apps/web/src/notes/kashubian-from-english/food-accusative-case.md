@@ -11,9 +11,9 @@ In this lesson: **food words** and the **accusative case**, the form of the thin
 
 Many words stay the same:
 
-- **Ja jem chléb.** — I am eating bread.
+- **Jô jem chléb.** — I am eating bread.
 - **Òna je miãso.** — She is eating meat.
-- **On miłuje mlékò.** — He likes milk.
+- **Òn miłuje mlékò.** — He likes milk.
 
 Women's words ending in **‑a** or **‑ô** change to **‑ã**:
 

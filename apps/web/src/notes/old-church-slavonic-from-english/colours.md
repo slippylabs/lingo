@@ -9,7 +9,7 @@ In this lesson: **colours**, which change their ending to **match** the thing.
 
 ## Before the noun
 
-- **Чрьвєна роза растєтъ тѫ.** — A red rose grows here.
+- **Чрьвєна роза растєтъ сьдє.** — A red rose grows here.
 - **Жълто слъньцє грѣѥтъ зємлѭ.** — The yellow sun warms the earth.
 - **Азъ люблѭ чрьвєнъи колоръ.** — I like the red color.
 

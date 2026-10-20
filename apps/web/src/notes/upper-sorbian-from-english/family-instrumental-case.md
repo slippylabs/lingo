@@ -20,6 +20,7 @@ After **z** ("with") a noun takes the instrumental case — the form a word take
 - **Woni jědźa z ćotu.** — They are going with their aunt.
 - **Dźemy z dźowku.** — We are going with our daughter.
 - **Rěčim z twojej sotru.** — I am talking with your sister.
+- **Wona rěči z mojej wowku.** — She is talking with my grandmother.
 - **My hrajemy z našimi dźěćimi.** — We are playing with our children.
 
 Some words are irregular: **mać** (mother) becomes **z maćerju**.

@@ -11,7 +11,7 @@ In this lesson: **nature**, and small words for **through**, **between**, **behi
 
 - **чрѣзъ** (through): **Рѣка тєчєтъ чрѣзъ долинѫ.** — The river flows through the valley.
 - **мєждꙋ** (between): **Долина лєжитъ мєждꙋ горами.** — The valley lies between the mountains.
-- **за** (behind): **Полиѥ ѥстъ за домомъ.** — The field is behind the house.
+- **за** (behind): **Полиѥ ѥстъ за домомь.** — The field is behind the house.
 - **къ** (towards): **Идємъ къ дꙋбꙋ.** — We are going towards the oak.
 - **изъ** (from): **Цвѣтъ растєтъ изъ зємлѥ.** — A flower grows from the earth.
 

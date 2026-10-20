@@ -13,7 +13,7 @@ Use **грати** with **в** plus the name of the sport:
 **в** (in) and **на** (on, at) put the place in the locative case: the form for "where something is". Many words simply end in **‑і**:
 
 - **Ми плаваємо в річці.** — We swim in the river.
-- **Стадіон є в місті.** — The stadium is in the city.
+- **Стадіон в місті.** — The stadium is in the city.
 - **Вона грає на стадіоні.** — She plays at the stadium.
 
 ## How often, how fast

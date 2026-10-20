@@ -22,7 +22,7 @@ Most verbs ending in **‑ati** follow this pattern:
 Some verbs have *‑e‑* in their endings instead:
 
 - **Ona piše pisma.** — She is writing letters.
-- **Ja šijem oděždu.** — I am sewing clothes.
+- **Ja šijem oděž.** — I am sewing clothes.
 - **Ja malujem obraz.** — I am painting a picture.
 
 ## One form, two meanings

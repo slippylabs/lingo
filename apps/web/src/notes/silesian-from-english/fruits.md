@@ -19,9 +19,9 @@ The describing word matches the fruit: **‑y** for masculine words, **‑o** or
 
 ## More than one
 
-- **Apelsiny som słodke.** — The oranges are sweet.
+- **Apelsiny sōm słodke.** — The oranges are sweet.
 - **Gruszki leżōm na stole.** — The pears are lying on the table.
 
-Use **som** (are) for more than one, **je** (is) for one.
+Use **sōm** (are) for more than one, **je** (is) for one.
 
 > **Watch out:** **a** means "and": **Melōn je wielgi a słodki.** — The melon is big and sweet.

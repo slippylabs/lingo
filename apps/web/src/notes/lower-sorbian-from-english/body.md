@@ -10,7 +10,7 @@ In this lesson: **parts of the body**, saying something **hurts**, and the **pai
 ## Describing
 
 - **Wón ma módre krasne wocy.** — He has beautiful blue eyes.
-- **Jej wucho nje słyšo derje.** — Her ear does not hear well.
+- **Jej wucho njesłyšo derje.** — Her ear does not hear well.
 - **Nos jo cerwjeny wót mroza.** — The nose is red from the cold.
 
 **woko** is one eye; **wocy** are eyes.
