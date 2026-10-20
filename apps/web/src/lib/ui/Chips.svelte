@@ -25,7 +25,10 @@
 	} = $props();
 
 	const toSource = Boolean(ch.translatesToSourceLanguage);
-	const tiles = shuffle((ch.chips ?? []).map((text, id) => ({ id, text })));
+	// A dash in a phrase ("Любовь — сильная эмоция") exports as an empty chip; never show a blank tile.
+	const tiles = shuffle(
+		(ch.chips ?? []).map((text, id) => ({ id, text })).filter((t) => t.text.trim())
+	);
 	let answer: number[] = $state([]);
 	let bank = $derived(tiles.filter((t) => !answer.includes(t.id)));
 	$effect(() => onready(answer.length > 0));

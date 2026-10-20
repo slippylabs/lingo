@@ -18,6 +18,10 @@ const tokenize = (s) =>
 		.map((w) => w.replace(/^['’]+|['’]+$/gu, ''))
 		.filter(Boolean);
 
+// The Slavic template courses gloss every mini-dictionary word as the literal
+// "undefined" (~4,300 per course); a placeholder is not a meaning.
+const isDef = (d) => Boolean(d) && d !== 'undefined';
+
 export function buildCourseIndex(courseData, readSkill) {
 	const skills = [];
 	const items = [];
@@ -29,7 +33,7 @@ export function buildCourseIndex(courseData, readSkill) {
 		const defs = String(def)
 			.split('\n')
 			.map((d) => d.trim())
-			.filter(Boolean);
+			.filter(isDef);
 		const prev = dict[key] ?? [];
 		for (const d of defs) if (!prev.includes(d)) prev.push(d);
 		dict[key] = prev.slice(0, 4);

@@ -15,18 +15,21 @@ VOICES = json.loads((ROOT / "scripts/slip/voices.json").read_text())
 FIXES = json.loads((ROOT / "scripts/slip/course_fixes.json").read_text())
 
 
-def apply_fixes(name):
-    """Our corrections to upstream content (course_fixes.json). Safe to re-run:
-    a fix already in place is skipped; one that no longer matches fails."""
+def apply_fixes(name, fresh=True):
+    """Our corrections to upstream content (course_fixes.json), in order.
+    fresh: the course was just downloaded, so every fix must match exactly once
+    (later fixes may build on earlier ones; this is how they were validated).
+    Otherwise (--fixes-only on a checkout that may already carry some fixes) a fix
+    whose old text is gone, or whose added text is already there, is skipped."""
     for fx in FIXES.get(name, []):
         f = OUT / name / fx["file"]
         y = f.read_text()
-        if fx["new"] and fx["new"] in y:
-            continue
         n = y.count(fx["old"])
+        if not fresh and (n == 0 or (fx["old"] in fx["new"] and fx["new"] in y)):
+            continue
         if n == 1:
             f.write_text(y.replace(fx["old"], fx["new"]))
-        elif not (n == 0 and not fx["new"]):
+        else:
             raise SystemExit(f"{name}/{fx['file']}: fix no longer matches ({fx['why']})")
 
 
@@ -133,6 +136,6 @@ def main(only=None):
 if __name__ == "__main__":
     if sys.argv[1:2] == ["--fixes-only"]:  # re-apply to the courses already downloaded
         for name in sys.argv[2:] or [k for k in FIXES if not k.startswith("_")]:
-            apply_fixes(name)
+            apply_fixes(name, fresh=False)
     else:
         main(set(sys.argv[1:]) or None)

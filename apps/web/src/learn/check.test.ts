@@ -26,6 +26,10 @@ describe('checkTyped', () => {
 			expected: 'perro'
 		});
 	});
+	it('a spaced dash is punctuation, not a word', () => {
+		expect(checkTyped('Любовь сильная эмоция', ['Любовь — сильная эмоция.'])).toMatchObject({ ok: true, kind: 'exact' });
+		expect(checkChips(['Любовь', 'сильная', 'эмоция'], [['Любовь', '', 'сильная', 'эмоция']])).toBe(true);
+	});
 	it('apostrophes are unified', () => {
 		expect(checkTyped("j'habite", ['J’habite'])).toMatchObject({ ok: true, kind: 'exact' });
 	});

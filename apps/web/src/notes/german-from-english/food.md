@@ -6,13 +6,13 @@ The verb's ending changes depending on who is doing it:
 
 - **ich esse** — I eat
 - **Josef isst** — Joseph eats
-- **Cäcilie trinkt** — Cäcilie drinks
+- **Cäcilie trinkt** — Cecilia drinks
 
 For he, she or a name, the verb usually ends in **‑t**.
 
 - **Ich esse Nudeln** — I eat pasta
 - **Josef isst Brot** — Joseph eats bread
-- **Cäcilie trinkt Wasser** — Cäcilie drinks water
+- **Cäcilie trinkt Wasser** — Cecilia drinks water
 - **Das Paar trinkt Bier** — The couple drinks beer
 
 ## The foods and their "the"

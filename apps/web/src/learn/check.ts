@@ -16,7 +16,7 @@ export const normalize = (s: string): string =>
 		.normalize('NFC')
 		.toLowerCase()
 		.replace(/[’ʼ`´]/g, "'")
-		.replace(/[!¡?¿,.;:"“”«»…]/g, ' ')
+		.replace(/[!¡?¿,.;:"“”«»…—–]/g, ' ')
 		.replace(/\s+/g, ' ')
 		.trim();
 

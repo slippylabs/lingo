@@ -28,7 +28,8 @@ export const glossPhrase = (phrase: PhraseWord[] | undefined): Glossed[] =>
 		defs: (p.definition ?? '')
 			.split('\n')
 			.map((d) => d.trim())
-			.filter(Boolean)
+			// Slavic template courses use the literal "undefined" as a placeholder gloss.
+			.filter((d) => d && d !== 'undefined')
 	}));
 
 /** Normalised set of every word the course knows (for "that's a different word"). */
