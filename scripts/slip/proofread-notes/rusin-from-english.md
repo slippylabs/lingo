@@ -37,5 +37,5 @@
   the forms that contradict what the exercises accept.
 
 ## From the notes rewrite (2026-10-19)
-- *матка* is still taught as "mother" (Він/Она іде з матков). Probably *мати* / *мама*; not changed because the Rusin instrumental form needs a native check.
+- *матка* (queen bee; "mother" only as an obsolete sense) is now *мама*, instrumental *мамов* like бабков/тетков (slip-v2.5.1). The ‑ов instrumental is the Prešov form; Pannonian would be *з маму*.
 - "Я дам" is answered "I give"; "I will give" is now also accepted.

@@ -12,6 +12,7 @@ After **з** (with), the noun takes a new ending:
 
 - **Он говорить з дїдом.** — He is talking with his grandfather.
 - **Они ідут з тетков.** — They are going with their aunt.
+- **Она іде з мамов.** — She is going with her mother.
 - **Ідеме на поход з братами.** — We are going for a walk with brothers.
 - **Он жиє з сыном.** — He lives with his son.
 
@@ -22,6 +23,8 @@ Words like "my" and "your" change too:
 
 ## Family words
 
+- **мама** — mother
+- **отець** — father
 - **брат** — brother
 - **сестра** — sister
 - **сын** — son

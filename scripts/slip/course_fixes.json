@@ -16344,6 +16344,30 @@
    "why": "dam/дам is perfective: 'I will give'; keep 'I give' accepted",
    "old": "  - Phrase: Я дам котови імня.\n    Translation: I give the cat a name.\n",
    "new": "  - Phrase: Я дам котови імня.\n    Translation: I give the cat a name.\n    Alternative translations:\n      - I will give the cat a name.\n"
+  },
+  {
+   "file": "module1verybasicgrammarandphrases/skills/familyinstrumentalcase.yaml",
+   "why": "матка means 'queen bee' in Rusin ('mother' only as an obsolete sense); use мама, instrumental мамов like бабков/тетков",
+   "old": "  - Word: матка\n",
+   "new": "  - Word: мама\n"
+  },
+  {
+   "file": "module1verybasicgrammarandphrases/skills/familyinstrumentalcase.yaml",
+   "why": "матка means 'queen bee' in Rusin ('mother' only as an obsolete sense); use мама, instrumental мамов like бабков/тетков",
+   "old": "  - Phrase: Она іде з матков.\n",
+   "new": "  - Phrase: Она іде з мамов.\n"
+  },
+  {
+   "file": "module1verybasicgrammarandphrases/skills/familyinstrumentalcase.yaml",
+   "why": "матка means 'queen bee' in Rusin ('mother' only as an obsolete sense); use мама, instrumental мамов like бабков/тетков",
+   "old": "  - Phrase: Пити чай з матков є лїпше.\n",
+   "new": "  - Phrase: Пити чай з мамов є лїпше.\n"
+  },
+  {
+   "file": "module1verybasicgrammarandphrases/skills/familyinstrumentalcase.yaml",
+   "why": "матка means 'queen bee' in Rusin ('mother' only as an obsolete sense); use мама, instrumental мамов like бабков/тетков",
+   "old": "    - матка: undefined\n    - матков: undefined\n",
+   "new": "    - мама: mother\n    - мамов: mother\n"
   }
  ],
  "russian-from-english": [
