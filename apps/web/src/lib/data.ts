@@ -26,7 +26,9 @@ const ourNotes = import.meta.glob('../notes/*/*.md', { query: '?raw', import: 'd
 // with an "Experimental" pill and this note.
 export const EXPERIMENTAL: Record<string, string> = {
 	'old-church-slavonic-from-english':
-		'This course is experimental. It was converted from a modern template, so many sentences are reconstructions rather than attested Old Church Slavonic, and some forms may be wrong.'
+		'This course is experimental. It was converted from a modern template, so many sentences are reconstructions rather than attested Old Church Slavonic, and some forms may be wrong.',
+	'church-slavonic-from-english':
+		'This course is experimental. It was converted from a modern template, so many sentences are reconstructions rather than attested Church Slavonic, and some forms may be wrong.'
 };
 
 export const courseNames = (): string[] =>
